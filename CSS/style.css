@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+   background-color:  #c7c2c1;
+}
+header {
+    font-size: 1.6rem;
+}
+footer {
+    background-color: green;
+    text-align: right;
+    color: white;
+}
+a {
+    color: #000099;
+    text-decoration: none;    
+}
+a:hover {
+    color: blue;
+}
+a:active {
+    color: red;
+}
+
+
+
+
