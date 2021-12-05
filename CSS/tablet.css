@@ -1,0 +1,11 @@
+.nav_toggle {
+    display: none;
+}
+
+.nav_menu {
+    flex-direction: row;
+}
+
+.nav_menu li {
+    display: block;
+}

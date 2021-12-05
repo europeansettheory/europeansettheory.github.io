@@ -3,28 +3,109 @@
     padding: 0;
     margin: 0;
 }
+
 html {
     font-size: 62.5%;
 }
+
 header {
     font-size: 1.6rem;
 }
+
 footer {
     background-color: green;
     text-align: right;
     color: white;
 }
+
 a {
     color: #000099;
     text-decoration: none;    
 }
+
 a:hover {
     color: blue;
 }
+
 a:active {
     color: red;
 }
 
+body {
+    font-family: serif;
+    font-weight: lighter;
+    hegigh: 100vh;
+}
+
+.nav {
+    border-bottom: 1px solid gray;
+}
+
+.nav_toggle {
+    position: absolute;
+    cursor: pointer;
+    margin: 0 1rem;
+    right: 0;
+}
+
+.nav_toggle svg {
+    width: 1rem;
+}
+
+.nav_toggle .close {
+    display: none;
+}
+
+.nav_toggle .close,
+.nav_toggle .menu {
+    margin-top: 0.3rem;
+}
+
+.nav_checkbox {
+    display: none;
+}
+
+.nav_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 1rem;
+}
 
 
+.nav_menu li {
+    list-style-type: none;
+    display:none;
+}
+
+.nav_menu li:first-child {
+    margin-right:auto;
+    display: block;
+}
+
+.nav_menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu_logo {
+    height: 30px;
+}
+
+.menu_logo img {
+    height: 100%;
+}
+
+#nav_checkbox:checked ~ ul.nav_menu li {
+    display: block;
+}
+
+#nav_checkbox:checked ~ label.nav_toggle .close {
+    display: block;
+}
+
+#nav_checkbox:checked ~ label.nav_toggle .menu {
+    display: block;
+}
 
