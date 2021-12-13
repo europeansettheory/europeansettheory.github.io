@@ -132,8 +132,29 @@ body {
     text-align: justify;
 }
 
-.right_container {
-    margin-top: 4rem;
+.left_container,
+.right_container,
+.bottom_container{
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.right_container,
+.bottom_container{
+    margin-top: 2%;
+}
+
+.entry_box{
+    margin: 2rem;
+}
+
+.entry_box p,
+.bottom_container ol {
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.bottom_container ol {
+    padding-left: 2rem;
 }
 
 /* Id styles */

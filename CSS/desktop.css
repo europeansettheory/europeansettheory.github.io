@@ -5,12 +5,30 @@
 }
 
 
+
 .main_container {
       display: flex;
-      padding: 6rem;
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+      padding-left: 10rem;
+      padding-right: 10rem;
+      flex-direction: row; 
+      flex-wrap: wrap;
 }
 
 .right_container {
     margin-top: 0rem;
-    margin-left: 4rem;
+    margin-left: 2%;
 }
+
+.left_container {
+    width: 30%;
+}
+
+.right_container {
+    width: 68%;
+}
+
+
+
+
