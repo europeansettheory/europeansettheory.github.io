@@ -65,3 +65,16 @@
 .nav_menu_tablet:checked ~ div{
     display: block;
 }
+
+
+/* Body containers style*/
+/*
+.main_container {
+    display:flex;
+    flex-direction: column;
+}
+
+.right_container {
+    margin-right: auto;
+}
+*/

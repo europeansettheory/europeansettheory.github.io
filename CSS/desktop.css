@@ -3,3 +3,14 @@
 .nav_menu_tablet:checked ~ div{
     display: none;
 }
+
+
+.main_container {
+      display: flex;
+      padding: 6rem;
+}
+
+.right_container {
+    margin-top: 0rem;
+    margin-left: 4rem;
+}

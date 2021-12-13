@@ -127,14 +127,13 @@ body {
 /* Body containers styles */
 
 .main_container {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem 1rem 1rem;
-    font-size: 1.4rem;
+    margin: 2rem 2rem 2rem 2rem;
+    font-size: 1.6rem;
+    text-align: justify;
 }
 
 .right_container {
-    margin-right: auto;
+    margin-top: 4rem;
 }
 
 /* Id styles */
