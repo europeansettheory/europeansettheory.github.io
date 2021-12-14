@@ -11,8 +11,10 @@ html {
 }
 
 header {
+    color: white;
     font-family: Sans-serif;
     font-size: 1.6rem;
+    background-color: #0066B3; 
 }
 
 footer {
