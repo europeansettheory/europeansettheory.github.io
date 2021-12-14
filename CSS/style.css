@@ -22,6 +22,11 @@ footer {
     text-align: right;
 }
 
+h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
 a {
     color: inherit;
     text-decoration: none;
