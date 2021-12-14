@@ -39,7 +39,6 @@ body {
     font-family: Sans-serif;
     font-weight: lighter;
     height: 100vh;
-    background-color: #0066B3;
 }
 
 /* Classes styles */
@@ -50,6 +49,7 @@ body {
     text-align: center;
     color: white;
     background-color: #0066B3; /*#3399ff;*/
+    height: 20vh;
 }
 
 /* Navegation bar style */
