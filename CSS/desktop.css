@@ -27,3 +27,8 @@
 .right_container {
     width: 48%;
 }
+
+.small_container {
+    margin-top: 0rem;
+    margin-left: 2%;
+}
