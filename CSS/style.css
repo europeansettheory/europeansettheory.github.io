@@ -14,7 +14,7 @@ header {
     color: white;
     font-family: Sans-serif;
     font-size: 1.6rem;
-    background-color: #0066B3; 
+    background-color: #0066B3;
 }
 
 footer {
@@ -38,7 +38,8 @@ a:active {
 body {
     font-family: Sans-serif;
     font-weight: lighter;
-    hegigh: 100vh;
+    height: 100vh;
+    background-color: #0066B3;
 }
 
 /* Classes styles */
