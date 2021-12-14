@@ -6,6 +6,8 @@
 
 .nav_menu {
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .nav_menu li {
