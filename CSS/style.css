@@ -51,7 +51,7 @@ body {
 /* Title styles */
 
 .main_title {
-    margin-top:1.5cm;
+    margin-top:2cm;
     text-align: center;
     color: white;
     background-color: #0066B3; /*#3399ff;*/
@@ -144,10 +144,16 @@ body {
     text-align: justify;
 }
 
-.left_container,
+/*.left_container,
 .right_container,
 .bottom_container{
+      background-color: #E6ECF0;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}*/
+
+.small_container{
+      background-color: #E6ECF0;
+      /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
 }
 
 .right_container,
