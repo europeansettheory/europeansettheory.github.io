@@ -15,6 +15,7 @@
 }
 
 .right_container {
+    float: right;
     margin-top: 0rem;
     margin-left: 2%;
 }
