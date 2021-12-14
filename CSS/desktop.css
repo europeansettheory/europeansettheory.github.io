@@ -10,8 +10,14 @@
       padding-bottom: 6rem;
       padding-left: 10rem;
       padding-right: 10rem;
-      flex-direction: row; 
+      flex-direction: row;
       flex-wrap: wrap;
+}
+
+.left_container,
+.right_container,
+.bottom_container{
+      width: 50vw;
 }
 
 .right_container {
@@ -26,7 +32,3 @@
 .right_container {
     width: 68%;
 }
-
-
-
-
