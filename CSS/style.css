@@ -55,7 +55,7 @@ body {
 /* Navegation bar style */
 
 .nav {
-    border-top: 1px solid #3399ff;
+    border-top: 1px solid #0066B3; /*#3399ff;*/
     border-bottom: 1px solid gray;
     background-color: #0066B3; /*#3399ff;*/
 }
