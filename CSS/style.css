@@ -15,13 +15,13 @@ header {
 }
 
 footer {
-    background-color: #3399ff;
+    background-color: #0066B3  /*#3399ff;*/
     text-align: right;
 }
 
 a {
     color: inherit;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 a:hover {
@@ -150,4 +150,3 @@ body {
 #nav_checkbox:checked ~ label.nav_toggle .menu {
     display: none;
 }
-
