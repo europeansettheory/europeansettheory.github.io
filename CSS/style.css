@@ -43,6 +43,7 @@ body {
 /* Title styles */
 
 .main_title {
+    color: white;
     background-color: #0066B3; /*#3399ff;*/
 }
 
