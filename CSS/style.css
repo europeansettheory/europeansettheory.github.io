@@ -144,9 +144,14 @@ body {
     text-align: justify;
 }
 
-.left_container,
+/*.left_container,
 .right_container,
 .bottom_container{
+      background-color: #E6ECF0;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}*/
+
+.small_container{
       background-color: #E6ECF0;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
