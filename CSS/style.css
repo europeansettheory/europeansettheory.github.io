@@ -147,7 +147,8 @@ body {
 .left_container,
 .right_container,
 .bottom_container{
-      background-color: #E6ECF0; 
+      width: 50vw;
+      background-color: #E6ECF0;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
