@@ -16,7 +16,7 @@
 
 .right_container {
     float: right;
-    margin-top: 1rem;
+    margin-top: 0rem;
     margin-left: 2%;
 }
 
@@ -29,6 +29,6 @@
 }
 
 .small_container {
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-left: 2%;
 }
