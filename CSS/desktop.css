@@ -14,21 +14,15 @@
       flex-wrap: wrap;
 }
 
-.left_container,
-.right_container,
-.bottom_container{
-      width: 50vw;
-}
-
 .right_container {
     margin-top: 0rem;
     margin-left: 2%;
 }
 
 .left_container {
-    width: 30%;
+    width: 50%;
 }
 
 .right_container {
-    width: 68%;
+    width: 50%;
 }
