@@ -141,7 +141,7 @@ body {
 .main_container {
     margin: 2rem 2rem 2rem 2rem;
     font-size: 1.6rem;
-    text-align: justify;
+    text-align: left;
     /*text-align: justify;*/
 }
 
