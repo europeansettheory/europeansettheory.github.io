@@ -14,13 +14,12 @@ html {
 
 header {
     color: white;
-
     font-size: 1.6rem;
     background-color: #0066B3;
 }
 
 footer {
-    background-color: #0066B3; /*#3399ff;*/
+    background-color: #0066B3;
     text-align: right;
 }
 
@@ -43,7 +42,6 @@ a:active {
 }
 
 body {
-    font-family: Sans-serif;
     font-weight: lighter;
     height: 100vh;
 }
@@ -56,16 +54,15 @@ body {
     margin-top:2cm;
     text-align: center;
     color: white;
-    background-color: #0066B3; /*#3399ff;*/
+    background-color: #0066B3; 
     height: 20vh;
 }
 
 /* Navegation bar style */
 
 .nav {
-    border-top: 1px solid #0066B3; /*#3399ff;*/
-    /*border-bottom: 1px solid gray;*/
-    background-color: #0066B3; /*#3399ff;*/
+    border-top: 1px solid #0066B3; 
+    background-color: #0066B3; 
 }
 
 .nav_toggle {
@@ -144,20 +141,11 @@ body {
     margin: 2rem 2rem 2rem 2rem;
     font-size: 1.6rem;
     text-align: left;
-    /*text-align: justify;*/
 }
-
-/*.left_container,
-.right_container,
-.bottom_container{
-      background-color: #E6ECF0;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}*/
 
 .left_container_small,
 .right_container_small{
       background-color: #E6ECF0;
-      /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
 }
 
 .right_container,
@@ -165,11 +153,6 @@ body {
     margin-top: 2%;
 }
 
-.entry_box{
-    margin: 2rem;
-}
-
-.entry_box p,
 .bottom_container ol {
     margin-top: 1rem;
     padding-bottom: 2rem;
