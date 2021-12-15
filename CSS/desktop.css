@@ -28,14 +28,26 @@
     width: 48%;
 }
 
-.small_container {
+.left_container_small {
     margin-top: 2rem;
     margin-left: 2%;
     display: flex;
     padding-top: 6rem;
     padding-bottom: 6rem;
     padding-left: 10rem;
-    padding-right: 1rem;
+    padding-right: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.right_container_small {
+    margin-top: 2rem;
+    margin-left: 2%;
+    display: flex;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 2rem;
+    padding-right: 10rem;
     flex-direction: row;
     flex-wrap: wrap;
 }
