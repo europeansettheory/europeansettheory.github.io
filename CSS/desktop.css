@@ -28,26 +28,4 @@
     width: 32%;
 }
 
-.left_container_small {
-    margin-top: 2rem;
-    margin-left: 2%;
-    display: flex;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 
-.right_container_small {
-    margin-top: 2rem;
-    margin-left: 2%;
-    display: flex;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
