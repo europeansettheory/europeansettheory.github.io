@@ -6,10 +6,10 @@
 
 .main_container {
       display: flex;
-      padding-top: 3rem;
-      padding-bottom: 3rem;
-      padding-left: 5rem;
-      padding-right: 5rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
       flex-direction: row;
       flex-wrap: wrap;
 }
