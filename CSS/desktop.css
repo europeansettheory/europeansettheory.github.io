@@ -6,10 +6,10 @@
 
 .main_container {
       display: flex;
-      padding-top: 6rem;
-      padding-bottom: 6rem;
-      padding-left: 10rem;
-      padding-right: 10rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 0rem;
+      padding-right: 0rem;
       flex-direction: row;
       flex-wrap: wrap;
 }
@@ -17,18 +17,37 @@
 .right_container {
     float: right;
     margin-top: 0rem;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 
 .left_container {
-    width: 48%;
+    width: 65%;
 }
 
 .right_container {
-    width: 48%;
+    width: 30%;
 }
 
-.small_container {
+.left_container_small {
     margin-top: 2rem;
     margin-left: 2%;
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.right_container_small {
+    margin-top: 2rem;
+    margin-left: 2%;
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
