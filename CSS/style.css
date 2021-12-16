@@ -9,7 +9,7 @@
 html {
     font-size: 62.5%;
     font-family: Sans-serif;
-    
+
 }
 
 header {
@@ -54,15 +54,15 @@ body {
     margin-top:2cm;
     text-align: center;
     color: white;
-    background-color: #0066B3; 
+    background-color: #0066B3;
     height: 20vh;
 }
 
 /* Navegation bar style */
 
 .nav {
-    border-top: 1px solid #0066B3; 
-    background-color: #0066B3; 
+    border-top: 1px solid #0066B3;
+    background-color: #0066B3;
 }
 
 .nav_toggle {
@@ -181,6 +181,30 @@ body {
     padding-bottom: 3rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.subcontainer_left {
+    margin-top: 1rem;
+    margin-left: 1%;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.subcontainer_right {
+    margin-top: 1rem;
+    margin-left: 1%;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     flex-direction: row;
     flex-wrap: wrap;
 }
