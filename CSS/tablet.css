@@ -27,7 +27,7 @@
     border-left: 1px solid gray;
     border-right: 1px solid gray;
     display: none;
-    position: relative;
+    position: absolute;
     background-color: #3399ff;
     min-width: 12rem;
     z-index: 1;
