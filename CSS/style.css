@@ -15,7 +15,7 @@ html {
 header {
     color: white;
     font-size: 1.6rem;
-    background-color: #cfe2f3;
+    background-color: #0066B3;
 }
 
 footer {
@@ -62,7 +62,7 @@ body {
 
 .nav {
     border-top: 1px solid #0066B3;
-    background-color: #0066B3;
+    background-color: #cfe2f3;
 }
 
 .nav_toggle {
