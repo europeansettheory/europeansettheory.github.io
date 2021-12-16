@@ -15,7 +15,7 @@ html {
 header {
     color: white;
     font-size: 1.6rem;
-    background-color: #0066B3;
+    background-color: #cfe2f3;
 }
 
 footer {
@@ -58,7 +58,7 @@ body {
     height: 20vh;
 }
 
-/* Navegation bar style */
+/* Navigation bar style */
 
 .nav {
     border-top: 1px solid #0066B3;
@@ -95,7 +95,7 @@ body {
     gap: 2rem;
     align-items: center;
     margin: 1rem;
-    margin-right: 5em; 
+    margin-right: 5em;
 }
 
 .nav_menu li {
