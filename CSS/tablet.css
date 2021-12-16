@@ -34,7 +34,7 @@
 }
 
 .nav_dropdown_content a {
-    text-align: center;
+    text-align: left;
     padding: 1rem 1rem;
     text-decoration: none;
     display: block;
@@ -59,6 +59,3 @@
 .nav_menu_tablet:checked ~ div{
     display: block;
 }
-
-
-
