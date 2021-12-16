@@ -186,7 +186,7 @@ body {
 }
 
 .subcontainer_left {
-    margin-top: 0rem;
+    margin-top: 1rem;
     margin-left: 0%;
     display: flex;
     padding-top: 0rem;
@@ -198,8 +198,8 @@ body {
 }
 
 .subcontainer_right {
-    margin-top: 0rem;
-    margin-left: 0%;
+    margin-top: 1rem;
+    margin-left: 1%;
     display: flex;
     padding-top: 0rem;
     padding-bottom: 0rem;
