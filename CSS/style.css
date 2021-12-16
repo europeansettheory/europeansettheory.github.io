@@ -54,7 +54,7 @@ body {
     margin-top:2cm;
     text-align: center;
     color: white;
-    background-color: #0066B3;
+    background-color: #ffe599;/*#0066B3;*/
     height: 20vh;
     flex-direction: row;
     flex-wrap: wrap;
@@ -64,7 +64,7 @@ body {
 
 .nav {
     border-top: 1px solid #0066B3;
-    background-color: #0066B3;
+    background-color: #ffe599;/*#0066B3;*/
 }
 
 .nav_toggle {
