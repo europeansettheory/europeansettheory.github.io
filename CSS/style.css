@@ -46,6 +46,7 @@ body {
     height: 100vh;
 }
 
+
 /* Classes styles */
 
 /* Title styles */
@@ -109,11 +110,18 @@ body {
     align-items: center;
     margin: 1rem;
     margin-right: 1em;
+    
 }
 
-.nav_menu li {
+.nav_menu > li {
     list-style-type: none;
     display:none;
+    /* Style for menu phone*/
+    padding: 7px;
+    border-radius: 19px;
+    background: #0066B3;
+    box-shadow:  12px 12px 40px #004071,
+                -12px -12px 40px #008cf5;
 }
 
 .nav_menu li:first-child {
@@ -141,6 +149,7 @@ body {
 
 .subnav_detailed li{
     margin: 1rem
+
 }
 
 .nav_detailed summary::-webkit-details-marker {
