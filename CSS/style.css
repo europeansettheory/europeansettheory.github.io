@@ -73,12 +73,24 @@ body {
     right: 0;
 }
 
+
 .nav_toggle svg {
-    width: 1rem;
+    width: 3rem;
+}
+
+.nav_toggle .menu {
+    border-radius: 92px;
+    background: linear-gradient(145deg, #006dc0, #005ca1);
+    box-shadow:  1px 1px 2px #005798,
+                -1px -1px 2px #0075ce;
 }
 
 .nav_toggle .close {
     display: none;
+    border-radius: 92px;
+    background: #0066B3;
+    box-shadow: inset 1px 1px 2px #005798,
+                inset -1px -1px 2px #0075ce;
 }
 
 .nav_toggle .close,
