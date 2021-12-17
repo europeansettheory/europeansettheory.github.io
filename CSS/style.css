@@ -96,7 +96,7 @@ body {
     gap: 2rem;
     align-items: center;
     margin: 1rem;
-    margin-right: 5em;
+    margin-right: 1em;
 }
 
 .nav_menu li {
@@ -125,6 +125,10 @@ body {
 
 .subnav_detailed {
     text-align: center;
+}
+
+.subnav_detailed li{
+    margin: 1rem
 }
 
 .nav_detailed summary::-webkit-details-marker {
