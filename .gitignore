@@ -1,4 +1,4 @@
 *.jpg
 *.csv
 *.JSON
-*.DS_Store
+.DS_Store
