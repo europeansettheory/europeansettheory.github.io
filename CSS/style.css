@@ -32,6 +32,10 @@ h1 {
   font-weight: 1500;
 }
 
+h3 {
+  font-family: Times;
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -123,7 +127,7 @@ body {
     /* Style for menu phone*/
     padding: 7px;
     border-radius: 19px;
-    background: #0066B3;
+    /*background: #0066B3;*/
     box-shadow:  12px 12px 40px #004071,
                 -12px -12px 40px #008cf5;
 }
@@ -153,7 +157,6 @@ body {
 
 .subnav_detailed li{
     margin: 1rem
-
 }
 
 .nav_detailed summary::-webkit-details-marker {
@@ -216,7 +219,7 @@ body {
     flex-wrap: wrap;
 }
 
-.subcontainer_left {
+.left_subcontainer {
     margin-top: 1rem;
     margin-left: 0%;
     display: flex;
@@ -228,7 +231,7 @@ body {
     flex-wrap: wrap;
 }
 
-.subcontainer_right {
+.right_subcontainer {
     margin-top: 1rem;
     margin-left: 2%;
     display: flex;
