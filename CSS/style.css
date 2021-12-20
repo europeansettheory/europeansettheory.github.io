@@ -15,21 +15,36 @@ html {
 header {
     color: white;
     font-size: 1.6rem;
+/*issue starts here
     background-image: url('P1271880_01_crop2.jpg');
     background-size: cover;
     /*background-color: #0066B3;*/
     /*background-size: 300px 100px;*/
+/*division*/
+    /*background-color: #0066B3;/*#ea9999;*/
+    /*background-image: url('P1271882_01.jpg');
+    background-size: cover;
+conflict ends here*/
 }
 
 footer {
+
     background-color: #0066B3;
     text-align: right;
 }
 
 h1 {
+/*issue starts here
   font-family: Garamond, serif;
+/*division*/
+ /* font-family: Times;
+conflict ends here*/
   font-size: 35px;
   font-weight: 1500;
+}
+
+h3 {
+  font-family: Times;
 }
 
 a {
@@ -123,7 +138,7 @@ body {
     /* Style for menu phone*/
     padding: 7px;
     border-radius: 19px;
-    background: #0066B3;
+    /*background: #0066B3;*/
     box-shadow:  12px 12px 40px #004071,
                 -12px -12px 40px #008cf5;
 }
@@ -153,7 +168,6 @@ body {
 
 .subnav_detailed li{
     margin: 1rem
-
 }
 
 .nav_detailed summary::-webkit-details-marker {
@@ -216,7 +230,7 @@ body {
     flex-wrap: wrap;
 }
 
-.subcontainer_left {
+.left_subcontainer {
     margin-top: 1rem;
     margin-left: 0%;
     display: flex;
@@ -228,7 +242,7 @@ body {
     flex-wrap: wrap;
 }
 
-.subcontainer_right {
+.right_subcontainer {
     margin-top: 1rem;
     margin-left: 2%;
     display: flex;
