@@ -1,11 +1,14 @@
-/* Navegation styles */
+/* Navigation styles */
 
-/*.nav_menu{
-    position: fixed; /* Set the navbar to fixed position 
-    top: 0; /* Position the navbar at the top of the page 
-    width: 100%;
-    background-color: #0066B3;
-}*/
+.nav_menu{
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    margin: 0rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
 
 .nav_toggle {
     display: none;
@@ -16,6 +19,14 @@
     flex-wrap: wrap;
     justify-content: flex-end;
 }
+
+.nav_menu > li {
+    /* Disable style for menu phone*/
+    padding: 7px;
+    border-radius: 10px;
+    text-align: center;
+}
+
 
 .nav_menu li {
     display: block;
@@ -31,15 +42,16 @@
 }
 
 .nav_dropdown_content {
-    border-bottom: 1px solid gray;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
     display: none;
     position: absolute;
-    background-color: #3399ff;
     min-width: 12rem;
     z-index: 1;
     right: 0;
+    border-radius: 19px;
+    background: #0066B3;
+    box-shadow: inset 12px 12px 40px #004071,
+            inset -12px -12px 40px #008cf5;
+
 
 }
 
@@ -68,4 +80,23 @@
 
 .nav_menu_tablet:checked ~ div{
     display: block;
+}
+
+.nav_menu_desktop_label {
+    display: none;
+}
+
+
+/*====================================================================================================================*/
+
+/* Body containers styles */
+
+.main_container_title {
+      display: flex;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 0rem;
+      padding-right: 0rem;
+      flex-direction: row;
+      flex-wrap: wrap;
 }

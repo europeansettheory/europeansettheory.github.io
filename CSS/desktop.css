@@ -4,6 +4,15 @@
     display: none;
 }
 
+.nav_menu_tablet_label {
+    display: none;
+}
+
+.nav_menu_desktop_label {
+    display: block;
+}
+
+
 .main_container {
       display: flex;
       padding-top: 1rem;
