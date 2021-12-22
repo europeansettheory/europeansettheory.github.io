@@ -15,16 +15,9 @@ html {
 header {
     color: white;
     font-size: 1.6rem;
-/*issue starts here
-    background-image: url('P1271880_01_crop2.jpg');
+    background-image: url('P1271882_01.jpg');
     background-size: cover;
-    /*background-color: #0066B3;*/
-    /*background-size: 300px 100px;*/
-/*division*/
     /*background-color: #0066B3;/*#ea9999;*/
-    /*background-image: url('P1271882_01.jpg');
-    background-size: cover;
-conflict ends here*/
 }
 
 footer {
@@ -34,11 +27,7 @@ footer {
 }
 
 h1 {
-/*issue starts here
-  font-family: Garamond, serif;
-/*division*/
- /* font-family: Times;
-conflict ends here*/
+  font-family: Times;
   font-size: 35px;
   font-weight: 1500;
 }
