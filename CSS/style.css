@@ -23,6 +23,7 @@ header {
 footer {
 
     background-color: #0066B3;
+    height: 3rem;
     text-align: right;
 }
 
@@ -64,8 +65,8 @@ body {
     text-align: center;
     color: white;
     height: 40vh;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin-top: 5rem;
+
 }
 
 /* Navigation bar style */
@@ -130,11 +131,13 @@ body {
     /*background: #0066B3;*/
     box-shadow:  12px 12px 40px #004071,
                 -12px -12px 40px #008cf5;
+    min-width: 12rem; 
 }
 
 .nav_menu li:first-child {
     margin-right:auto;
     display: block;
+    min-width: 0rem; 
 }
 
 .menu_logo {
@@ -150,6 +153,15 @@ body {
     list-style: none;
     text-align: center;
 }
+
+.nav_detailed > ul {
+    padding: 5px;
+    border-radius: 19px;
+    background: #0066B3;
+    box-shadow: inset 12px 12px 40px #004071,
+            inset -12px -12px 40px #008cf5;
+}
+
 
 .subnav_detailed {
     text-align: center;
@@ -242,6 +254,24 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.left_container_small ol,
+.left_container_small ul{
+    margin: 1rem;
+}
+
+.left_container_small li > ol {
+    margin: 2rem;
+}
+
+/*==============================================================================================================*/
+
+/* Footer containers*/
+
+.credits_container {
+    padding: 1rem;
+}
+
 
 /* Id styles */
 
