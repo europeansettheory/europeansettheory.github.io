@@ -215,7 +215,7 @@ body {
     padding-bottom: 3rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
