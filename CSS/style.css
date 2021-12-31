@@ -90,17 +90,17 @@ body {
 
 .nav_toggle .menu {
     border-radius: 92px;
-    background: linear-gradient(145deg, #006dc0, #005ca1);
-    box-shadow:  1px 1px 2px #005798,
-                -1px -1px 2px #0075ce;
+    background: linear-gradient(145deg, #ffcb77, #e6ab64);
+    box-shadow:  1px 1px 2px #d9a25e,
+                -1px -1px 2px #ffdb80;
 }
 
 .nav_toggle .close {
     display: none;
     border-radius: 92px;
-    background: #0066B3;
-    box-shadow: inset 1px 1px 2px #005798,
-                inset -1px -1px 2px #0075ce;
+    background: #ffbe6f;
+    box-shadow: inset 1px 1px 2px #d9a25e,
+                inset -1px -1px 2px #ffdb80;
 }
 
 .nav_toggle .close,
@@ -128,9 +128,9 @@ body {
     /* Style for menu phone*/
     padding: 7px;
     border-radius: 19px;
-    /*background: #0066B3;*/
-    box-shadow:  12px 12px 40px #004071,
-                -12px -12px 40px #008cf5;
+    background: #ffbe6f;
+    box-shadow:  12px 12px 40px #d9a25e,
+                -12px -12px 40px #ffdb80;
     min-width: 12rem; 
 }
 
@@ -157,9 +157,9 @@ body {
 .nav_detailed > ul {
     padding: 5px;
     border-radius: 19px;
-    background: #0066B3;
-    box-shadow: inset 12px 12px 40px #004071,
-            inset -12px -12px 40px #008cf5;
+    background: #ffbe6f;
+    box-shadow: inset 12px 12px 40px #d9a25e,
+            inset -12px -12px 40px #ffdb80;
 }
 
 
@@ -279,10 +279,18 @@ body {
     display: block;
 }
 
+#nav_checkbox:checked ~ ul.nav_menu #landing_page_symbol {
+    display: none;
+}
+
 #nav_checkbox:checked ~ label.nav_toggle .close {
     display: block;
 }
 
 #nav_checkbox:checked ~ label.nav_toggle .menu {
+    display: none;
+}
+
+#landing_page_symbol {
     display: none;
 }

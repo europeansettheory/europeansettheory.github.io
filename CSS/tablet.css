@@ -48,9 +48,9 @@
     z-index: 1;
     right: 0;
     border-radius: 19px;
-    background: #0066B3;
-    box-shadow: inset 12px 12px 40px #004071,
-            inset -12px -12px 40px #008cf5;
+    background: #ffbe6f;
+    box-shadow: inset 12px 12px 40px #d9a25e,
+            inset -12px -12px 40px #ffdb80;
 
 
 }
