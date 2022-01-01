@@ -58,6 +58,8 @@ body {
 
 /* Classes styles */
 
+/*==================================================================================================================================================*/
+
 /* Title styles */
 
 .main_title {
@@ -181,12 +183,18 @@ body {
 }
 
 
+/*==================================================================================================================================*/
 /* Body containers styles */
 
 .main_container {
     margin: 2rem 2rem 2rem 2rem;
     font-size: 1.6rem;
     text-align: left;
+}
+
+.main_container p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .left_container_small,
