@@ -15,7 +15,7 @@ html {
 header {
     color: white;
     font-size: 1.6rem;
-    background-image: url('P1271882_01.jpg');
+    background-image: url(P1271882_01.jpg);
     background-size: cover;
     /*background-color: #0066B3;/*#ea9999;*/
 }
