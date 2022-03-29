@@ -12,6 +12,12 @@
     display: block;
 }
 
+.nav_menu_desktop_label:hover {
+      color: #FFA500; 
+/*    color: #FF4500;*/
+/*    color: #4682b4;*/
+}
+
 
 .main_container {
       display: flex;
@@ -23,6 +29,23 @@
       flex-wrap: wrap;
 }
 
+
+.top_left_container {
+    width: 60%;
+}
+
+.top_right_container {
+    width: 34%;
+}
+
+.top_right_container {
+    float: right;
+    margin-top: 0rem;
+    margin-left: 1%;
+    margin-right: 5%;
+    text-align: right;
+}
+
 .right_container {
     float: right;
     margin-top: 0rem;
@@ -31,10 +54,12 @@
 
 .left_container {
     width: 67%;
+    text-align:justify
 }
 
 .right_container {
     width: 32%;
+    text-align:justify
 }
 
 .left_subcontainer {
