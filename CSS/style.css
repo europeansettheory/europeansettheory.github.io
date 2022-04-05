@@ -9,7 +9,10 @@
 html {
     font-size: 62.5%;
 /*     background-color: #FFFAFA;*/
-    background-color: #e6e9f9;
+/*        background-color: #eaecfd;*/
+        background-color: #e4e9fa;
+/*        background-color: #eaedfa;*/
+/*     background-color: #e6e9f9;*/
 /*     background-color: #F8F8FF;*/
     text-align: justify;
 }
@@ -37,10 +40,10 @@ footer {
 
 h1 {
   font-family: Times;
-  font-size: 35px;
+  font-size: 36px;
   font-weight: 1500;
 /*  color: white; */
-  color: #ffba00;
+  color: #ffba00; /*yellow*/
 }
 
 h3 {
