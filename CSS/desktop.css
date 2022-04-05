@@ -31,19 +31,19 @@
 
 
 .top_left_container {
-    width: 60%;
+    width: 40%;
 }
 
 .top_right_container {
-    width: 34%;
+    width: 54%;
 }
 
 .top_right_container {
     float: right;
     margin-top: 0rem;
-    margin-left: 1%;
+    margin-left: 60%;
     margin-right: 5%;
-    text-align: right;
+    text-align: left;
 }
 
 .right_container {

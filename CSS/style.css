@@ -15,7 +15,7 @@ html {
 }
 
 header {
-    color: #2c3863;
+    color: #2c3863;  /*dark blue*/
 /*  color: #FF4500;*/
 /*  color: #FF4500;*/
 /*  color: #FFE4B5;*/
@@ -29,7 +29,6 @@ header {
 }
 
 footer {
-
     font-size: 1.2rem;
 /*    background-color: #ffcb77;  */
     height: 3rem;
@@ -40,6 +39,8 @@ h1 {
   font-family: Times;
   font-size: 35px;
   font-weight: 1500;
+/*  color: white; */
+  color: #ffba00;
 }
 
 h3 {
@@ -59,7 +60,7 @@ a:hover {
 }
 
 a:active {
-    color: #FF4500;
+    color: #FFA500;
 }
 
 body {
