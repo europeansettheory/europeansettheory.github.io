@@ -36,8 +36,9 @@ header {
 /*  color: #4682b4;*/
     font-family: Sans-serif;
     font-size: 1.7rem;
-    background-image: url(../images/P1271882_01.jpg); 
+    background-image: url(../images/P1271882_01.jpg);
     background-size: cover;
+    padding-top: 15vw;
 /*    background-color: #F8F8FF; */
     /*background-color: #0066B3;/*#ea9999;*/
 }
