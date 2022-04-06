@@ -7,7 +7,9 @@
     margin: 0rem;
     padding-top: 1rem;
     padding-bottom: -10rem;
-    background: #e6e9fa;
+    background: var(--secondary-background-color);
+/*    background: #F8F8FF;*/
+/*    background: #e6e9fa;*/
 }
 
 
@@ -40,8 +42,9 @@
 .nav_dropdown {
     display: block;
     position: relative;
+    background: var(--secondary-background-color);
 /*    background: #e6e9f9;*/
-    background: #e4e9fa;
+/*    background: #e4e9fa;*/
     padding: 6px;
 }
 
@@ -55,8 +58,9 @@
     padding: 6px;
     padding-top: 1.2rem;
     left: -10px;
+    background: var(--secondary-background-color);
+/*    background: #e4e9fa;*/
 /*    background: #e6e9f9;*/
-    background: #e4e9fa;
 /*    box-shadow: inset 12px 12px 40px #d9a25e,
             inset -12px -12px 40px #ffdb80; */
 }

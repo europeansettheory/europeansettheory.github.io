@@ -31,17 +31,17 @@
 
 
 .top_left_container {
-    width: 40%;
+    width: 0%;
 }
 
 .top_right_container {
-    width: 54%;
+    width: 94%;
 }
 
 .top_right_container {
     float: right;
     margin-top: 0rem;
-    margin-left: 60%;
+    margin-left: 50%;
     margin-right: 5%;
     text-align: left;
 }
