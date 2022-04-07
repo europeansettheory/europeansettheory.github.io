@@ -99,6 +99,13 @@
 /*    flex-wrap: wrap-reverse;*/
 }
 
+.nav_dropdown:hover .nav_dropdown_content {
+    display: flex;
+    flex-direction: row;
+    color: #2c3863;
+/*    flex-wrap: wrap-reverse;*/
+}
+
 .nav_dropdown_content:hover {
     color: black;
 /*    flex-wrap: wrap-reverse;*/
