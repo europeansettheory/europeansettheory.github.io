@@ -1,5 +1,4 @@
-/* Global styles */
-
+/* Color variables */
 
 :root {
     --primary-background-color: white;
@@ -8,6 +7,7 @@
 }
 
 
+/* Global styles */
 
 * {
     box-sizing: border-box;
@@ -87,7 +87,7 @@ body {
 }
 
 
-/* Classes styles */
+/* Class styles */
 
 /*==================================================================================================================================================*/
 
@@ -154,7 +154,7 @@ body {
     align-items: center;
     margin: 1rem;
     margin-right: 1em;
-/*    height: 10vh;*/ 
+/*    height: 10vh;*/
 }
 
 .nav_menu > li {
