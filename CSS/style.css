@@ -6,7 +6,6 @@
     --box-background-color: white;
 }
 
-
 /* Global styles */
 
 * {
@@ -18,8 +17,8 @@
 html {
     font-size: 62.5%;
       background: var(--primary-background-color);
-/*      background-color: #F8F8FF; */ /*very light*/
-/*      background-color: #e4e9fa;*/
+/*    background-color: #F8F8FF; */ /*very light*/
+/*    background-color: #e4e9fa;*/
 /*    background-color: #FFFAFA;*/
 /*    background-color: #eaecfd;*/
 /*    background-color: #eaedfa;*/
