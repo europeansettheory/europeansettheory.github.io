@@ -2,8 +2,18 @@
 
 :root {
     --primary-background-color: white;
-    --secondary-background-color: white; /*#DCDCDC; #F8F8FF;*/
+    /*   #cfd7e3; grey
+    /*   #F8F8FF; */ /*very light*/
+    /*   #e4e9fa; #FFFAFA; #eaecfd; #eaedfa; #e6e9f9; */
+
+    --secondary-background-color: white;
+    /*#DCDCDC; #F8F8FF;*/
+
     --box-background-color: white;
+    --title-color: white; /* #ffba00; /* yellow */
+    /*  color: #ffa500;*/ /*yellow-orange*/
+
+    --text-color: black;
     --text-border-color: #2c3863;
 }
 
@@ -17,13 +27,8 @@
 
 html {
     font-size: 62.5%;
-      background: var(--primary-background-color);
-/*    background-color: #F8F8FF; */ /*very light*/
-/*    background-color: #e4e9fa;*/
-/*    background-color: #FFFAFA;*/
-/*    background-color: #eaecfd;*/
-/*    background-color: #eaedfa;*/
-/*    background-color: #e6e9f9;*/
+    color: var(--text-color);
+    background: var(--primary-background-color);
     text-align: justify;
 }
 
@@ -51,18 +56,16 @@ footer {
 }
 
 h1 {
-  font-family: Times;
+  font-family: Times; /*"Comic Sans MS"; Times; Arial */
   font-size: 42px;
   font-weight: 1100;
-/*  color: white; */
-  color: #ffba00; /*yellow*/
+  color: var(--title-color); /*  color: white; */
 }
 
 h3 {
   font-family: Times;
   font-size: 22px;
   color: #2c3863;
-/*  color: #ffa500;*/ /*yellow-orange*/
 }
 
 a {
@@ -94,14 +97,14 @@ body {
 /* Title styles */
 
 .main_title {
-    padding-bottom:2cm;
-    text-align: center;
+    padding-bottom:1cm;
+    text-align: left;
     color: white;
     height: auto;
 /*    height: 40vh; */
 /*    height: 50vh;*/
     left: 50vw;
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 
 /* Navigation bar style */
@@ -154,7 +157,7 @@ body {
     align-items: center;
     margin: 1rem;
     margin-right: 1em;
-/*    height: 10vh;*/
+    height: 10vh;
 }
 
 .nav_menu > li {

@@ -31,14 +31,14 @@
 
 
 .top_left_container {
-    width: 0%;
+    width: 48%;
+    text-align: left;
+    margin-left: 3.5em;
+    margin-top: 5rem;
 }
 
 .top_right_container {
-    width: 94%;
-}
-
-.top_right_container {
+    width: 48%;
     float: right;
     margin-top: 0rem;
     margin-left: 50%;
