@@ -92,7 +92,6 @@
     color: #FFA500;
 }
 
-
 .nav_dropdown:hover .nav_dropdown_content {
     display: flex;
     flex-direction: row;
@@ -120,7 +119,6 @@
 
 .nav_dropdown:hover {
     cursor: pointer;
-
 }
 
 .nav_menu_tablet_label:hover {
