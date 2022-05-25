@@ -88,6 +88,16 @@
     line-height: 1em;
 }
 
+.nav_dropdown_content li:first-child {
+    position: absolute;
+    margin-right:auto;
+    display: block;
+    min-width: 0rem;
+    height: 70px;
+    width: 100vw;
+    z-index: -1;
+}
+
 .nav_dropdown:hover {
     color: #FFA500;
 }
