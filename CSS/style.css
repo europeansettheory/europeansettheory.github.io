@@ -174,7 +174,7 @@ body {
     min-width: 12rem;
 }
 
-.nav_menu li:first-child {
+.nav_menu > li:first-child {
     margin-right:auto;
     display: block;
     min-width: 0rem;
