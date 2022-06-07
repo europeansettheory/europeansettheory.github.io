@@ -109,6 +109,17 @@
 /*    flex-wrap: wrap-reverse;*/
 }
 
+.nav_background_box {
+    display: none;
+}
+.nav_dropdown:hover > .nav_background_box {
+    display: block;
+    background-color: white;
+    width: 100vw;
+    z-index: -20;
+    height:10rem;
+}
+
 
 /* NEXT TO FOR TESTING: MENU BAR. DOESN'T WORK YET  */
 .nav_dropdown_bar {
