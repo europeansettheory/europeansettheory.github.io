@@ -27,7 +27,7 @@
 
 html {
     font-size: 62.5%;
-    color: var(--text-color);
+    color: var(--text-color);  /*why this declaration*/
     background: var(--primary-background-color);
     text-align: justify;
 }
@@ -41,7 +41,7 @@ header {
 /*  color: #4682b4;*/
     font-family: Sans-serif;
     font-size: 1.7rem;
-    background-image: url(../images/P1271882_01_test3.jp2);
+    background-image: url(../images/P1271882_01_test3.jp2); /*why add an image in the css and not in the html file*/
 /*    url(../images/P1271882_01.jpg); */
     background-size: cover;
     padding-top: 15vw;
@@ -57,10 +57,10 @@ footer {
 }
 
 h1 {
-  font-family: Times; /*"Comic Sans MS"; Times; Arial */
+  font-family: Times; /*"Comic Sans MS"; Times; Arial */  /*Add second options for the font*/
   font-size: 42px;
   font-weight: 1100;
-  color: var(--title-color); /*  color: white; */
+  color: var(--title-color); /*  color: white; */   /*Was not already defined by the global selector html*/
 }
 
 h3 {
@@ -99,7 +99,7 @@ body {
 
 .main_title {
     padding-bottom:1cm;
-    text-align: left;
+    text-align: left;/*This send the title to the left in all the devices (unless especified in tablet or desktop), create a conflict in the phone version*/
     color: white;
     height: auto;
 /*    height: 40vh; */
@@ -110,7 +110,7 @@ body {
 
 /* Navigation bar style */
 
-.nav {
+.nav {  /*Why we erase the styles for the navigation bar?*/
 /*    border-top: 1px solid #ffcb77;*/
     /*background-color: #0066B3;*/
 }
@@ -327,6 +327,8 @@ body {
     padding: 1rem;
 }
 
+
+/*==============================================================================================================*/
 
 /* Id styles */
 
