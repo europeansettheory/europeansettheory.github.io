@@ -78,7 +78,7 @@
 
 #Right-option:hover .nav_dropdown_content {
   align: right;
-  left: -43rem;
+  left: -57.3rem;
 /*  justify-content: left; */
 }
 
@@ -117,8 +117,7 @@
     display: block;
     background-color: white;
     width: 65vw;
-    z-index: -20;
-    height:4rem;
+/*    height: 70px; */
 }
 
 
