@@ -41,7 +41,7 @@ header {
 /*  color: #4682b4;*/
     font-family: Sans-serif;
     font-size: 1.7rem;
-    background-image: url(../images/P1271882_01_test3.jp2); /*why add an image in the css and not in the html file*/
+    background-image: url(../images/P1271882_01_test3.png); /*why add an image in the css and not in the html file*/
 /*    url(../images/P1271882_01.jpg); */
     background-size: cover;
     padding-top: 15vw;
