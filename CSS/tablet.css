@@ -20,7 +20,7 @@
 .nav_menu {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-end;
+/*    justify-content: flex-end; */
 }
 
 .nav_menu > li {
@@ -112,16 +112,17 @@
 .nav_background_box {
     display: none;
 }
-.nav_dropdown:hover > .nav_background_box {
+.nav_dropdown:hover .nav_background_box {
+    padding: 0.5rem 1rem;
     display: block;
     background-color: white;
-    width: 100vw;
+    width: 65vw;
     z-index: -20;
-    height:10rem;
+    height:4rem;
 }
 
 
-/* NEXT TO FOR TESTING: MENU BAR. DOESN'T WORK YET  */
+/* NEXT TWO FOR TESTING: MENU BAR DOESN'T WORK YET  */
 .nav_dropdown_bar {
     display: none;
 }
