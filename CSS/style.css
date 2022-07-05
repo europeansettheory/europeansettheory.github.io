@@ -267,7 +267,7 @@ a:active {
 .right_container_small {
     margin-top: 2rem;
     margin-left: 2%;
-    display: flex;
+/*  display: flex; */
     padding-top: 3rem;
     padding-bottom: 3rem;
     padding-left: 2rem;
