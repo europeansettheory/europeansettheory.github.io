@@ -1,20 +1,22 @@
 /* Color variables */
 
 :root {
-    --primary-background-color: white;
-    /*   #cfd7e3; grey
-    /*   #F8F8FF; */ /*very light*/
-    /*   #e4e9fa; #FFFAFA; #eaecfd; #eaedfa; #e6e9f9; */
-
-    --secondary-background-color: white;
-    /*#DCDCDC; #F8F8FF;*/
-
-    --box-background-color: white;
-    --title-color: white; /* #ffba00; /* yellow */
-    /*  color: #ffa500;*/ /*yellow-orange*/
-
+/* Header */
+    --title-color: white; /* #ffba00;  yellow    #ffa500; yellow-orange */
+    --text-header-color: #2c3863;
+    --text-color-hover: #ffa500;
+/* Text */
     --text-color: black;
+    --text-color-section-heading: #2c3863;
+
+/* Need this? */
     --text-border-color: #2c3863;
+
+/* Background */
+    --primary-background-color: white; /* #cfd7e3; grey   #F8F8FF; very light   #e4e9fa; #FFFAFA; #eaecfd; #eaedfa; #e6e9f9; */
+    --secondary-background-color: white; /*#DCDCDC; #F8F8FF;*/
+    --box-background-color: white;
+    --footer-background-color: #f4f0ec;
 }
 
 /* Global styles */
@@ -25,48 +27,47 @@
     margin: 0;
 }
 
+body {
+    font-weight: lighter;
+    height: 100vh;
+}
+
 html {
     font-size: 62.5%;
-    color: var(--text-color);  /*why this declaration*/
-    background: var(--primary-background-color);
+    color: var(--text-color);
     text-align: justify;
+    background: var(--primary-background-color);
 }
 
 header {
-    color: #2c3863;  /*dark blue*/
-/*  color: #FF4500;*/
-/*  color: #FF4500;*/
-/*  color: #FFE4B5;*/
-/*  color: #F4A460;*/
-/*  color: #4682b4;*/
     font-family: Sans-serif;
-    font-size: 1.7rem;
-    background-image: url(../images/P1271882_01_test3.png); /*why add an image in the css and not in the html file*/
-/*    url(../images/P1271882_01.jpg); */
+    font-size: 1.8rem;
+    color: var(--text-header-color);  /* dark blue #FF4500; #FF4500; #FFE4B5; #F4A460; #4682b4; */
+    background-image: url(../images/P1271882_01_test3.png); /* url(../images/P1271882_01.jpg); */
     background-size: cover;
     padding-top: 15vw;
-/*    background-color: #F8F8FF; */
-    /*background-color: #0066B3;/*#ea9999;*/
+    /* background-color: #F8F8FF; #0066B3; #ea9999; */
 }
 
 footer {
+    font-family: Sans-serif;
     font-size: 1.2rem;
-/*    background-color: #ffcb77;  */
-    height: 3rem;
-    text-align: right;
+    text-align: left;
+    background-color: var(--footer-background-color); /* #ffcb77; */
+    height: 5rem;
 }
 
 h1 {
-  font-family: Times; /*"Comic Sans MS"; Times; Arial */  /*Add second options for the font*/
-  font-size: 42px;
-  font-weight: 1100;
-  color: var(--title-color); /*  color: white; */   /*Was not already defined by the global selector html*/
+    font-family: Times; /*"Comic Sans MS"; Times; Arial */  /*Add second options for the font*/
+    font-size: 42px;
+    font-weight: 1100;
+    color: var(--title-color); /*  color: white; */   /*Was not already defined by the global selector html*/
 }
 
 h3 {
-  font-family: Times;
-  font-size: 22px;
-  color: #2c3863;
+    font-family: Times;
+    font-size: 22px;
+    color: var(--text-color-section-heading);
 }
 
 a {
@@ -75,45 +76,36 @@ a {
 }
 
 a:hover {
-      color: #FFA500;
-/*    color: #FF4500;*/
-/*    color: #4169E1;*/
-/*    color: #4682b4;*/
+    color: --text-color-hover; /* color: #FF4500; #4169E1; #4682b4; */
 }
 
 a:active {
-    color: #FFA500;
-}
-
-body {
-    font-weight: lighter;
-    height: 100vh;
+    color: var(--text-color-hover);
 }
 
 
 /* Class styles */
 
 /*==================================================================================================================================================*/
-
 /* Title styles */
 
 .main_title {
-    padding-bottom:1cm;
-    text-align: left;/*This send the title to the left in all the devices (unless especified in tablet or desktop), create a conflict in the phone version*/
-    color: white;
-    height: auto;
-/*    height: 40vh; */
-/*    height: 50vh;*/
-    left: 50vw;
+    padding-bottom: 1cm;
+    text-align: left; /* This sends the title to the left in all the devices (unless specified in tablet or desktop), creates a conflict in the phone version */
+/* left: 50vw; */
+    color: var(--title-color);
+    height: auto; /* height: 40vh; height: 50vh; */
     margin-top: 0rem;
 }
 
 /* Navigation bar style */
 
-.nav {  /*Why we erase the styles for the navigation bar?*/
-/*    border-top: 1px solid #ffcb77;*/
-    /*background-color: #0066B3;*/
+.nav {  /*Why we erase the styles for the navigation bar? -Miguel   Does the the background color actually appear if we leave it? -Philipp */
+    border-bottom: 1px solid var(--text-color-hover);
+/* background-color: #0066B3; */
 }
+
+/* Phone */
 
 .nav_toggle {
     position: absolute;
@@ -121,7 +113,6 @@ body {
     margin: 0 1rem;
     right: 0;
 }
-
 
 .nav_toggle svg {
     width: 3rem;
@@ -150,6 +141,8 @@ body {
 .nav_checkbox {
     display: none;
 }
+
+/* Laptop Tablet */
 
 .nav_menu {
     display: flex;
@@ -324,7 +317,8 @@ body {
 /* Footer containers*/
 
 .credits_container {
-    padding: 1rem;
+    height: 2rem;
+    padding: 2rem;
 }
 
 
