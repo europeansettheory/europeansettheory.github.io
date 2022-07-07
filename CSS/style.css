@@ -5,6 +5,7 @@
     --title-color: white; /* #ffba00;  yellow    #ffa500; yellow-orange */
     --text-header-color: #2c3863;
     --text-color-hover: #ffa500;
+
 /* Text */
     --text-color: black;
     --text-color-section-heading: #2c3863;
@@ -100,9 +101,10 @@ a:active {
 
 /* Navigation bar style */
 
-.nav {  /*Why we erase the styles for the navigation bar? -Miguel   Does the the background color actually appear if we leave it? -Philipp */
+.nav {  /*Why we erase the styles for the navigation bar? -Miguel
+    I added a colored bottom line again, but the background color does not actually appear anyway -Philipp
+    background-color: #0066B3; */
     border-bottom: 1px solid var(--text-color-hover);
-/* background-color: #0066B3; */
 }
 
 /* Phone */
@@ -147,8 +149,8 @@ a:active {
 .nav_menu {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    align-items: center;
+    gap: 2rem; /* problem: this is a horizontal gap on laptop and vertical gap on phone */
+    align-items: left;
     margin: 1rem;
     margin-right: 1rem;
     height: 70px;
@@ -184,7 +186,7 @@ a:active {
 .nav_detailed summary {
     cursor: pointer;
     list-style: none;
-    text-align: center;
+    text-align: left;
 }
 
 .nav_detailed > ul {

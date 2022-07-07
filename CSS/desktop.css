@@ -1,4 +1,4 @@
-/* Navegation styles */
+/* Navigation styles */
 
 .nav_menu_tablet:checked ~ div{
     display: none;
@@ -13,11 +13,8 @@
 }
 
 .nav_menu_desktop_label:hover {
-      color: #FFA500;
-/*    color: #FF4500;*/
-/*    color: #4682b4;*/
+      color: #FFA500; /* #FF4500;  #4682b4; */
 }
-
 
 .main_container {
       display: flex;
@@ -27,23 +24,6 @@
       padding-right: 1.5rem;
       flex-direction: row;
       flex-wrap: wrap;
-}
-
-
-.top_left_container {
-    width: 48%;
-    text-align: left;
-    margin-left: 3.5em;
-    margin-top: 5rem;
-}
-
-.top_right_container {
-    width: 48%;
-    float: right;
-    margin-top: 0rem;
-    margin-left: 50%;
-    margin-right: 5%;
-    text-align: left;
 }
 
 .right_container {

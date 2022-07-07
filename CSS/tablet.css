@@ -187,3 +187,20 @@
       flex-direction: row;
       flex-wrap: wrap;
 }
+
+.top_left_container {
+    width: 100vw;
+    text-align: left;
+    margin-left: 3.5em;
+    margin-top: 5rem;
+}
+
+/* I don't think top_right_container is used. But maybe keep it in case we want to put a picture there? */
+.top_right_container {
+    width: 48%;
+    float: right;
+    margin-top: 0rem;
+    margin-left: 50%;
+    margin-right: 5%;
+    text-align: left;
+}
