@@ -104,6 +104,7 @@ a:active {
 .nav {  /*Why we erase the styles for the navigation bar? -Miguel
     I added a colored bottom line again, but the background color does not actually appear anyway -Philipp
     background-color: #0066B3; */
+    border-top: 1px solid var(--text-color-hover);
     border-bottom: 1px solid var(--text-color-hover);
 }
 
@@ -218,6 +219,14 @@ a:active {
 
 /*==================================================================================================================================*/
 /* Body containers styles */
+
+/* The next one should be adapted for phone. This is the tablet version copied here. */
+.top_left_container {
+    width: 100vw;
+    text-align: left;
+    margin-left: 3.5em;
+    margin-top: 5rem;
+}
 
 .main_container {
     margin: 2rem 2rem 2rem 2rem;
