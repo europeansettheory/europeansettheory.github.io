@@ -17,7 +17,7 @@
     --primary-background-color: white; /* #cfd7e3; grey   #F8F8FF; very light   #e4e9fa; #FFFAFA; #eaecfd; #eaedfa; #e6e9f9; */
     --secondary-background-color: white; /*#DCDCDC; #F8F8FF;*/
     --box-background-color: white;
-    --footer-background-color: #f4f0ec;
+    --footer-background-color: #f4f0ec; /* #fdfdfc */
 }
 
 /* Global styles */
@@ -46,7 +46,7 @@ header {
     color: var(--text-header-color);  /* dark blue #FF4500; #FF4500; #FFE4B5; #F4A460; #4682b4; */
     background-image: url(../images/P1271882_01_test3.png); /* url(../images/P1271882_01.jpg); */
     background-size: cover;
-    padding-top: 15vw;
+    padding-top: 5vw;
     /* background-color: #F8F8FF; #0066B3; #ea9999; */
 }
 
@@ -59,7 +59,7 @@ footer {
 }
 
 h1 {
-    font-family: Times; /*"Comic Sans MS"; Times; Arial */  /*Add second options for the font*/
+    font-family: Arial; /*"Comic Sans MS"; Times; Arial */  /*Add second options for the font*/
     font-size: 42px;
     font-weight: 1100;
     color: var(--title-color); /*  color: white; */   /*Was not already defined by the global selector html*/
@@ -104,7 +104,7 @@ a:active {
 .nav {  /*Why we erase the styles for the navigation bar? -Miguel
     I added a colored bottom line again, but the background color does not actually appear anyway -Philipp
     background-color: #0066B3; */
-    border-top: 1px solid var(--text-color-hover);
+/*  border-top: 1px solid var(--text-color-hover); */
     border-bottom: 1px solid var(--text-color-hover);
 }
 
@@ -148,6 +148,7 @@ a:active {
 /* Laptop Tablet */
 
 .nav_menu {
+    position: fixed;
     display: flex;
     flex-direction: column;
     gap: 2rem; /* problem: this is a horizontal gap on laptop and vertical gap on phone */

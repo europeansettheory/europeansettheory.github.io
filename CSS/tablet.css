@@ -1,3 +1,11 @@
+
+
+/* Global styles */
+
+header {
+    padding-top: 15vw;
+}
+
 /* Navigation styles */
 
 .nav_menu{
@@ -5,8 +13,7 @@
     top: 0;
     width: 100%;
     margin: 0rem;
-    margin-left: 47px;
-/*    margin-left: 20px; */
+    margin-left: 50px; /* 47px; 20px; */
     padding-top: 1rem;
     padding-bottom: -10rem;
     background: var(--secondary-background-color);
@@ -32,12 +39,11 @@
     text-align: left;
 }
 
-
 .nav_menu li {
     display: block;
 }
 
-.nav_detailed{
+.nav_detailed {
     display: none;
 }
 
