@@ -133,8 +133,8 @@ a:active {
     display: none;
     border-radius: 92px;
     background: transparent;
-    box-shadow: inset 1px 1px 2px #d9a25e,
-                inset -1px -1px 2px #ffdb80;
+/*    box-shadow: inset 1px 1px 2px #d9a25e,
+                inset -1px -1px 2px #ffdb80;*/
 }
 
 .nav_toggle .close,
@@ -350,7 +350,7 @@ a:active {
 }
 
 #nav_checkbox:checked ~ label.nav_toggle .close {
-    display: block;
+    display: inline;
 }
 
 #nav_checkbox:checked ~ label.nav_toggle .menu {
