@@ -147,6 +147,7 @@ a:active {
     display: none;
 }
 
+
 /* Laptop Tablet */
 
 .nav_menu {
@@ -154,10 +155,10 @@ a:active {
     display: flex;
     flex-direction: column;
     gap: 1rem; /* problem: this is a horizontal gap on laptop and vertical gap on phone */
-    align-items: left;
+    align-items: center;
     margin: 1rem;
     margin-right: 1rem;
-    height: 0px;
+   /* height: 0px;*/ /*Why we added this line? this is the one responsible for non-dinamic neght of the menu. maybe in the desktop version we need it*/
 /*    height: 10vh; */
 }
 
@@ -166,7 +167,7 @@ a:active {
     display:none;
     /* Style for menu phone*/
     padding: 7px;
-    border-radius: 19px;
+    /*border-radius: 19px;*/
 /*     background: #ffbe6f; */
 /*    box-shadow:  12px 12px 40px #d9a25e,
                 -12px -12px 40px #ffdb80; */
@@ -186,6 +187,8 @@ a:active {
 .menu_logo img {
     height: 100%;
 }
+
+
 
 .nav_detailed summary {
     cursor: pointer;
@@ -220,6 +223,8 @@ a:active {
 .nav_dropdown {
     display: none;
 }
+
+
 
 
 /*==================================================================================================================================*/
