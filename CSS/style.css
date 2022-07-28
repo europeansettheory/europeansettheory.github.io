@@ -193,7 +193,7 @@ a:active {
 .nav_detailed summary {
     cursor: pointer;
     list-style: none;
-    text-align: left;
+    text-align: center;
     background: var(--primary-background-color);
     padding: 5px;
 }
