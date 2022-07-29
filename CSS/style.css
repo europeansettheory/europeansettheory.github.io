@@ -60,8 +60,8 @@ footer {
 
 h1 {
     font-family: Arial; /*"Comic Sans MS"; Times; Arial */  /*Add second options for the font*/
-    font-size: 42px;
-    font-weight: 1100;
+    font-size: 32px;
+    font-weight: 1000;
     color: var(--title-color); /*  color: white; */   /*Was not already defined by the global selector html*/
 }
 
@@ -105,7 +105,7 @@ a:active {
     I added a colored bottom line again, but the background color does not actually appear anyway -Philipp
     background-color: #0066B3; */
 /*  border-top: 1px solid var(--text-color-hover); */
-    border-bottom: 1px solid var(--text-color-hover);
+    border-bottom: 1px solid green;
 }
 
 /* Phone */
@@ -140,6 +140,7 @@ a:active {
 .nav_toggle .close,
 .nav_toggle .menu {
     margin-top: 1.3rem;
+    margin-left: 1.2rem; 
 }
 
 
@@ -154,8 +155,8 @@ a:active {
 
     display: flex;
     flex-direction: column;
-    gap: 1rem; /* problem: this is a horizontal gap on laptop and vertical gap on phone */
-    align-items: center;
+    gap: 0rem; /* problem: this is a horizontal gap on laptop and vertical gap on phone */
+    align-items: left;
     margin: 1rem;
     margin-right: 1rem;
    /* height: 0px;*/ /*Why we added this line? this is the one responsible for non-dinamic neght of the menu. maybe in the desktop version we need it*/
@@ -193,9 +194,10 @@ a:active {
 .nav_detailed summary {
     cursor: pointer;
     list-style: none;
-    text-align: center;
-    background: var(--primary-background-color);
+    text-align: left;
+/*    background: var(--primary-background-color); */
     padding: 5px;
+    color: white;
 }
 
 .nav_detailed > ul {
@@ -232,9 +234,10 @@ a:active {
 
 /* The next one should be adapted for phone. This is the tablet version copied here. */
 .top_left_container {
-    width: 100vw;
+    width: 90vw;
     text-align: left;
-    margin-left: 3.5em;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .main_container {

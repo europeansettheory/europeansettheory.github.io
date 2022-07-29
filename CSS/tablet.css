@@ -6,6 +6,13 @@ header {
     padding-top: 15vw;
 }
 
+/* Global styles */
+
+h1 {
+    font-size: 42px;
+    font-weight: 1100;
+}
+
 /* Navigation styles */
 
 .nav_menu{
@@ -17,6 +24,7 @@ header {
     padding-top: 1rem;
     padding-bottom: -10rem;
     background: var(--secondary-background-color);
+    gap: 1rem; 
 /*    background: #F8F8FF;*/
 /*    background: #e6e9fa;*/
 }
@@ -183,6 +191,12 @@ header {
 /*====================================================================================================================*/
 
 /* Body containers styles */
+
+.top_left_container {
+    width: 100vw;
+    margin-left: 3.5em;
+    text-align: left;
+}
 
 .main_container_title {
       display: flex;
