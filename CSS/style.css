@@ -201,20 +201,21 @@ a:active {
 }
 
 .nav_detailed > ul {
-    padding: 5px;
-    border-radius: 19px;
-    background: #ffbe6f;
+    margin-left: 2rem;
+    /*padding: 5px;*/
+/*    border-radius: 19px;*/
+/*    background: #ffbe6f;
     box-shadow: inset 12px 12px 40px #d9a25e,
-            inset -12px -12px 40px #ffdb80;
+            inset -12px -12px 40px #ffdb80;*/
 }
 
 
 .subnav_detailed {
-    text-align: center;
+    text-align: left;
 }
 
 .subnav_detailed li{
-    margin: 1rem
+    margin: 1rem;
 }
 
 .nav_detailed summary::-webkit-details-marker {
