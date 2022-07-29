@@ -192,6 +192,12 @@ h1 {
 
 /* Body containers styles */
 
+
+.left_container_small {
+    margin-left: 2%;
+    padding-left: 2rem;
+}
+
 .top_left_container {
     width: 100vw;
     margin-left: 3.5em;
