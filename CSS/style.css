@@ -140,7 +140,7 @@ a:active {
 .nav_toggle .close,
 .nav_toggle .menu {
     margin-top: 1.3rem;
-    margin-left: 1.2rem; 
+    margin-left: 1.2rem;
 }
 
 
@@ -261,6 +261,10 @@ a:active {
 }
 
 
+.left_container {
+}
+
+}
 .right_container{
     margin-top: 2%;
 }
@@ -289,11 +293,9 @@ a:active {
 
 .right_container_small {
     margin-top: 2rem;
-    margin-left: 2%;
 /*  display: flex; */
     padding-top: 3rem;
     padding-bottom: 3rem;
-    padding-left: 2rem;
     padding-right: 2rem;
     flex-direction: row;
     flex-wrap: wrap;

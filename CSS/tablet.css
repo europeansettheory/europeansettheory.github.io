@@ -24,7 +24,7 @@ h1 {
     padding-top: 1rem;
     padding-bottom: -10rem;
     background: var(--secondary-background-color);
-    gap: 1rem; 
+    gap: 1rem;
 /*    background: #F8F8FF;*/
 /*    background: #e6e9fa;*/
 }
@@ -197,6 +197,11 @@ h1 {
     margin-left: 2%;
     padding-left: 2rem;
 }
+
+.right_container_small {
+    margin-left: 2%;
+    padding-left: 2rem;
+}    
 
 .top_left_container {
     width: 100vw;

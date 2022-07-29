@@ -26,20 +26,15 @@
       flex-wrap: wrap;
 }
 
-.right_container {
-    float: right;
-    margin-top: 0rem;
-    margin-left: 1%;
-}
-
 .left_container {
     width: 47%; /* 67%; */
-
 }
 
 .right_container {
     width: 47%; /* 32%; */
-
+    float: right;
+    margin-top: 0rem;
+    margin-left: 1%;
 }
 
 .left_subcontainer {
