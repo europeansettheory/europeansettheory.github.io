@@ -20,9 +20,10 @@ h1 {
     top: 0;
     width: 100%;
     margin: 0rem;
-    margin-left: 50px; /* 47px; 20px; */
+    margin-left: 0px; /*  50px; 47px; 20px; */
     padding-top: 1rem;
     padding-bottom: -10rem;
+    padding-left: 50px;
     background: var(--secondary-background-color);
     gap: 1rem;
 /*    background: #F8F8FF;*/
@@ -30,6 +31,7 @@ h1 {
 }
 
 
+/*  hamburger and cross symbols for phone  */
 .nav_toggle {
     display: none;
 }
@@ -48,7 +50,8 @@ h1 {
 }
 
 .nav_menu li {
-    display: block;
+    display: flex;
+    flex-direction: row;
 }
 
 .nav_detailed {
@@ -116,9 +119,11 @@ h1 {
     z-index: -1;
 }
 
+/*
 .nav_dropdown:hover {
     color: #FFA500;
 }
+*/
 
 /*
 .nav_dropdown:hover .nav_dropdown_content {
@@ -180,7 +185,8 @@ h1 {
 }
 
 .nav_menu_tablet:checked ~ div{
-    display: block;
+    display: flex;
+    flex-direction: row; 
 }
 
 .nav_menu_desktop_label {
