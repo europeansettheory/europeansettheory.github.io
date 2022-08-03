@@ -1,20 +1,28 @@
 /* Navigation styles */
 
+/*
 .nav_menu_tablet:checked ~ div{
     display: none;
 }
+*/
 
+/*
 .nav_menu_tablet_label {
     display: none;
-}
+}*/
 
+/*
 .nav_menu_desktop_label {
     display: block;
 }
+*/ 
 
+/*
 .nav_menu_desktop_label:hover {
-      color: #FFA500; /* #FF4500;  #4682b4; */
+      color: #FFA500;    #FF4500;  #4682b4;
 }
+*/
+
 
 .main_container {
       display: flex;

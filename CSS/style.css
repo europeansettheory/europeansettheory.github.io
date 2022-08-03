@@ -225,7 +225,7 @@ a:active {
 
 
 .nav_dropdown {
-    display: none;
+    display: block;
 }
 
 

@@ -120,12 +120,12 @@ h1 {
     color: #FFA500;
 }
 
+/*
 .nav_dropdown:hover .nav_dropdown_content {
     display: flex;
     flex-direction: row;
-    color: #2c3863;
-/*    flex-wrap: wrap-reverse;*/
-}
+        color: #2c3863;    flex-wrap: wrap-reverse; }}
+}*/
 
 .nav_background_box {
     display: none;
@@ -176,7 +176,7 @@ h1 {
 }
 
 .nav_menu_tablet{
-    display:none;
+    display:block;
 }
 
 .nav_menu_tablet:checked ~ div{
