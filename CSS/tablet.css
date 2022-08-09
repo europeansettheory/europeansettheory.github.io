@@ -97,12 +97,6 @@ h1 {
     line-height: 1em; */
 }
 
-#Right-option:hover .nav_dropdown_content {
-  align: right;
-  left: -57.3rem;
-/*  justify-content: left; */
-}
-
 .nav_dropdown_content li {
     display: inline;
     height: 2em;
@@ -186,7 +180,7 @@ h1 {
 
 .nav_menu_tablet:checked ~ div{
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
 }
 
 .nav_menu_desktop_label {
