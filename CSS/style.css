@@ -357,6 +357,7 @@ a:active {
 
 #nav_checkbox:checked ~ ul.nav_menu li {
     display: block;
+            transition: 2s;
 }
 
 #nav_checkbox:checked ~ ul.nav_menu #landing_page_symbol {
