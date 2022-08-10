@@ -92,7 +92,8 @@ a:active {
 
 .main_title {
     padding-bottom: 1cm;
-    text-align: left; /* This sends the title to the left in all the devices (unless specified in tablet or desktop), creates a conflict in the phone version */
+/*    text-align: left; */
+    /* This sends the title to the left in all the devices (unless specified in tablet or desktop), creates a conflict in the phone version */
 /* left: 50vw; */
     color: var(--title-color);
     height: auto; /* height: 40vh; height: 50vh; */
@@ -152,13 +153,14 @@ a:active {
 /* Laptop Tablet */
 
 .nav_menu {
-
     display: flex;
     flex-direction: column;
     gap: 0rem; /* problem: this is a horizontal gap on laptop and vertical gap on phone */
     align-items: left;
-    margin: 1rem;
+/*    margin: 1rem; */
     margin-right: 1rem;
+    padding: 0.4rem;
+        padding-left: 0.4rem;
    /* height: 0px;*/ /*Why we added this line? this is the one responsible for non-dinamic neght of the menu. maybe in the desktop version we need it*/
 /*    height: 10vh; */
 }
@@ -167,7 +169,7 @@ a:active {
     list-style-type: none;
     display:none;
     /* Style for menu phone*/
-    padding: 7px;
+    padding: 0.4rem;
     /*border-radius: 19px;*/
 /*     background: #ffbe6f; */
 /*    box-shadow:  12px 12px 40px #d9a25e,
@@ -182,21 +184,19 @@ a:active {
 }
 
 .menu_logo {
-    height: 30px;
+    height: 3rem;
 }
 
 .menu_logo img {
     height: 100%;
 }
 
-
-
 .nav_detailed summary {
     cursor: pointer;
     list-style: none;
     text-align: left;
 /*    background: var(--primary-background-color); */
-    padding: 5px;
+    padding: 0.5rem;
     color: white;
 }
 
@@ -223,10 +223,14 @@ a:active {
   display: none;
 }
 
-
 .nav_dropdown {
-    display: block;
+    display: none;
 }
+
+.nav_menu_tablet{
+    display:none;
+}
+
 
 
 
