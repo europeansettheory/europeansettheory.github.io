@@ -3,7 +3,7 @@
 /* Global styles */
 
 header {
-    padding-top: 15vw;
+    padding-top: 22vw;
 }
 
 /* Global styles */
@@ -75,10 +75,10 @@ h1 {
     padding: 0rem;
     padding-top: 1.2rem;
     left: -0.6rem;
-    background: var(--secondary-background-color);
+    background: var(--secondary-background-color);   /* background: #e4e9fa; */
     height: 7rem;
     gap: 0rem;
-    background: #e4e9fa;
+
     margin-top: 2.4rem;
 /*    background: #e4e9fa;*/
 /*    background: #e6e9f9;*/
@@ -159,12 +159,14 @@ h1 {
     display: none;
 }
 
+/*
 .nav_dropdown:hover .nav_dropdown_bar {
     display: flex;
     color: #2c3863;
     height: 340px;
     width: 100vw;
 }
+*/
 
 .nav_dropdown_content:hover {
     color: black;
@@ -209,7 +211,7 @@ h1 {
 .top_left_container {
     width: 100vw;
     margin-left: 5.7rem;
-    text-align: left;
+    text-align: center;
 }
 
 .main_container_title {

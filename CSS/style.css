@@ -3,7 +3,7 @@
 :root {
 /* Header */
     --title-color: white; /* #ffba00;  yellow    #ffa500; yellow-orange */
-    --text-header-color: #2c3863;
+    --text-header-color: white; /* #2c3863; */
     --text-color-hover: #ffa500;
 
 /* Text */
@@ -15,9 +15,9 @@
 
 /* Background */
     --primary-background-color: white; /* #cfd7e3; grey   #F8F8FF; very light   #e4e9fa; #FFFAFA; #eaecfd; #eaedfa; #e6e9f9; */
-    --secondary-background-color: white; /*#DCDCDC; #F8F8FF;*/
+    --secondary-background-color: #276FAE; /* #226097; /*#4E80AC; /* dark blue /*#003366; /*#DCDCDC; #F8F8FF;*/
     --box-background-color: white;
-    --footer-background-color: #f4f0ec; /* #fdfdfc */
+    --footer-background-color: #276FAE; /* same dark blue like for header/*#f4f0ec; /* #fdfdfc */
 }
 
 /* Global styles */
@@ -44,7 +44,8 @@ header {
     font-family: Sans-serif;
     font-size: 1.8rem;
     color: var(--text-header-color);  /* dark blue #FF4500; #FF4500; #FFE4B5; #F4A460; #4682b4; */
-    background-image: url(../images/P1271882_01_test3.png); /* url(../images/P1271882_01.jpg); */
+    background-image: url(../images/birch_finland_kilpisjarvi_lake_and_trees_during_fall_hd_nature-2560x1440_crop1.jpg);
+    /* url(../images/P1271882_01_test3.png);  url(../images/P1271882_01.jpg); */
     background-size: cover;
     padding-top: 0vw;
     /* background-color: #F8F8FF; #0066B3; #ea9999; */
@@ -92,7 +93,7 @@ a:active {
 
 .main_title {
     padding-bottom: 1cm;
-/*    text-align: left; */
+/*    text-align: center; */
     /* This sends the title to the left in all the devices (unless specified in tablet or desktop), creates a conflict in the phone version */
 /* left: 50vw; */
     color: var(--title-color);
