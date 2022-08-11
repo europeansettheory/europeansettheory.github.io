@@ -78,8 +78,8 @@ h1 {
     background: var(--secondary-background-color);   /* background: #e4e9fa; */
     height: 7rem;
     gap: 0rem;
-
     margin-top: 2.4rem;
+    border-top: 0.1rem white;
 /*    background: #e4e9fa;*/
 /*    background: #e6e9f9;*/
 /*    box-shadow: inset 12px 12px 40px #d9a25e,
@@ -232,4 +232,25 @@ h1 {
     margin-left: 50%;
     margin-right: 5%;
     text-align: left;
+}
+
+
+#About_dropdown {
+    left: -0.5rem;
+}
+
+#Contact_dropdown {
+    left: -14.5rem;
+}
+
+#Conferences_dropdown {
+    left: -28.5rem;
+}
+
+#Resources_dropdown {
+    left: -42.5rem;
+}
+
+#Blog_dropdown {
+    left: -56.5rem;
 }

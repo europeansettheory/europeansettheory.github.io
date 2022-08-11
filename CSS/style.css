@@ -10,6 +10,9 @@
     --text-color: black;
     --text-color-section-heading: #2c3863;
 
+/* Footer */
+    --text-color-footer: white;
+
 /* Need this? */
     --text-border-color: #2c3863;
 
@@ -17,7 +20,7 @@
     --primary-background-color: white; /* #cfd7e3; grey   #F8F8FF; very light   #e4e9fa; #FFFAFA; #eaecfd; #eaedfa; #e6e9f9; */
     --secondary-background-color: #276FAE; /* #226097; /*#4E80AC; /* dark blue /*#003366; /*#DCDCDC; #F8F8FF;*/
     --box-background-color: white;
-    --footer-background-color: #276FAE; /* same dark blue like for header/*#f4f0ec; /* #fdfdfc */
+    --footer-background-color: #276FAE; /* #276FAE; /* same dark blue like for header/*#f4f0ec; /* #fdfdfc */
 }
 
 /* Global styles */
@@ -107,7 +110,7 @@ a:active {
     I added a colored bottom line again, but the background color does not actually appear anyway -Philipp
     background-color: #0066B3; */
 /*  border-top: 1px solid var(--text-color-hover); */
-    border-bottom: 1px solid green;
+    border-bottom: 0.1rem solid green;
 }
 
 /* Phone */
@@ -349,6 +352,8 @@ a:active {
 .credits_container {
     height: 2rem;
     padding: 2rem;
+    padding-left: 5.6rem;
+    color: var(--text-color-footer);
 }
 
 
@@ -358,7 +363,6 @@ a:active {
 
 #nav_checkbox:checked ~ ul.nav_menu li {
     display: block;
-            transition: 2s;
 }
 
 #nav_checkbox:checked ~ ul.nav_menu #landing_page_symbol {
