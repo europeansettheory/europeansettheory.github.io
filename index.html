@@ -15,7 +15,7 @@
         <link
             rel="stylesheet"
             href="./CSS/tablet.css"
-            media="screen and (min-width: 600px)"
+            media="screen and (min-width: 740px)"
         />
         <link
             rel="stylesheet"
@@ -72,7 +72,10 @@
 
                 </label>
 
-            <ul class="nav_menu">
+                <form>
+                <input type="reset" id="subnav_reset" style="">
+
+                <ul class="nav_menu">
 
                 <li class="menu_logo" id="landing_page_symbol">
                     <img
@@ -90,10 +93,14 @@
                             <li><a href="trustees.html">Trustees</a></li>
                         </ul>
                     </details>
+
                     <div  class="nav_dropdown">
                         <input type="radio" name="menu_option" id="About"  class="nav_menu_tablet">
-                        <label for="About" class="nav_menu_tablet_label">About</label>
-                        <!--<p class="nav_menu_desktop_label">About</p>-->
+                        <span> TEST
+                          <label for="About" class="nav_menu_tablet_label" style="width:100px"></label>
+
+                          <label for="subnav_reset" class="">Reset</label>
+                      </span>
 
                         <div class="nav_dropdown_content" id="About_dropdown">
                         <!-- id="nav_checkbox"> -->
@@ -196,6 +203,8 @@
                 </li>
 
             </ul>
+
+            </form>
 
 
             <div class="main_title">
