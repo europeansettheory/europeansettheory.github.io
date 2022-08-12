@@ -198,6 +198,16 @@ h1 {
     cursor: pointer;
 }
 
+.reset_label {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
 
 /*====================================================================================================================*/
 
@@ -238,6 +248,12 @@ h1 {
     margin-left: 50%;
     margin-right: 5%;
     text-align: left;
+}
+
+
+/* Applies to all check inputs whose id starts with "menu_option_"*/
+#nav_menu input[id *="menu_option"]:checked + span label.reset_label {
+    display: block;
 }
 
 

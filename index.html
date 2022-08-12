@@ -75,7 +75,7 @@
                 <form>
                 <input type="reset" id="subnav_reset" style="display:none">
 
-                <ul class="nav_menu">
+                <ul class="nav_menu" id="nav_menu">
 
                 <li class="menu_logo" id="landing_page_symbol">
                     <img
@@ -95,12 +95,11 @@
                     </details>
 
                     <div  class="nav_dropdown">
-                        <input type="radio" name="menu_option" id="About"  class="nav_menu_tablet">
+                        <input type="radio" name="menu_option" id="menu_option_about"  class="nav_menu_tablet">
                         <span> About
-                        <label for="About" class="nav_menu_tablet_label"></label>
-
-                          <label for="subnav_reset" class="" style="display:none"></label>
-                      </span>
+                          <label for="menu_option_about" class="nav_menu_tablet_label"></label>
+                          <label for="subnav_reset" class="reset_label"></label>
+                        </span>
 
                         <div class="nav_dropdown_content" id="About_dropdown">
                         <!-- id="nav_checkbox"> -->
@@ -122,8 +121,13 @@
                         </ul>
                     </details>
                     <div  class="nav_dropdown">
-                        <input type="radio" name="menu_option" id="Contact"  class="nav_menu_tablet">
-                        <label for="Contact" class="nav_menu_tablet_label">Contact</label>
+                        <input type="radio" name="menu_option" id="menu_option_contact"  class="nav_menu_tablet">
+                        <span> Contact
+                          <label for="menu_option_contact" class="nav_menu_tablet_label"></label>
+                          <label for="subnav_reset" class="reset_label"></label>
+                        </span>
+
+                        <!--<label for="Contact" class="nav_menu_tablet_label">Contact</label>-->
                         <!--<p class="nav_menu_desktop_label">Contact</p>-->
                         <div class="nav_dropdown_content" id="Contact_dropdown">
                             <a href="contact_us.html">Contact us</a>
@@ -143,8 +147,14 @@
                         </ul>
                     </details>
                     <div  class="nav_dropdown">
-                        <input type="radio" name="menu_option" id="Conferences"  class="nav_menu_tablet">
-                        <label for="Conferences" class="nav_menu_tablet_label">Conferences</label>
+                        <input type="radio" name="menu_option" id="menu_option_conferences"  class="nav_menu_tablet">
+
+                        <span> Conferences
+                          <label for="menu_option_conferences" class="nav_menu_tablet_label"></label>
+                          <label for="subnav_reset" class="reset_label"></label>
+                        </span>
+
+                        <!--<label for="Conferences" class="nav_menu_tablet_label">Conferences</label>-->
                         <!--<p class="nav_menu_desktop_label">Conferences</p>-->
                         <div class="nav_dropdown_content" id="Conferences_dropdown">
                             <a href="ESTC_2022.html">ESTC 2022</a>
@@ -164,8 +174,14 @@
                         </ul>
                     </details>
                     <div  class="nav_dropdown">
-                        <input type="radio" name="menu_option" id="Resources"  class="nav_menu_tablet">
-                        <label for="Resources" class="nav_menu_tablet_label">Resources</label>
+                        <input type="radio" name="menu_option" id="menu_option_resources"  class="nav_menu_tablet">
+
+                        <span> Resources
+                          <label for="menu_option_resources" class="nav_menu_tablet_label"></label>
+                          <label for="subnav_reset" class="reset_label"></label>
+                        </span>
+
+                        <!--<label for="Resources" class="nav_menu_tablet_label">Resources</label>-->
                         <!--<p class="nav_menu_desktop_label">Resources</p>-->
                         <div class="nav_dropdown_content" id="Resources_dropdown">
                             <a href="literature.html">Literature</a>
@@ -187,8 +203,14 @@
                         </ul>
                     </details>
                     <div class="nav_dropdown">
-                        <input type="radio" name="menu_option" id="Blog"  class="nav_menu_tablet">
-                        <label for="Blog" class="nav_menu_tablet_label">Blog</label>
+                        <input type="radio" name="menu_option" id="menu_option_blog"  class="nav_menu_tablet">
+
+                        <span> Blog
+                          <label for="menu_option_blog" class="nav_menu_tablet_label"></label>
+                          <label for="subnav_reset" class="reset_label"></label>
+                        </span>
+
+                        <!--<label for="Blog" class="nav_menu_tablet_label">Blog</label>-->
                         <!--<p class="nav_menu_desktop_label">Blog</p><!--&#9663-->
                         <div class="nav_dropdown_content" id="Blog_dropdown"> <!--CHECK px VALUE BY CALCULATING IT. MOVE THIS STYLE TO css? -->
                             <div class="nav_background_box_left"></div>
