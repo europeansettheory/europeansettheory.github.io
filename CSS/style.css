@@ -44,8 +44,7 @@ html {
 }
 
 header {
-    font-family: times; 
-    /* Sans-serif; */
+    font-family: Sans-serif;
     font-size: 1.8rem;
     color: var(--text-header-color);  /* dark blue #FF4500; #FF4500; #FFE4B5; #F4A460; #4682b4; */
     background-image: url(../images/birch_finland_kilpisjarvi_lake_and_trees_during_fall_hd_nature-2560x1440_crop1.jpg);
@@ -172,7 +171,7 @@ a:active {
 
 .nav_menu > li {
     list-style-type: none;
-    display:none;
+    display: none;
     /* Style for menu phone*/
     padding: 0.4rem;
     /*border-radius: 19px;*/
@@ -202,6 +201,7 @@ a:active {
     text-align: left;
 /*    background: var(--primary-background-color); */
     padding: 0.5rem;
+    padding-left: 1.5rem;
     color: white;
 }
 
@@ -362,11 +362,11 @@ a:active {
 
 /* Id styles */
 
-#nav_checkbox:checked ~ ul.nav_menu li {
+#nav_checkbox:checked ~ form > ul.nav_menu li {
     display: block;
 }
 
-#nav_checkbox:checked ~ ul.nav_menu #landing_page_symbol {
+#nav_checkbox:checked ~ form > ul.nav_menu #landing_page_symbol {
     display: none;
 }
 
