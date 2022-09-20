@@ -170,6 +170,8 @@
                     <summary>Resources</summary>
                         <ul class="subnav_detailed">
                             <li><a href="literature.html">Literature</a></li>
+                            <li><a href="lecturenotes.html">Lecture notes</a></li>
+                            <li><a href="videos.html">Videos</a></li>
                             <li><a href="links.html">Links</a></li>
                         </ul>
                     </details>
@@ -185,6 +187,8 @@
                         <!--<p class="nav_menu_desktop_label">Resources</p>-->
                         <div class="nav_dropdown_content" id="Resources_dropdown">
                             <a href="literature.html">Literature</a>
+                            <a href="lecturenotes.html">Lecture notes</a>
+                            <a href="videos.html">Videos</a>
                             <a href="links.html">Links</a>
                             <div class="nav_background_box"></div>
                         </div>
@@ -268,13 +272,25 @@
                 <div class="right_container">
 
                   <div class="right_container_small">
-                      <h3>Mission</h3>
-<!--                        <h3 style="color:#2c3863">About</h3>  -->
-                      <br><br>
-                      <p>The European Set Theory Society aims to strengthen set-theoretical research and scholarship in Europe.
-                      Although its activities are centred in Europe, the Society is open to set theorists worldwide.<br>
-                      <a href="become_a_member.html">Find out how to become a member</a>
-                      </p>
+
+                          <h3>About</h3>
+                          <br><br>
+                          <p>The mission of the European Set Theory Society is to strengthen set-theoretical research and scholarship in Europe.
+                          Although its activities are centred in Europe, the Society is open to set theorists worldwide.
+                          </p>
+                          <br>
+
+                          <p>Set theory is the study of the mathematical infinite. It was born in the late 19th century with Georg Cantor’s
+                            mathematical theory of transfinite numbers, and after its axiomatization by Zermelo and others in the early
+                            20th century it developed into a general theory of infinite sets with numerous connections and applications in areas
+                            such as algebra, topology, real and complex analysis, functional analysis, measure theory, and theoretical computer science.
+                          </p>
+                          <br>
+
+                          <p>  In the last years, set theory has witnessed a renaissance with the creation of several new research groups
+                            and a substantial increase in the number of researchers.
+                          </p>
+
                       <!--<p style="border:1px; border-style:solid; border-color:var(--text-border-color);padding: 0.3em;">-->
                   </div>
                   <div class="right_container_small" id="news">
@@ -291,19 +307,24 @@
                   </div>
 
                   <div class="right_container_small" id="Sign_up">
+                  <h3>Become a member</h3>
+                  <p>
+                  <a href="become_a_member.html">Find out how to become a member</a>
+                  </p>
+                  </div>
+
+                  <div class="right_container_small" id="Sign_up">
                       <div class="left_container"><h3>Sign up</h3>
                       <br>
 
                       <p>  Sign up to receive ESTS blog posts by email
                       </p>
-                      <form action="#">
+
+                      <form>
                         <label for="newsletter"></label>
-                        <span>E-mail: </span>
-                        <!--<textarea type="text" id="newsletter" name="newsletter">text</textarea>-->
-                        <input type="text" id="newsletter" name="newsletter"/>
-                        <button type="submit">
-                        Subscribe
-                        </button>
+                        <span> Email </span>
+                        <input type="text" id="newsletter" name="newsletter" return false;>
+                        <button type="button" id="subscribe" name="subscribe">Submit</button>
                       </form>
 
 
