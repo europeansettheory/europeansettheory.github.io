@@ -4,23 +4,23 @@
 /* Header */
     --title-color: white; /* #ffba00;  yellow    #ffa500; yellow-orange */
     --text-header-color: white; /* #2c3863; */
-    --text-color-hover: #ffa500;
+    --text-color-hover: #ffa500; /* this is yellow */
 
 /* Text */
     --text-color: black;
-    --text-color-section-heading: #2c3863;
+    --text-color-section-heading: #2c3863; /* this is dark purple-blue */
 
 /* Footer */
     --text-color-footer: white;
 
 /* Need this? */
-    --text-border-color: #2c3863;
+    --text-border-color: #2c3863;  /* this is dark purple-blue */
 
 /* Background */
     --primary-background-color: white; /* #cfd7e3; grey   #F8F8FF; very light   #e4e9fa; #FFFAFA; #eaecfd; #eaedfa; #e6e9f9; */
-    --secondary-background-color: #276FAE; /* #226097; /*#4E80AC; /* dark blue /*#003366; /*#DCDCDC; #F8F8FF;*/
+    --secondary-background-color: #276fae; /* this is dark blue */ /* #226097; /*#4E80AC; /* dark blue /*#003366; /*#DCDCDC; #F8F8FF;*/
     --box-background-color: white;
-    --footer-background-color: #276FAE; /* #276FAE; /* same dark blue like for header/*#f4f0ec; /* #fdfdfc */
+    --footer-background-color: #276fae; /* this is dark blue */ /* #276FAE; /* same dark blue like for header/*#f4f0ec; /* #fdfdfc */
 }
 
 /* Global styles */
@@ -351,24 +351,23 @@ a:active {
 /* Form styles */
 
 input[type=text] {
-  width: 100%;
+  width: 50%;
+  margin: 0px 0;
   padding: 12px 20px;
-  margin: 8px 0;
   box-sizing: border-box;
-  border: 2px solid #276FAE;
-  border-radius: 4px;
+  border: 2px solid grey;
+  border-radius: 0px;
+  outline: none;
 }
 
 button[type=button] {
-  width: 30%;
-  padding: 4px 4px;
-  padding-left: 20px;
-  padding-right: 20px;
+  width: 20%;
+  margin-left: 0px;
   box-sizing: border-box;
-  border: 2px solid #276FAE;
-  border-radius: 1px;
+  border: 0px solid #ffa500;
+  border-radius: 0px;
   color: white;
-  background-color: #276FAE;
+  background-color: grey;
 }
 
 /*==============================================================================================================*/
