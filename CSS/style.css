@@ -346,6 +346,31 @@ a:active {
     margin: 2rem;
 }
 
+
+
+/* Form styles */
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #276FAE;
+  border-radius: 4px;
+}
+
+button[type=button] {
+  width: 30%;
+  padding: 4px 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  border: 2px solid #276FAE;
+  border-radius: 1px;
+  color: white;
+  background-color: #276FAE;
+}
+
 /*==============================================================================================================*/
 
 /* Footer containers*/
