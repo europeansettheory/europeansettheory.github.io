@@ -353,6 +353,11 @@ rect {
 
 /* Form styles */
 
+.newsletter_form {
+    display: flex;
+}
+
+
 input[type=text] {
   width: 50%;
   margin: 0px 0;
