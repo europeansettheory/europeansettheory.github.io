@@ -23,7 +23,7 @@ h1 {
     margin-left: 0rem; /*  50px; 47px; 20px; */
     padding-top: 1rem;
     padding-bottom: 2rem;
-    padding-left: 5.7rem;
+    padding-left: 6.4rem; /*increased by 0.7*/
     background: var(--secondary-background-color);
     gap: 2rem;
     flex-direction: row;
@@ -257,10 +257,12 @@ h1 {
     margin-bottom: 5rem;
 }
 
+.credits_container {
+    padding-left: 6.3rem; /*increased by 0.7*/
+}
+
 
 /* Applies to all check inputs whose id starts with "menu_option_"*/
 #nav_menu input[id *="menu_option"]:checked + span label.reset_label {
     display: block;
 }
-
-

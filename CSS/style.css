@@ -167,7 +167,7 @@ rect {
 /*    margin: 1rem; */
     margin-right: 1rem;
     padding: 0.4rem;
-        padding-left: 0.4rem;
+    padding-left: 1.4rem;
    /* height: 0px;*/ /*Why we added this line? this is the one responsible for non-dinamic neght of the menu. maybe in the desktop version we need it*/
 /*    height: 10vh; */
 }
