@@ -88,6 +88,9 @@ a:active {
     color: var(--text-color-hover);
 }
 
+rect {
+    fill:white;
+}
 
 /* Class styles */
 
@@ -404,4 +407,9 @@ button[type=button] {
 
 #landing_page_symbol {
     display: none;
+}
+
+
+#subnav_reset {
+    display:none;
 }

@@ -36,13 +36,11 @@
 
                   <svg class="menu" viewBox="0 0 100 80" width="40" height="40">
 
-                    <rect width="100" height="15" style="fill:white"></rect>
-                    <rect y="30" width="100" height="15" style="fill:white"></rect>
-                    <rect y="60" width="100" height="15" style="fill:white"></rect>
+                    <rect width="100" height="15"></rect>
+                    <rect y="30" width="100" height="15"></rect>
+                    <rect y="60" width="100" height="15"></rect>
                   </svg>
 
-<!--                    <svg class="menu" viewBox="0 0 384 512" width="100" title="times">
-                    </svg>    -->
 
                   <svg class="close" viewBox="0 0 100 80" width="40" height="40">
                     <line x1="40" y1="40"
@@ -55,25 +53,12 @@
                       stroke-width="100"/>
                   </svg>
 
-<!--                  <svg class="close" viewPort="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                    <line x1="1" y1="11"
-                      x2="11" y2="1"
-                      stroke="black"
-                      stroke-width="2"/>
-                    <line x1="1" y1="1"
-                      x2="11" y2="11"
-                      stroke="black"
-                      stroke-width="2"/>
-                  </svg>
-                  -->
 
-<!--                    <svg class="close" viewBox="0 0 384 512" width="100" title="times">
-                    </svg>  -->
 
                 </label>
 
                 <form>
-                <input type="reset" id="subnav_reset" style="display:none">
+                <input type="reset" id="subnav_reset">
 
                 <ul class="nav_menu" id="nav_menu">
 
@@ -87,11 +72,12 @@
                     <details class="nav_detailed">
                     <summary>About</summary>
                         <ul class="subnav_detailed">
-                            <li><a href="about_the_ESTS.html">About the ESTS</a></li>
                             <li><a href="mission.html">Mission Statement</a></li>
                             <li><a href="constitution.html">Constitution</a></li>
                             <li><a href="trustees.html">Trustees</a></li>
-                        </ul>
+                            <li><a href="become_a_member.html">Become a member</a></li>                            
+                            <li><a href="contact_us.html">Contact us</a></li>
+                            </ul>
                     </details>
 
                     <div  class="nav_dropdown">
@@ -101,41 +87,17 @@
                           <label for="subnav_reset" class="reset_label"></label>
                         </span>
 
-                        <div class="nav_dropdown_content" id="About_dropdown">
-                        <!-- id="nav_checkbox"> -->
-                            <a href="about_the_ESTS.html">About the ESTS</a>
+                        <div class="nav_dropdown_content">
                             <a href="mission.html">Mission Statement</a>
                             <a href="constitution.html">Constitution</a>
                             <a href="trustees.html">Trustees</a>
-                            <div class="nav_background_box"></div>
-                        </div>
-                    </div>
-                </li>
-
-                <li>
-                    <details class="nav_detailed">
-                    <summary>Contact</summary>
-                        <ul class="subnav_detailed">
-                            <li><a href="contact_us.html">Contact us</a></li>
-                            <li><a href="become_a_member.html">Become a member</a></li>
-                        </ul>
-                    </details>
-                    <div  class="nav_dropdown">
-                        <input type="radio" name="menu_option" id="menu_option_contact"  class="nav_menu_tablet">
-                        <span> Contact
-                          <label for="menu_option_contact" class="nav_menu_tablet_label"></label>
-                          <label for="subnav_reset" class="reset_label"></label>
-                        </span>
-
-                        <!--<label for="Contact" class="nav_menu_tablet_label">Contact</label>-->
-                        <!--<p class="nav_menu_desktop_label">Contact</p>-->
-                        <div class="nav_dropdown_content" id="Contact_dropdown">
-                            <a href="contact_us.html">Contact us</a>
                             <a href="become_a_member.html">Become a member</a>
+                            <a href="contact_us.html">Contact us</a>
                             <div class="nav_background_box"></div>
                         </div>
                     </div>
                 </li>
+
 
                 <li>
                     <details class="nav_detailed">
@@ -156,7 +118,7 @@
 
                         <!--<label for="Conferences" class="nav_menu_tablet_label">Conferences</label>-->
                         <!--<p class="nav_menu_desktop_label">Conferences</p>-->
-                        <div class="nav_dropdown_content" id="Conferences_dropdown">
+                        <div class="nav_dropdown_content">
                             <a href="ESTC_2022.html">ESTC 2022</a>
                             <a href="past_ESTC.html">Past ESTC's</a>
                             <a href="hausdorff_medals.html">Hausdorff medals</a>
@@ -185,7 +147,7 @@
 
                         <!--<label for="Resources" class="nav_menu_tablet_label">Resources</label>-->
                         <!--<p class="nav_menu_desktop_label">Resources</p>-->
-                        <div class="nav_dropdown_content" id="Resources_dropdown">
+                        <div class="nav_dropdown_content">
                             <a href="literature.html">Literature</a>
                             <a href="lecturenotes.html">Lecture notes</a>
                             <a href="videos.html">Videos</a>
@@ -216,7 +178,7 @@
 
                         <!--<label for="Blog" class="nav_menu_tablet_label">Blog</label>-->
                         <!--<p class="nav_menu_desktop_label">Blog</p><!--&#9663-->
-                        <div class="nav_dropdown_content" id="Blog_dropdown"> <!--CHECK px VALUE BY CALCULATING IT. MOVE THIS STYLE TO css? -->
+                        <div class="nav_dropdown_content">
                             <div class="nav_background_box_left"></div>
                             <a href="upcoming_talks.html">Upcoming talks</a>
                             <a href="past_talks.html">Past talks</a>
