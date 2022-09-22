@@ -52,3 +52,9 @@
 .right_subcontainer {
     width: 50%;
 }
+
+.center_container {
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-bottom: 5rem;
+}

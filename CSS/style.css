@@ -349,6 +349,11 @@ rect {
     margin: 2rem;
 }
 
+.center_container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+}
 
 
 /* Form styles */
