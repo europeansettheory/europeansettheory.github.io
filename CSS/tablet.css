@@ -23,7 +23,7 @@ h1 {
     margin-left: 0rem; /*  50px; 47px; 20px; */
     padding-top: 1rem;
     padding-bottom: 2rem;
-    padding-left: 6.4rem; /*increased by 0.7*/ 
+    padding-left: 6.4rem; /*increased by 0.7*/
     background: var(--secondary-background-color);
     gap: 2rem;
     flex-direction: row;
@@ -255,6 +255,10 @@ h1 {
     margin-left: 10rem;
     margin-right: 10rem;
     margin-bottom: 5rem;
+}
+
+.credits_container {
+    padding-left: 6.3rem; /*increased by 0.7*/
 }
 
 
