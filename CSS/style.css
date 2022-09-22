@@ -389,7 +389,7 @@ button[type=button] {
 
 .credits_container {
     height: 2rem;
-    padding: 2rem;
+    padding: 1.5rem;
     padding-left: 5.6rem;
     color: var(--text-color-footer);
 }
