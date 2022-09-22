@@ -184,11 +184,11 @@ rect {
     min-width: 12rem;
 }
 
-.nav_menu > li:first-child {
+/*.nav_menu > li:first-child {
     margin-right:auto;
     display: block;
     min-width: 0rem;
-}
+}*/
 
 .menu_logo {
     height: 3rem;
@@ -405,9 +405,9 @@ button[type=button] {
     display: none;
 }
 
-#landing_page_symbol {
+/*#landing_page_symbol {
     display: none;
-}
+}*/
 
 
 #subnav_reset {
