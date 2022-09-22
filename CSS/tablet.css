@@ -251,6 +251,13 @@ h1 {
 }
 
 
+.center_container {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+}
+
+
 /* Applies to all check inputs whose id starts with "menu_option_"*/
 #nav_menu input[id *="menu_option"]:checked + span label.reset_label {
     display: block;
