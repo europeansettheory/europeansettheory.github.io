@@ -69,6 +69,11 @@ h1 {
     color: var(--title-color); /*  color: white; */   /*Was not already defined by the global selector html*/
 }
 
+h2 {
+    font-family: Times;
+    color: var(--text-color-section-heading);
+}
+
 h3 {
     font-family: Times;
     font-size: 22px;
@@ -245,8 +250,12 @@ rect {
 /*==================================================================================================================================*/
 /* Body styles for specific items */
 
-.indent {
-    padding-left: 10rem;
+/* Indentation and padding for lists */
+.list {
+    padding-left: 7rem;
+}
+.list li {
+    padding-top: 1rem;
 }
 
 
