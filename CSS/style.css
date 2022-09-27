@@ -413,6 +413,10 @@ button[type=button] {
     color: var(--text-color-footer);
 }
 
+.credits_container a {
+    padding-left: 3rem;
+}
+
 
 /*==============================================================================================================*/
 
