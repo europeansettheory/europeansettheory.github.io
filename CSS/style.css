@@ -258,6 +258,10 @@ rect {
     padding-top: 1rem;
 }
 
+.figure_float {
+    padding-bottom: 5rem;
+    float:left;
+}
 
 
 
