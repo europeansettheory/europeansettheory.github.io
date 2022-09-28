@@ -15,7 +15,7 @@
         <link
             rel="stylesheet"
             href="./CSS/tablet.css"
-            media="screen and (min-width: 600px)"
+            media="screen and (min-width: 740px)"
         />
         <link
             rel="stylesheet"
@@ -26,254 +26,236 @@
     </head>
     <body>
 
-        <header>
-
+         <header>
 
             <nav class= "nav">
 
                 <input type="checkbox" name="" id="nav_checkbox"  class="nav_checkbox">
+
                 <label for="nav_checkbox" class="nav_toggle">
 
-                    <svg class="menu" viewBox="0 0 384 512" width="100" title="times">
-                    
-                    </svg>
+                  <svg class="menu" viewBox="0 0 100 80" width="40" height="40">
 
-                    <svg class="close" viewBox="0 0 384 512" width="100" title="times">
+                    <rect width="100" height="15"></rect>
+                    <rect y="30" width="100" height="15"></rect>
+                    <rect y="60" width="100" height="15"></rect>
+                  </svg>
 
-                    </svg>
+
+                  <svg class="close" viewBox="0 0 100 80" width="40" height="40">
+                    <line x1="40" y1="40"
+                      x2="50" y2="30"
+                      stroke="white"
+                      stroke-width="100"/>
+                    <line x1="40" y1="30"
+                      x2="50" y2="40"
+                      stroke="white"
+                      stroke-width="100"/>
+                  </svg>
+
+
 
                 </label>
 
-            <ul class="nav_menu">
+                                <form>
+                                <input type="reset" id="subnav_reset">
 
-                <li class="menu_logo">
-                    <img
-                        src="" alt=""
-                    />
-                    <a href="index.html">ESTS</a>
-                </li>
+                                <ul class="nav_menu" id="nav_menu">
 
-                <li>
-                    <details class="nav_detailed">
-                    <summary>Blog</summary>
-                        <ul class="subnav_detailed">
-                            <li><a href="upcoming_talks.html">Upcoming talks</a></li>
-                            <li><a href="past_talks.html">Past talks</a></li>
-                            <li><a href="mathematical_blog_posts.html">Mathematical blog posts</a></li>
-                            <li><a href="announcements.html">Announcements</a></li>
-                            <li><a href="jobs.html">Jobs</a></li>
-                        </ul>
-                    </details>
-                    <div  class="nav_dropdown">
-                        <input type="checkbox" name="" id="Blog_tab"  class="nav_menu_tablet">
-                        <label for="Blog_tab" class="nav_menu_tablet_label">Blog</label>
-                        <p class="nav_menu_desktop_label">Blog</p>
+                                 <li class="menu_logo" id="landing_page_symbol">
+                                    <img
+                                        src="" alt="">
 
+                                    <a href="#">ESTS</a>
+                                </li>
 
-                        <div class="nav_dropdown_content">
-                            <a href="upcoming_talks.html">Upcoming talks</a>
-                            <a href="past_talks.html">Past talks</a>
-                            <a href="mathematical_blog_posts.html">Mathematical blog posts</a>
-                            <a href="announcements.html">Announcements</a>
-                            <a href="jobs.html">Jobs</a>
-                        </div>
-                    </div>
-                </li>
+                                <li>
+                                    <details class="nav_detailed">
+                                    <summary>About</summary>
+                                        <ul class="subnav_detailed">
+                                            <li><a href="#">Mission Statement</a></li>
+                                            <li><a href="constitution.html">Constitution</a></li>
+                                            <li><a href="trustees.html">Trustees</a></li>
+                                            <li><a href="become_a_member.html">Become a member</a></li>
+                                            <li><a href="contact_us.html">Contact us</a></li>
+                                            </ul>
+                                    </details>
 
-                <li>
-                    <details class="nav_detailed">
-                    <summary>Conferences</summary>
-                        <ul class="subnav_detailed">
-                            <li><a href="ESTC_2022.html">ESTC 2022</a></li>
-                            <li><a href="past_ESTC.html">Past ESTC's</a></li>
-                            <li><a href="hausdorff_medals.html">Hausdorff medals</a></li>
-                        </ul>
-                    </details>
-                    <div  class="nav_dropdown">
-                        <input type="checkbox" name="" id="Conferences"  class="nav_menu_tablet">
-                        <label for="Conferences" class="nav_menu_tablet_label">Conferences</label>
-                        <p class="nav_menu_desktop_label">Conferences</p>
+                                    <div  class="nav_dropdown">
+                                        <input type="radio" name="menu_option" id="menu_option_about"  class="nav_menu_tablet">
+                                        <span> About
+                                          <label for="menu_option_about" class="nav_menu_tablet_label"></label>
+                                          <label for="subnav_reset" class="reset_label"></label>
+                                        </span>
+
+                                        <div class="nav_dropdown_content">
+                                            <a href="#">Mission Statement</a>
+                                            <a href="constitution.html">Constitution</a>
+                                            <a href="trustees.html">Trustees</a>
+                                            <a href="become_a_member.html">Become a member</a>
+                                            <a href="contact_us.html">Contact us</a>
+                                            <div class="nav_background_box"></div>
+                                        </div>
+                                    </div>
+                                </li>
 
 
-                        <div class="nav_dropdown_content">
-                            <a href="ESTC_2022.html">ESTC 2022</a>
-                            <a href="past_ESTC.html">Past ESTC's</a>
-                            <a href="hausdorff_medals.html">Hausdorff medals</a>
-                        </div>
-                    </div>
-                </li>
+                                <li>
+                                    <details class="nav_detailed">
+                                    <summary>Activities</summary>
+                                        <ul class="subnav_detailed">
+                                            <li><a href="conferences.html">Conference series</a></li>
+                                            <li><a href="hausdorff_medals.html">Hausdorff medals</a></li>
+                                            <li><a href="world_talks.html">Worldwide talks</a></li>
+                                        </ul>
+                                    </details>
+                                    <div  class="nav_dropdown">
+                                        <input type="radio" name="menu_option" id="menu_option_activities"  class="nav_menu_tablet">
 
-                <li>
-                    <details class="nav_detailed">
-                    <summary>Resources</summary>
-                        <ul class="subnav_detailed">
-                            <li><a href="literature.html">Literature</a></li>
-                            <li><a href="links.html">Links</a></li>
-                        </ul>
-                    </details>
-                    <div  class="nav_dropdown">
-                        <input type="checkbox" name="" id="Resources"  class="nav_menu_tablet">
-                        <label for="Resources" class="nav_menu_tablet_label">Resources</label>
-                        <p class="nav_menu_desktop_label">Resources</p>
+                                        <span> Activities
+                                          <label for="menu_option_activities" class="nav_menu_tablet_label"></label>
+                                          <label for="subnav_reset" class="reset_label"></label>
+                                        </span>
 
+                                        <div class="nav_dropdown_content">
+                                            <a href="conferences.html">Conference series</a>
+                                            <a href="hausdorff_medals.html">Hausdorff medals</a>
+                                            <a href="world_talks.html">Worldwide talks</a>
+                                            <div class="nav_background_box"></div>
+                                        </div>
+                                    </div>
+                                </li>
 
-                        <div class="nav_dropdown_content">
-                            <a href="literature.html">Literature</a>
-                            <a href="links.html">Links</a>
-                        </div>
-                    </div>
-                </li>
+                                <li>
+                                    <details class="nav_detailed">
+                                    <summary>Resources</summary>
+                                        <ul class="subnav_detailed">
+                                            <li><a href="literature.html">Literature</a></li>
+                                            <li><a href="lecturenotes.html">Lecture notes</a></li>
+                                            <li><a href="videos.html">Videos</a></li>
+                                            <li><a href="links.html">Links</a></li>
+                                        </ul>
+                                    </details>
+                                    <div  class="nav_dropdown">
+                                        <input type="radio" name="menu_option" id="menu_option_resources"  class="nav_menu_tablet">
 
-                <li>
-                    <details class="nav_detailed">
-                    <summary>Contact</summary>
-                        <ul class="subnav_detailed">
-                            <li><a href="#">Contact us</a></li>
-                            <li><a href="become_a_member.html">Become a member</a></li>
-                        </ul>
-                    </details>
-                    <div  class="nav_dropdown">
-                        <input type="checkbox" name="" id="Contact"  class="nav_menu_tablet">
-                        <label for="Contact" class="nav_menu_tablet_label">Contact</label>
-                        <p class="nav_menu_desktop_label">Contact</p>
-
-
-                        <div class="nav_dropdown_content">
-                            <a href="#">Contact us</a>
-                            <a href="become_a_member.html">Become a member</a>
-                        </div>
-                    </div>
-                </li>
+                                        <span> Resources
+                                          <label for="menu_option_resources" class="nav_menu_tablet_label"></label>
+                                          <label for="subnav_reset" class="reset_label"></label>
+                                        </span>
 
 
-                <li>
-                    <details class="nav_detailed">
-                    <summary>About</summary>
-                        <ul class="subnav_detailed">
-                            <li><a href="about_the_ESTS.html">About the ESTS</a></li>
-                            <li><a href="mission.html">Mission Statement</a></li>
-                            <li><a href="constitution.html">Constitution</a></li>
-                            <li><a href="trustees.html">Trustees</a></li>
-                        </ul>
-                    </details>
-                    <div  class="nav_dropdown">
-                        <input type="checkbox" name="" id="About"  class="nav_menu_tablet">
-                        <label for="About" class="nav_menu_tablet_label">About</label>
-                        <p class="nav_menu_desktop_label">About</p>
+                                        <div class="nav_dropdown_content">
+                                            <a href="literature.html">Literature</a>
+                                            <a href="lecturenotes.html">Lecture notes</a>
+                                            <a href="videos.html">Videos</a>
+                                            <a href="links.html">Links</a>
+                                            <div class="nav_background_box"></div>
+                                        </div>
+                                    </div>
+                                </li>
 
-                        
-                        <div class="nav_dropdown_content">
-                            <a href="about_the_ESTS.html">About the ESTS</a>
-                            <a href="mission.html">Mission Statement</a>
-                            <a href="constitution.html">Constitution</a>
-                            <a href="trustees.html">Trustees</a>
+                                <li>
+                                    <details class="nav_detailed">
+                                    <summary>Blog</summary>
+                                        <ul class="subnav_detailed">
+                                            <li><a href="all_blog_posts.html">All blog posts</a></li>
+                                            <li><a href="mathematical_blog_posts.html">Mathematical blog posts</a></li>
+                                            <li><a href="jobs.html">Job listings</a></li>
+                                        </ul>
+                                    </details>
+                                    <div class="nav_dropdown">
+                                        <input type="radio" name="menu_option" id="menu_option_announcements"  class="nav_menu_tablet">
 
-                        </div>
-                    </div>
-                </li>
-            
-            </ul>
+                                        <span> Blog
+                                          <label for="menu_option_announcements" class="nav_menu_tablet_label"></label>
+                                          <label for="subnav_reset" class="reset_label"></label>
+                                        </span>
 
-            </nav>
+                                        <div class="nav_dropdown_content">
+                                            <div class="nav_background_box_left"></div>
+                                            <a href="all_blog_posts.html">All blog posts</a>
+                                            <a href="mathematical_blog_posts.html">Mathematical blog posts</a>
+                                            <a href="jobs.html">Job listings</a>
+                                            <div class="nav_background_box"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <details class="nav_detailed">
+                                    <summary><a href="index.html">Home</a></summary>
+                                    </details>
+
+                                    <div class="nav_dropdown">
+                                        <input type="radio" name="menu_option" id="menu_option_announcements"  class="nav_menu_tablet">
+
+                                        <span> <a href="index.html">Home</a>
+                                        </span>
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                            </form>
+
 
             <div class="main_title">
-                <!--<div style="float:center"><img src="omega.png" width=50 height=50></img></div>-->
                 <div class="main_container_title">
-                    <div class="left_container">
-                     <!--   <img src="infinite_stairwell_span02.jpg" width=50% height=79%>-->
-                    </div>
-                    
-                    <div class="right_container">
-                        <h1>European Set Theory Society</h1>
-                        <br>
-                        <p>Society for Research on the Mathematical Infinite</p>
-                    </div>
-                    
+                  <div class="top_left_container">
+                    <h1>European Set Theory Society</h1>
+                    <br><p >Society for set-theoretical research and scholarship</p>
+                  </div>
+
                 </div>
-                
             </div>
+        </nav>
 
         </header>
-        
+
 
         <main>
             <div class="main_container">
 
-                <div class="left_container">
-                    <div class="left_container_small">
-                        <h2>Contact us</h2>
-                    
-                        <p>                            
-                            To publish an announcement or to comment on the website, please write to the webmaster Philipp Schlicht at schlicht@math.uni-bonn.de.
-                            <br>
-                            For any other matter, please write to any of the Trustees mentioned in the sections 1-5 of the list of Trustees.
-                        </p>
-                        
-                    </div>
-                    <div class="left_container_small">
-                        <h2>Physical Address</h2>
-                        
-                        <p>
-                            As we don’t handle physical mail, please contact us by email only.
-                            <br>
-                            European Set Theory Society c/o Jouko Väänänen, Department of Mathematics and Statistics, P.O.Box 68, FI-00014 University of Helsinki, Finland
-                        </p>
-                        
-                    </div>
-                    
-                </div>
+                <div class="center_container">
 
-                <div class="right_container">
-                  <div class="right_container_small" id="news">
-                      <div class="left_container"><h3>News</h3></div>
-                        <div class="left_subcontainer">
-                          <img src="./images/Turin_monte_cappuccini.jpg" width=100%>
-                        </div>
-                        <div class="right_subcontainer">
-                          The European Set Theory Conference 2022 will take place in Torino from 29 August—2 September, 2022
-                        </div>
-                  </div>
-                  <div class="right_container_small">
-                      <h3>About</h3>
-                      <br><br>
-                      <p>The mission of the European Set Theory Society is to strengthen set-theoretical research and scholarship in Europe.
-                      Although its activities are centred in Europe, the Society is open to set theorists worldwide.
-                    </p>
-                    <br>
+                      <h2>Contact us</h2>
 
-                      <p>Set theory is the study of the mathematical infinite. It was born in the late 19th century with Georg Cantor’s
-                        mathematical theory of transfinite numbers, and after its axiomatization by Zermelo and others in the early
-                        20th century it developed into a general theory of infinite sets with numerous connections and applications in areas
-                        such as algebra, topology, real and complex analysis, functional analysis, measure theory, and theoretical computer science.
-                      </p>
                       <br>
+                      <h4>Email</h4>
 
-                      <p>  In the last years, set theory has witnessed a renaissance with the creation of several new research groups
-                        and a substantial increase in the number of researchers.
+
+                      <p>
+                          To publish an announcement or to comment on the website, please write to Philipp Schlicht at philipp.schlicht@bristol.ac.uk.
+                          <br><br>
+                          For any other matter, please write to any of the Trustees.
                       </p>
-                  </div>
+
+
+                      <h4>Physical Address</h4>
+
+                      <p>
+                          Please contact us by email only, as we don’t handle physical mail.
+                          <br><br>
+                          European Set Theory Society c/o Jouko Väänänen, Department of Mathematics and Statistics, P.O.Box 68, FI-00014 University of Helsinki, Finland
+                      </p>
 
                 </div>
+
+
 
             </div>
 
         </main>
 
 
-
-
         <footer>
             <div class="credits_container">
-                ESTS 2022
+              <span>Copyright European Set Theory Society 2022</span>
+              <a href="credits.html">Credits</a>
             </div>
         </footer>
 
     </body>
 
 </html>
-                    
-
-                    
-
-                    
-

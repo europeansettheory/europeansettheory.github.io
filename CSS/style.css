@@ -3,22 +3,25 @@
 :root {
 /* Header */
     --title-color: white; /* #ffba00;  yellow    #ffa500; yellow-orange */
-    --text-header-color: #002F6C; /* #2c3863; */
+    --text-header-color: black; /* navy blue */ /* #2c3863; */
     --text-color-hover: #ffa500; /* this is yellow */
+
+/* #ffaa1d */ /* Bright Yellow (Crayola) */
+/* #002f6c; */ /* navy blue */
 
 /* Text */
     --text-color: black;
     --text-color-section-heading: #2c3863; /* this is dark purple-blue */
 
 /* Footer */
-    --text-color-footer: white;
+    --text-color-footer: black;
 
 /* Need this? */
     --text-border-color: #2c3863;  /* this is dark purple-blue */
 
 /* Background */
     --primary-background-color: white; /* #cfd7e3; grey   #F8F8FF; very light   #e4e9fa; #FFFAFA; #eaecfd; #eaedfa; #e6e9f9; */
-    --secondary-background-color: white; /* this is dark blue */ /* #226097; /*#4E80AC; /* dark blue /*#003366; /*#DCDCDC; #F8F8FF;*/
+    --secondary-background-color: #276fae; /* this is dark blue */ /* #226097; /*#4E80AC; /* dark blue /*#003366; /*#DCDCDC; #F8F8FF;*/
     --box-background-color: white;
     --footer-background-color: #276fae; /* this is dark blue */ /* #276FAE; /* same dark blue like for header/*#f4f0ec; /* #fdfdfc */
 }
