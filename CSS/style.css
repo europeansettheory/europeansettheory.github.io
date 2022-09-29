@@ -21,7 +21,7 @@
 
 /* Background */
     --primary-background-color: #fafafa; /* light grey */ /* #fff8e7; */ /* light yellow */ /* #cfd7e3; grey   #F8F8FF; very light   #e4e9fa; #FFFAFA; #eaecfd; #eaedfa; #e6e9f9; */
-    --secondary-background-color: #636363; /* #276fae; */ /* this is dark blue */ /* #226097; /*#4E80AC; /* dark blue /*#003366; /*#DCDCDC; #F8F8FF;*/
+    --secondary-background-color: #315880; /* #636363; */ /* #276fae; */ /* this is dark blue */ /* #226097; /*#4E80AC; /* dark blue /*#003366; /*#DCDCDC; #F8F8FF;*/
     --box-background-color: white;
     --footer-background-color:#fafafa; /* #276FAE; /* same dark blue like for header/*#f4f0ec; /* #fdfdfc */
 }
@@ -284,7 +284,7 @@ rect {
 .main_container {
     margin: 2rem 2rem 2rem 2rem;
     font-size: 1.6rem;
-    text-align: justify; /* responsible for justify versus left align in main container */ 
+    text-align: justify; /* responsible for justify versus left align in main container */
 }
 
 .main_container p {
