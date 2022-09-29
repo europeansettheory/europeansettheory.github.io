@@ -1,2 +1,6 @@
-*.JSON
+*.json
 .DS_Store
+*.js
+src/*
+public/*
+node_modules/*

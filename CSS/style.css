@@ -434,6 +434,14 @@ button[type=button] {
 
 /* Id styles */
 
+#cntrolContainer {
+    background-color: #276fae;
+    text-align: left;
+    display: block;
+    padding: 10px;
+    color: white;
+}
+
 #nav_checkbox:checked ~ form > ul.nav_menu li {
     display: block;
 }
