@@ -264,7 +264,7 @@ rect {
 
 /* Indentation and padding for lists */
 .list {
-    padding-left: 7rem;
+    padding-left: 2rem;
 }
 .list li {
     padding-top: 1rem;
@@ -382,7 +382,6 @@ rect {
     margin-left: 3rem;
     margin-right: 3rem;
     margin-bottom: 3rem;
-    padding: 6rem;
     background-color: white; /* #fff8e7; */ /* #fff8dc; */ /* #fae7b5; */
 }
 

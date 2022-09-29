@@ -211,6 +211,19 @@ h1 {
 
 
 /*====================================================================================================================*/
+/* Body styles for specific items */
+
+/* Indentation and padding for lists */
+.list {
+    padding-left: 7rem;
+}
+.list li {
+    padding-top: 1rem;
+}
+
+
+/*==================================================================================================================================*/
+
 
 /* Body containers styles */
 
@@ -256,6 +269,7 @@ h1 {
     margin-left: 10rem;
     margin-right: 10rem;
     margin-bottom: 5rem;
+    padding-top: 8rem;
 }
 
 .credits_container {
