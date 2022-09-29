@@ -21,7 +21,7 @@
 
 /* Background */
     --primary-background-color: #fafafa; /* light grey */ /* #fff8e7; */ /* light yellow */ /* #cfd7e3; grey   #F8F8FF; very light   #e4e9fa; #FFFAFA; #eaecfd; #eaedfa; #e6e9f9; */
-    --secondary-background-color: #315880; /* #636363; */ /* #276fae; */ /* this is dark blue */ /* #226097; /*#4E80AC; /* dark blue /*#003366; /*#DCDCDC; #F8F8FF;*/
+    --secondary-background-color: #315880; /* very dark blue */ /* #636363; */ /* #276fae; */ /* this is dark blue */ /* #226097; /*#4E80AC; /* dark blue /*#003366; /*#DCDCDC; #F8F8FF;*/
     --box-background-color: white;
     --footer-background-color:#fafafa; /* #276FAE; /* same dark blue like for header/*#f4f0ec; /* #fdfdfc */
 }
@@ -50,7 +50,8 @@ header {
     font-family: Sans-serif;
     font-size: 1.8rem;
     color: var(--text-header-color);  /* dark blue #FF4500; #FF4500; #FFE4B5; #F4A460; #4682b4; */
-    background-image: url(../images/birch_finland_kilpisjarvi_lake_and_trees_during_fall_hd_nature-2560x1440_crop1.jpg);
+    background-color: #315880; 
+/*    background-image: url(../images/birch_finland_kilpisjarvi_lake_and_trees_during_fall_hd_nature-2560x1440_crop1.jpg); */
     /* url(../images/P1271882_01_test3.png);  url(../images/P1271882_01.jpg); */
     background-size: cover;
     padding-top: 0vw;
