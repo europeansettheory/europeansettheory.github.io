@@ -59,7 +59,7 @@ header {
 }
 
 footer {
-    font-family: Sans-serif; 
+    font-family: Sans-serif;
     font-size: 1.2rem;
     text-align: left;
     background-color: var(--footer-background-color); /* #ffcb77; */
@@ -283,6 +283,7 @@ rect {
 }
 
 .main_container {
+    font-family: Times; 
     margin: 2rem 2rem 2rem 2rem;
     font-size: 1.6rem;
     text-align: justify; /* responsible for justify versus left align in main container */
