@@ -50,7 +50,7 @@ header {
     font-family: Sans-serif;
     font-size: 1.8rem;
     color: var(--text-header-color);  /* dark blue #FF4500; #FF4500; #FFE4B5; #F4A460; #4682b4; */
-    background-color: #315880; 
+    background-color: #315880;
 /*    background-image: url(../images/birch_finland_kilpisjarvi_lake_and_trees_during_fall_hd_nature-2560x1440_crop1.jpg); */
     /* url(../images/P1271882_01_test3.png);  url(../images/P1271882_01.jpg); */
     background-size: cover;
@@ -59,7 +59,7 @@ header {
 }
 
 footer {
-    font-family: Sans-serif;
+    font-family: Sans-serif; 
     font-size: 1.2rem;
     text-align: left;
     background-color: var(--footer-background-color); /* #ffcb77; */
@@ -74,12 +74,12 @@ h1 {
 }
 
 h2 {
-    font-family: Times;
+    font-family: Arial; /*Times; */
     color: var(--text-color-section-heading);
 }
 
 h3 {
-    font-family: Times;
+    font-family: Arial; /*Times; */
     font-size: 22px;
     color: var(--text-color-section-heading);
 }
