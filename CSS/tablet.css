@@ -9,8 +9,8 @@ header {
 /* Global styles */
 
 h1 {
-    font-size: 4.2rem;
-    font-weight: 1100;
+    font-size: 4.3rem;  /* 4.2rem; */
+    font-weight: 900;  /* 1100; */
 }
 
 /* Navigation styles */
