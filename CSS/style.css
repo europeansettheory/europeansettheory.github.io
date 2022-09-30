@@ -41,13 +41,13 @@ body {
 }
 
 html {
-    font-size: 62.5%;
+    font-size:  62.5%; /* 58%; */
     color: var(--text-color);
     background: var(--primary-background-color);
 }
 
 header {
-    font-family: Sans-serif;
+    font-family: 'Quicksand';
     font-size: 1.8rem;
     color: var(--text-header-color);  /* dark blue #FF4500; #FF4500; #FFE4B5; #F4A460; #4682b4; */
     background-color: #315880;
@@ -59,7 +59,7 @@ header {
 }
 
 footer {
-    font-family: Sans-serif;
+    font-family: 'Quicksand';
     font-size: 1.2rem;
     text-align: left;
     background-color: var(--footer-background-color); /* #ffcb77; */
@@ -67,19 +67,19 @@ footer {
 }
 
 h1 {
-    font-family: Arial; /*"Comic Sans MS"; Times; Arial */  /*Add second options for the font*/
+    font-family: 'Quicksand'; /* Arial; */ /*"Comic Sans MS"; Times; Arial */  /*Add second options for the font*/
     font-size: 32px;
-    font-weight: 1000;
+    font-weight: bold;
     color: var(--title-color); /*  color: white; */   /*Was not already defined by the global selector html*/
 }
 
 h2 {
-    font-family: Arial; /*Times; */
+    font-family: 'Quicksand'; /*Arial; /*Times; */
     color: var(--text-color-section-heading);
 }
 
 h3 {
-    font-family: Arial; /*Times; */
+    font-family: 'Quicksand'; /* 'Libre Baskerville'; /* Arial; /*Times; */
     font-size: 22px;
     color: var(--text-color-section-heading);
 }
@@ -283,7 +283,7 @@ rect {
 }
 
 .main_container {
-    font-family: Times; 
+    font-family: 'Quicksand'; /* 'Libre Baskerville'; /* -apple-system; */
     margin: 2rem 2rem 2rem 2rem;
     font-size: 1.6rem;
     text-align: justify; /* responsible for justify versus left align in main container */
@@ -379,7 +379,9 @@ rect {
 }
 
 .center_container {
+    font-family: 'Quicksand'; /* 'Libre Baskerville'; */
     width: 70vw;
+    padding: 6rem;
     margin-left: 3rem;
     margin-right: 3rem;
     margin-bottom: 3rem;
