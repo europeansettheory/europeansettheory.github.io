@@ -50,7 +50,7 @@ function PLOT(data){
     conf.append("td").text(d=> d.Information)
     conf.append("tr")    
     conf.append("td").text( "Repository: " ).style("font-weight", "bold")    
-    conf.append("td").append("a").text("Link").attr("href", d=> {d.Repository})
+    conf.append("td").append("a").text("Link").attr("href", d=> d.Repository)
 }
 let timefilter="all"
 //"Unique_Index";"Seminar";"Time";"Speaker";"Title";"Abstract";"Information"
