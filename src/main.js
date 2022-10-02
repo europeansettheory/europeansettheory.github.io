@@ -36,7 +36,10 @@ function PLOT(data){
     conf.append("td").text(d=> d.Time_local)
     conf.append("tr")
     conf.append("td").text("UT Time: " ).style("font-weight", "bold")    
-    conf.append("td").text(d=>getUTC(d.Time_UT))
+    conf.append("td").text(d=>{
+       // console.log(String(d.Time_UT).split(" ").splice(0,5).join(" ").split(":").splice(0,2).join(":") )
+        return String(d.Time_UT).split(" ").splice(0,5).join(" ").split(":").splice(0,2).join(":")
+    })
     conf.append("tr")
     conf.append("td").text("Title:  ").style("font-weight", "bold")    
     conf.append("td").text(d=> d.Title)
@@ -157,6 +160,8 @@ function getUTC(today){
     let yyyy = today.getUTCFullYear();
     let h=String(today.getUTCHours())
     let m=String(today.getUTCMinutes())
+    console.log(today)
+    console.log(today.getUTCHours())
     //let s=String(today.getUTCSeconds())
     let today2 = mm + '/' + dd + '/' + yyyy+", "+ h + ':' + m //+ ':' + s;
     return  today2
