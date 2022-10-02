@@ -380,7 +380,7 @@ rect {
 
 .center_container {
     font-family: 'Quicksand'; /* 'Libre Baskerville'; */
-     width: 70vw;
+     /*width: 70vw;*/
      margin-left: 3rem; 
      margin-right: 3rem; 
     margin-bottom: 3rem;
@@ -436,23 +436,8 @@ button[type=button] {
 
 /* Id styles */
 
-#cntrolContainer { /* Anda*/
-    background-color: #276fae;
-    text-align: left;
-    display: block;
-    padding: 10px;
-    color: white;
-}
-#confe {/* Anda*/
-    text-align: center;
-    max-width: 2000px;
-    margin: auto;
-    background-color: #276fae;
-    color: white;
-    padding: 3px;
-    font-size: larger
-  
-  }
+
+
 
 #nav_checkbox:checked ~ form > ul.nav_menu li {
     display: block;
@@ -480,38 +465,49 @@ button[type=button] {
 }
 
 
-.radio {
+.radio {/* Anda*/
     display:flex;
 }
 
-#fullScreenContainer {
+#fullScreenContainer {/* Anda*/
     text-align: left;
 }
 
-#controlContainer {
-    background-color: #276fae; 
+#controlContainer {/* Anda*/
+    background-color: #315880; 
     padding:10pt; 
     color:white; 
+    display: block;
     text-align: left;
 }
 
-.forminput {
+.forminput { /* Anda*/
     padding:3pt;
 }
 
-.searchdiv {
+.searchdiv {/* Anda*/
     width: 90%;
     text-align: right;
 }
 
-#visContainer {
+#visContainer {/* Anda*/
     text-align: left; 
     max-width: 2000; 
     margin: auto;
 }
 
-#confe {
+#confe {/* Anda*/
     text-align: center;
     max-width: 2000px; 
     margin: auto;
 }
+#confe {/* Anda*/
+    text-align: center;
+    max-width: 2000px;
+    margin: auto;
+    background-color: #315880;
+    color: white;
+    padding: 3px;
+    font-size: larger
+  
+  }
