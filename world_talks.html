@@ -209,20 +209,44 @@
 
         <main>
             <div class="main_container">
-
                 <div class="center_container">
-
-                        <h2>Worldwide talks</h2>
 <!--
-
 JS code
-
 -->
-
-                </div>
+                    <script src="https://d3js.org/d3.v7.min.js"></script>
+                    <!-- <div class="main_container" style="display:block"> -->
+                    <div id="fullScreenContainer"  style="text-align: left">
+                        <div id="controlContainer"  style="background-color: #276fae; padding:10pt; color:white; text-align: left">    
+                        <div class="radio"   style="display:flex">
+                            <div class="forminput" style="padding:3pt"><input type="radio" name="talk" value="upcoming">Upcoming Talks</div> <!--  checked="true"  -->
+                            <div class="forminput" style="padding:3pt"><input type="radio" name="talk"  value="past">Past Talks</div>  
+                            <div class="forminput" style="padding:3pt"><input type="radio" name="talk"   checked="true"  value="all">All Talks</div>
+                        </div>
+                            <div class="searchdiv" style="width: 90%;text-align: right">
+                            <input  class="searchparam" type="text" name="searchparam"   value=" ">  
+                            <select class="searchtype" name="searchtype" aria-label="Field to Search">
+                                <!--<option value="all" selected="selected">All Fields</option> -->
+                                <option value="Speaker" >Speaker</option>
+                                <option value="Title" >Title</option>
+                                <option value="Abstract" >Abstract</option>
+                            </select>   
+                            <button id="searchb">Search</button> 
+                            </div>     
+                        </div>    
+                                                    
+                        <div id="visContainer" style='text-align: left; max-width: 2000; margin: auto;'>
+                                    <p id="confe" style='text-align: center;max-width: 2000px; margin: auto;'>See the results here</div>
+                        </div>
+                    </div>
+                
+                    <script language="JavaScript" src="../JS/main.js"></script>
+<!--
+JS code
+-->
+               </div>
             </div>
 
-
+        
         </main>
 
 
