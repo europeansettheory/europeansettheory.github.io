@@ -1,4 +1,9 @@
 # ESTS_webpage
+## To start this project in development mode, please run:
+
+  `npm install`  
+  `npm start`
+
 
 ## Front-end 
 The fron-end consist of three kind of files images, CSS, and HTML. The front-end of the webpage is design as mobile-first, meaning that every functionality and content added to the front-end is added and implemented first to the mobile version, later on it is adapted to the tablet version, at the end it is adapted to the desktop version. The front-end must be tested in different devices and different browsers.

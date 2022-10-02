@@ -437,13 +437,23 @@ button[type=button] {
 
 /* Id styles */
 
-#cntrolContainer {
+#cntrolContainer { /* Anda*/
     background-color: #276fae;
     text-align: left;
     display: block;
     padding: 10px;
     color: white;
 }
+#confe {/* Anda*/
+    text-align: center;
+    max-width: 2000px;
+    margin: auto;
+    background-color: #276fae;
+    color: white;
+    padding: 3px;
+    font-size: larger
+  
+  }
 
 #nav_checkbox:checked ~ form > ul.nav_menu li {
     display: block;
