@@ -5,8 +5,7 @@ import * as d3 from "d3"
 function preparePlotArea(elementName, notificationContent = 'Loading...') {              
     let container = d3.select(elementName)
     container.selectAll('div') 
-    .remove()    
-    //container.selectAll("p").remove()
+    .remove()   
 }
 
 // function for showing the data
@@ -57,8 +56,7 @@ let timefilter="all"
 //"Unique_Index";"Seminar";"Time";"Speaker";"Title";"Abstract";"Information"
 function ShowData(data){
     preparePlotArea(visContainer)
-    d3.select("#confe").text("Showing all talks")
-    
+    d3.select("#confe").text("Showing all talks")    
     data.forEach(d=>{
         d.Time_UT=new Date(d.Time_UT)
     })  
@@ -87,13 +85,10 @@ function filter_parameters(data){
                 })
                
                 preparePlotArea(visContainer)
-                d3.select("#confe").text("Showing search results")
-                
+                d3.select("#confe").text("Showing search results")                
                 let rb=document.querySelectorAll('input[type=radio][name=talk]:checked')
-                //console.log(rb)
                 if (rb.length!=0)
                     {rb[0].checked=false}
-
                 PLOT(data2)
                
         
@@ -104,51 +99,35 @@ function filter_parameters(data){
 
     document.querySelectorAll('.forminput').forEach((item) => {
         item.addEventListener('change', (event) => {
-            timefilter = item.lastElementChild.value
-            //console.log(timefilter)
+            timefilter = item.lastElementChild.value            
             let rb=document.querySelectorAll('input[type=text][name=searchparam]')
-                //console.log(rb)
                 if (rb.length!=0)
                     {rb[0].value=""}
-
-            //return timefilter
-            if (timefilter=="upcoming"){//still to filter
+            if (timefilter=="upcoming"){
                 let datafuture = data.sort((d,e)=>   d.Time_UT-e.Time_UT)  
                 let fd=datafuture.filter((d) => {
                     let today=getUTC(new Date())
                     return d.Time_UT-new Date(today)>=0})
                 console.log(fd)
-                preparePlotArea(visContainer)
-                
-                    d3.select("#confe").text("Showing upcoming talks")
-    
-                PLOT(fd)
-            }
-            else if (timefilter=="past"){//still to filter
+                preparePlotArea(visContainer)                
+                d3.select("#confe").text("Showing upcoming talks")    
+                PLOT(fd)            }
+            else if (timefilter=="past"){
                 let datapast = data.sort((d,e)=> e.Time_UT-d.Time_UT)  
 
-                let fd=datapast.filter((d) => {
-                    
-                    let today=getUTC(new Date())
-                   
+                let fd=datapast.filter((d) => {                    
+                    let today=getUTC(new Date())                   
                     return d.Time_UT-new Date(today)<=0})
-
-                console.log(fd)
-               
                 preparePlotArea(visContainer)
-                d3.select("#confe").text("Showing past talks")
-                
+                d3.select("#confe").text("Showing past talks")                
                 PLOT(fd)
                 }
-            else if (timefilter=="all"){  //why is the order different at loading and after the selection?????
-
+            else if (timefilter=="all"){
                 data.sort((d,e)=> e.Time_UT-d.Time_UT) 
                 preparePlotArea(visContainer)
-                d3.select("#confe").text("Showing all Talks")
-            
+                d3.select("#confe").text("Showing all Talks")            
                 PLOT(data)
             }
-            //PLOT(data)
         })
     })
     
@@ -160,20 +139,15 @@ function getUTC(today){
     let yyyy = today.getUTCFullYear();
     let h=String(today.getUTCHours())
     let m=String(today.getUTCMinutes())
-    console.log(today)
-    console.log(today.getUTCHours())
-    //let s=String(today.getUTCSeconds())
     let today2 = mm + '/' + dd + '/' + yyyy+", "+ h + ':' + m //+ ':' + s;
     return  today2
-
 }
 
 function start() {   
     let current_time = new Date(getUTC(new Date()));
     console.log(current_time)
     d3.text("data.csv").then(d => {
-        let  a = d3.csvParse(d)    
-        
+        let  a = d3.csvParse(d)           
         ShowData(a)
     })
 }
