@@ -7,7 +7,7 @@
 
 :root {
 /* Header */
-    --title-color: #002f6c; /* navy blue */ /* #ffba00;  yellow    #ffa500; yellow-orange */
+    --title-color: black; /* #ffaa1d; /* Bright Yellow (Crayola) */ /* #002f6c; /* navy blue */ /* #ffba00;  yellow    #ffa500; yellow-orange */
     --text-header-color: white; /* #2c3863; */
     --text-color-hover: #ffa500; /* this is yellow */
 
@@ -54,7 +54,7 @@ html {
 
 header {
     font-family: 'Cormorant';
-    font-size: 1.8rem;
+    font-size: 2.0rem; /* 1.8rem; */
     color: var(--text-header-color);  /* dark blue #FF4500; #FF4500; #FFE4B5; #F4A460; #4682b4; */
     background-color: var(--header-background-color); /* #315880; */
 /*    background-image: url(../images/birch_finland_kilpisjarvi_lake_and_trees_during_fall_hd_nature-2560x1440_crop1.jpg); */
