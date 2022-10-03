@@ -1,3 +1,8 @@
+/* Import google fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant&display=swap');
+/* Quicksand */
+
 /* Color variables */
 
 :root {
@@ -48,7 +53,7 @@ html {
 }
 
 header {
-    font-family: 'Quicksand';
+    font-family: 'Cormorant';
     font-size: 1.8rem;
     color: var(--text-header-color);  /* dark blue #FF4500; #FF4500; #FFE4B5; #F4A460; #4682b4; */
     background-color: var(--header-background-color); /* #315880; */
@@ -60,7 +65,7 @@ header {
 }
 
 footer {
-    font-family: 'Quicksand';
+    font-family: 'Cormorant';
     font-size: 1.2rem;
     text-align: left;
     background-color: var(--footer-background-color); /* #ffcb77; */
@@ -68,19 +73,19 @@ footer {
 }
 
 h1 {
-    font-family: 'Quicksand'; /* Arial; */ /*"Comic Sans MS"; Times; Arial */  /*Add second options for the font*/
+    font-family: 'Cormorant'; /* Arial; */ /*"Comic Sans MS"; Times; Arial */  /*Add second options for the font*/
     font-size: 32px;
     font-weight: bold;
     color: var(--title-color); /*  color: white; */   /*Was not already defined by the global selector html*/
 }
 
 h2 {
-    font-family: 'Quicksand'; /*Arial; /*Times; */
+    font-family: 'Cormorant'; /*Arial; /*Times; */
     color: var(--text-color-section-heading);
 }
 
 h3 {
-    font-family: 'Quicksand'; /* 'Libre Baskerville'; /* Arial; /*Times; */
+    font-family: 'Cormorant'; /* 'Libre Baskerville'; /* Arial; /*Times; */
     font-size: 22px;
     color: var(--text-color-section-heading);
 }
@@ -284,7 +289,7 @@ rect {
 }
 
 .main_container {
-    font-family: 'Quicksand'; /* 'Libre Baskerville'; /* -apple-system; */
+    font-family: 'Cormorant'; /* 'Libre Baskerville'; /* -apple-system; */
     margin: 2rem 2rem 2rem 2rem;
     font-size: 1.6rem;
     text-align: justify; /* responsible for justify versus left align in main container */
@@ -380,7 +385,7 @@ rect {
 }
 
 .center_container {
-    font-family: 'Quicksand'; /* 'Libre Baskerville'; */
+    font-family: 'Cormorant'; /* 'Libre Baskerville'; */
      /*width: 70vw;*/
      margin-left: 3rem;
      margin-right: 3rem;
