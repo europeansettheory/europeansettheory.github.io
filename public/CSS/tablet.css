@@ -3,7 +3,7 @@
 /* Global styles */
 
 header {
-    padding-top: 0vw;
+    padding-top: 5vw;
 }
 
 /* Global styles */
@@ -231,11 +231,13 @@ h1 {
 .left_container_small {
     margin-left: 2%;
     padding-left: 2rem;
+    border-left: 0.5px solid grey;
 }
 
 .right_container_small {
     margin-left: 2%;
     padding-left: 2rem;
+    border-left: 0.5px solid grey;
 }
 
 .top_left_container {
@@ -271,6 +273,8 @@ h1 {
     margin-bottom: 5rem;
     padding: 5rem;
     padding-top: 8rem;
+    border-left: 0.5px solid grey;
+/*    border-right: 0.5px solid grey; */
 }
 
 .credits_container {

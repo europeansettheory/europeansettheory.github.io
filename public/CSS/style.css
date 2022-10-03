@@ -2,7 +2,7 @@
 
 :root {
 /* Header */
-    --title-color: white; /* #ffba00;  yellow    #ffa500; yellow-orange */
+    --title-color: #002f6c; /* navy blue */ /* #ffba00;  yellow    #ffa500; yellow-orange */
     --text-header-color: white; /* #2c3863; */
     --text-color-hover: #ffa500; /* this is yellow */
 
@@ -20,10 +20,11 @@
     --text-border-color: #2c3863;  /* this is dark purple-blue */
 
 /* Background */
-    --primary-background-color: #fafafa; /* light grey */ /* #fff8e7; */ /* light yellow */ /* #cfd7e3; grey   #F8F8FF; very light   #e4e9fa; #FFFAFA; #eaecfd; #eaedfa; #e6e9f9; */
-    --secondary-background-color: #315880; /* very dark blue */ /* #636363; */ /* #276fae; */ /* this is dark blue */ /* #226097; /*#4E80AC; /* dark blue /*#003366; /*#DCDCDC; #F8F8FF;*/
+    --header-background-color: white; /* Bright Yellow (Crayola) */
+    --primary-background-color: white; /* #fafafa; light grey */ /* #fff8e7; */ /* light yellow */ /* #cfd7e3; grey   #F8F8FF; very light   #e4e9fa; #FFFAFA; #eaecfd; #eaedfa; #e6e9f9; */
+    --secondary-background-color: #ffaa1d; /* Bright Yellow (Crayola) */ /* #315880; /* very dark blue */ /* #636363; */ /* #276fae; */ /* this is dark blue */ /* #226097; /*#4E80AC; /* dark blue /*#003366; /*#DCDCDC; #F8F8FF;*/
     --box-background-color: white;
-    --footer-background-color:#fafafa; /* #276FAE; /* same dark blue like for header/*#f4f0ec; /* #fdfdfc */
+    --footer-background-color:#fafafa; /* #276fae; /* same dark blue as for header/*#f4f0ec; /* #fdfdfc */
 }
 
 /* Global styles */
@@ -50,10 +51,10 @@ header {
     font-family: 'Quicksand';
     font-size: 1.8rem;
     color: var(--text-header-color);  /* dark blue #FF4500; #FF4500; #FFE4B5; #F4A460; #4682b4; */
-    background-color: #315880;
+    background-color: var(--header-background-color); /* #315880; */
 /*    background-image: url(../images/birch_finland_kilpisjarvi_lake_and_trees_during_fall_hd_nature-2560x1440_crop1.jpg); */
     /* url(../images/P1271882_01_test3.png);  url(../images/P1271882_01.jpg); */
-    background-size: cover;
+
     padding-top: 0vw;
     /* background-color: #F8F8FF; #0066B3; #ea9999; */
 }
@@ -298,7 +299,7 @@ rect {
 .right_container_small{
 /*    background-color: #F8F8FF; */
 /*    background-color: #E6ECF0; */
-    border-radius: 5px;
+    border-radius: 0px;
 }
 
 
@@ -381,8 +382,8 @@ rect {
 .center_container {
     font-family: 'Quicksand'; /* 'Libre Baskerville'; */
      /*width: 70vw;*/
-     margin-left: 3rem; 
-     margin-right: 3rem; 
+     margin-left: 3rem;
+     margin-right: 3rem;
     margin-bottom: 3rem;
     background-color: white; /* #fff8e7; */ /* #fff8dc; */ /* #fae7b5; */
 }
@@ -474,9 +475,9 @@ button[type=button] {
 }
 
 #controlContainer {/* Anda*/
-    background-color: #315880; 
-    padding:10pt; 
-    color:white; 
+    background-color: #315880;
+    padding:10pt;
+    color:white;
     display: block;
     text-align: left;
 }
@@ -491,14 +492,14 @@ button[type=button] {
 }
 
 #visContainer {/* Anda*/
-    text-align: left; 
-    max-width: 2000; 
+    text-align: left;
+    max-width: 2000;
     margin: auto;
 }
 
 #confe {/* Anda*/
     text-align: center;
-    max-width: 2000px; 
+    max-width: 2000px;
     margin: auto;
 }
 #confe {/* Anda*/
@@ -509,5 +510,5 @@ button[type=button] {
     color: white;
     padding: 3px;
     font-size: larger
-  
+
   }
