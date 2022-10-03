@@ -1,8 +1,13 @@
+/* Import google fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant&display=swap');
+/* Quicksand */
+
 /* Color variables */
 
 :root {
 /* Header */
-    --title-color: #002f6c; /* navy blue */ /* #ffba00;  yellow    #ffa500; yellow-orange */
+    --title-color: black; */ /* navy blue */ /* #ffaa1d; /* Bright Yellow (Crayola) */ /* #002f6c; /* navy blue */ /* #ffba00;  yellow    #ffa500; yellow-orange */
     --text-header-color: white; /* #2c3863; */
     --text-color-hover: #ffa500; /* this is yellow */
 
@@ -11,13 +16,13 @@
 
 /* Text */
     --text-color: black;
-    --text-color-section-heading: #2c3863; /* this is dark purple-blue */
+    --text-color-section-heading: black;
 
 /* Footer */
     --text-color-footer: black;
 
 /* Need this? */
-    --text-border-color: #2c3863;  /* this is dark purple-blue */
+    --text-border-color: #2c3863;  /* purple-blue */
 
 /* Background */
     --header-background-color: white; /* Bright Yellow (Crayola) */
@@ -48,8 +53,8 @@ html {
 }
 
 header {
-    font-family: 'Quicksand';
-    font-size: 1.8rem;
+    font-family: 'Cormorant';
+    font-size: 2.0rem; /* 1.8rem; */
     color: var(--text-header-color);  /* dark blue #FF4500; #FF4500; #FFE4B5; #F4A460; #4682b4; */
     background-color: var(--header-background-color); /* #315880; */
 /*    background-image: url(../images/birch_finland_kilpisjarvi_lake_and_trees_during_fall_hd_nature-2560x1440_crop1.jpg); */
@@ -60,7 +65,7 @@ header {
 }
 
 footer {
-    font-family: 'Quicksand';
+    font-family: 'Cormorant';
     font-size: 1.2rem;
     text-align: left;
     background-color: var(--footer-background-color); /* #ffcb77; */
@@ -68,19 +73,19 @@ footer {
 }
 
 h1 {
-    font-family: 'Quicksand'; /* Arial; */ /*"Comic Sans MS"; Times; Arial */  /*Add second options for the font*/
+    font-family: 'Cormorant'; /* Arial; */ /*"Comic Sans MS"; Times; Arial */  /*Add second options for the font*/
     font-size: 32px;
     font-weight: bold;
     color: var(--title-color); /*  color: white; */   /*Was not already defined by the global selector html*/
 }
 
 h2 {
-    font-family: 'Quicksand'; /*Arial; /*Times; */
+    font-family: 'Cormorant'; /*Arial; /*Times; */
     color: var(--text-color-section-heading);
 }
 
 h3 {
-    font-family: 'Quicksand'; /* 'Libre Baskerville'; /* Arial; /*Times; */
+    font-family: 'Cormorant'; /* 'Libre Baskerville'; /* Arial; /*Times; */
     font-size: 22px;
     color: var(--text-color-section-heading);
 }
@@ -109,7 +114,8 @@ rect {
 /* Header styles */
 
 .header_index {
-    padding-top: 10vw;
+      padding-top: 12rem;
+/*     padding-top: 10vw; */
 }
 
 /*==================================================================================================================================================*/
@@ -127,11 +133,9 @@ rect {
 
 /* Navigation bar style */
 
-.nav {  /*Why we erase the styles for the navigation bar? -Miguel
-    I added a colored bottom line again, but the background color does not actually appear anyway -Philipp
-    background-color: #0066B3; */
+.nav {
 /*  border-top: 1px solid var(--text-color-hover); */
-    border-bottom: 0.1rem solid green;
+    border-bottom: 0.05rem solid green;  /* green; */
 }
 
 /* Phone */
@@ -284,7 +288,7 @@ rect {
 }
 
 .main_container {
-    font-family: 'Quicksand'; /* 'Libre Baskerville'; /* -apple-system; */
+    font-family: 'Cormorant'; /* 'Libre Baskerville'; /* -apple-system; */
     margin: 2rem 2rem 2rem 2rem;
     font-size: 1.6rem;
     text-align: justify; /* responsible for justify versus left align in main container */
@@ -380,7 +384,7 @@ rect {
 }
 
 .center_container {
-    font-family: 'Quicksand'; /* 'Libre Baskerville'; */
+    font-family: 'Cormorant'; /* 'Libre Baskerville'; */
      /*width: 70vw;*/
      margin-left: 3rem;
      margin-right: 3rem;
