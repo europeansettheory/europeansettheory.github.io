@@ -16,13 +16,13 @@
 
 /* Text */
     --text-color: black;
-    --text-color-section-heading: #2c3863; /* this is dark purple-blue */
+    --text-color-section-heading: black;
 
 /* Footer */
     --text-color-footer: black;
 
 /* Need this? */
-    --text-border-color: #2c3863;  /* this is dark purple-blue */
+    --text-border-color: #2c3863;  /* purple-blue */
 
 /* Background */
     --header-background-color: white; /* Bright Yellow (Crayola) */
@@ -114,7 +114,8 @@ rect {
 /* Header styles */
 
 .header_index {
-    padding-top: 10vw;
+      padding-top: 12rem;
+/*     padding-top: 10vw; */
 }
 
 /*==================================================================================================================================================*/
@@ -132,9 +133,7 @@ rect {
 
 /* Navigation bar style */
 
-.nav {  /*Why we erase the styles for the navigation bar? -Miguel
-    I added a colored bottom line again, but the background color does not actually appear anyway -Philipp
-    background-color: #0066B3; */
+.nav {
 /*  border-top: 1px solid var(--text-color-hover); */
     border-bottom: 0.05rem solid green;  /* green; */
 }
