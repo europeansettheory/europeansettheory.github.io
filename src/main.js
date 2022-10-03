@@ -34,7 +34,7 @@ function PLOT(data){
     conf.append("td").text("Local Time: " ).style("font-weight", "bold")    
     conf.append("td").text(d=> d.Time_local)
     conf.append("tr")
-    conf.append("td").text("UT Time: " ).style("font-weight", "bold")    
+    conf.append("td").text("GMT/UTC: " ).style("font-weight", "bold")    
     conf.append("td").text(d=>{
        // console.log(String(d.Time_UT).split(" ").splice(0,5).join(" ").split(":").splice(0,2).join(":") )
         return String(d.Time_UT).split(" ").splice(0,5).join(" ").split(":").splice(0,2).join(":")
@@ -151,5 +151,53 @@ function start() {
         ShowData(a)
     })
 }
+function PLOTVid(data){
+  preparePlotArea(".visContainerVid")
+    let vidContainer=d3.select(".visContainerVid").append("div")
+    console.log(data.columns)
+    let vid=vidContainer.selectAll(".vids")
+            .data(data) // bind data
+            .enter()
+            .append("div")
+            .attr("class", "video")
+            // .style("padding", "20px")
+            .append("table")
+    data.columns.forEach(e=>{
+        if (e=="Repository"){
+            let vidd=vid.append("tr")
+      vidd.append("td").text(e+":  ").style("font-weight", "bold")
+      vidd.append("td").append("a").text(d=>{if (d.Repository!=""){return "Link"}}).attr("href", d=> d.Repository)
+
+        }
+        else{
+            
+            let vidd=vid.append("tr")
+            if (e=="Speaker"){
+                vidd.append("td").text(e+":  ").style("font-weight", "bold")
+                vidd.append("td").text(d=>d[e]).style("font-weight", "bold") } 
+                else {
+                    vidd.append("td").text(e+":  ").style("font-weight", "bold")
+                    vidd.append("td").text(d=>d[e])} 
+        }
+      
+    })       
+    
+        
+}
+
+function startV() {  
+    d3.text("records.csv").then(d => {
+        let  dv = d3.csvParse(d)    
+          
+      // d3.select(".visContainerVid").append("div").text("here I am ")  
+        PLOTVid(dv)
+    })
+}
+
+
+startV()
+
+
 start()
+
 
