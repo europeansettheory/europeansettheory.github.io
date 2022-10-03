@@ -59,8 +59,8 @@ h1 {
     display: block;
     position: relative;
     background: var(--secondary-background-color);
-/*    background: #e6e9f9;*/
-/*    background: #e4e9fa;*/
+/*    background: #e6e9f9; */
+/*    background: #e4e9fa; */
     padding: 0.4rem;
     margin-top: 1rem;
 }
