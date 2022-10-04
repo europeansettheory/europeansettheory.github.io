@@ -8,7 +8,7 @@
 :root {
 /* Header */
     --title-color: black; */ /* navy blue */ /* #ffaa1d; /* Bright Yellow (Crayola) */ /* #002f6c; /* navy blue */ /* #ffba00;  yellow    #ffa500; yellow-orange */
-    --text-header-color: white; /* #2c3863; */
+    --text-header-color: black; /* #2c3863; */
     --text-color-hover: #ffa500; /* this is yellow */
 
 /* #ffaa1d; */ /* Bright Yellow (Crayola) */
@@ -38,19 +38,23 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
-}
-
-body {
-    font-weight: lighter;
-    height: 100vh;
 }
 
 html {
-    font-size:  62.5%; /* 58%; */
+    font-weight: lighter;
+    height: 100vh;
+    font-size: 62.5%; /* standard - do not change */
     color: var(--text-color);
     background: var(--primary-background-color);
 }
+
+/*
+html {
+    font-size: 62.5%; /* standard - do not change
+    color: var(--text-color);
+    background: var(--primary-background-color);
+}
+*/
 
 header {
     font-family: 'Cormorant';
@@ -114,7 +118,7 @@ rect {
 /* Header styles */
 
 .header_index {
-      padding-top: 12rem;
+      padding-top: 2rem;
 /*     padding-top: 10vw; */
 }
 
@@ -227,12 +231,12 @@ rect {
 /*    background: var(--primary-background-color); */
     padding: 0.5rem;
     padding-left: 1.5rem;
-    color: white;
+    color: var(--title-color);
 }
 
 .nav_detailed > ul {
     margin-left: 2rem;
-    color: white;
+    color: var(--title-color);
     /*padding: 5px;*/
 /*    border-radius: 19px;*/
 /*    background: #ffbe6f;

@@ -13,6 +13,15 @@ h1 {
     font-weight: 900;  /* 1100; */
 }
 
+/*==================================================================================================================================================*/
+/* Header styles */
+
+.header_index {
+      padding-top: 12rem;
+/*     padding-top: 10vw; */
+}
+
+
 /* Navigation styles */
 
 .nav_menu{
@@ -275,7 +284,15 @@ h1 {
     padding-top: 8rem;
     border-left: 0.5px solid grey;
 /*    border-right: 0.5px solid grey; */
+    min-height: 40vw;
 }
+
+
+
+/* footer {
+    position: fixed;
+    bottom: 0px;
+} */
 
 .credits_container {
     padding-left: 6.3rem; /*increased by 0.7*/
