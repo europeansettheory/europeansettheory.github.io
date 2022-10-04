@@ -266,7 +266,7 @@ rect {
 }
 
 .nav_dropdown:hover {
-    color: var(--text-color-hover); 
+    color: var(--text-color-hover);
 }
 
 .nav_menu_tablet{
