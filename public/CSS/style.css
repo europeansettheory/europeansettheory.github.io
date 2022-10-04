@@ -48,6 +48,10 @@ html {
     background: var(--primary-background-color);
 }
 
+body {
+    font-size: 150%;
+}
+
 /*
 html {
     font-size: 62.5%; /* standard - do not change
