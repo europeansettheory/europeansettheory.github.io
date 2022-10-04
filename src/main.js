@@ -58,10 +58,11 @@ function ShowData(data){
     preparePlotArea(visContainer)
     d3.select("#confe").text("Showing all talks")    
     data.forEach(d=>{
-        d.Time_UT=new Date(d.Time_UT)
+        d.Time_UT=new Date(d.Time_UT)    
     })  
     data.sort((d,e)=> e.Time_UT-d.Time_UT)
-    PLOT(data)
+    PLOT(data) 
+
     filter_parameters(data)
 }
 
@@ -108,10 +109,11 @@ function filter_parameters(data){
                 let fd=datafuture.filter((d) => {
                     let today=getUTC(new Date())
                     return d.Time_UT-new Date(today)>=0})
-                console.log(fd)
+                //console.log(fd)
                 preparePlotArea(visContainer)                
                 d3.select("#confe").text("Showing upcoming talks")    
-                PLOT(fd)            }
+                PLOT(fd)
+            }
             else if (timefilter=="past"){
                 let datapast = data.sort((d,e)=> e.Time_UT-d.Time_UT)  
 
@@ -145,16 +147,16 @@ function getUTC(today){
 
 function start() {   
     let current_time = new Date(getUTC(new Date()));
-    console.log(current_time)
+    //console.log(current_time)
     d3.text("data.csv").then(d => {
         let  a = d3.csvParse(d)           
         ShowData(a)
     })
 }
-function PLOTVid(data){
+function PLOTVid(data, columns){
   preparePlotArea(".visContainerVid")
     let vidContainer=d3.select(".visContainerVid").append("div")
-    console.log(data.columns)
+   
     let vid=vidContainer.selectAll(".vids")
             .data(data) // bind data
             .enter()
@@ -162,10 +164,10 @@ function PLOTVid(data){
             .attr("class", "video")
             // .style("padding", "20px")
             .append("table")
-    data.columns.forEach(e=>{
+    columns.forEach(e=>{ //for each column
         if (e=="Repository"){
-            let vidd=vid.append("tr")
-      vidd.append("td").text(e+":  ").style("font-weight", "bold")
+            let vidd=vid.append("tr") //append a new line in the table for each column tr=table row
+      vidd.append("td").text(e+":  ").style("font-weight", "bold") // td=table data 
       vidd.append("td").append("a").text(d=>{if (d.Repository!=""){return "Link"}}).attr("href", d=> d.Repository)
 
         }
@@ -185,18 +187,47 @@ function PLOTVid(data){
         
 }
 
+function searchV(data){
+    let text_to_search=""
+    let field_to_search=""
+    document.querySelectorAll('#searchbV').forEach((item) => {
+        item.addEventListener('click', (event) => {
+            
+
+                document.querySelectorAll(".searchparamV").forEach(item=>{
+                    text_to_search= item.value.toLowerCase().trim()            
+                })
+                document.querySelectorAll(".searchtypeV").forEach(item=>{
+                    field_to_search= item.value           
+                })
+                
+                let datav2 = data.filter(d=> {
+                    return (String(d[field_to_search].toLowerCase().trim() ).includes(text_to_search))  
+                    })
+               
+                preparePlotArea("visContainerVid")
+                d3.select("#video").text("Showing search results")                
+                
+                PLOTVid(datav2, data.columns)
+               
+        
+    })
+})
+
+}
 function startV() {  
     d3.text("records.csv").then(d => {
         let  dv = d3.csvParse(d)    
+        
           
       // d3.select(".visContainerVid").append("div").text("here I am ")  
-        PLOTVid(dv)
+        PLOTVid(dv, dv.columns)
+        searchV(dv)
+
     })
 }
 
-
 startV()
-
 
 start()
 

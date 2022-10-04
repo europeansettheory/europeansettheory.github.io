@@ -515,3 +515,11 @@ button[type=button] {
 .video {
       padding: 20px;
 }
+
+#controlContainerV {/* Anda*/
+    background-color: #315880; 
+    padding:10pt; 
+    color:white; 
+    display: block;
+    text-align: left;
+}
