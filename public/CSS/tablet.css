@@ -3,7 +3,7 @@
 /* Global styles */
 
 header {
-    padding-top: 5vw;
+    padding-top: 7.1rem;
 }
 
 /* Global styles */
@@ -306,8 +306,24 @@ h1 {
     bottom: 0px;
 } */
 
+/*==============================================================================================================*/
+
+/* Footer containers*/
+
 .credits_container {
-    padding-left: 6.3rem; /*increased by 0.7*/
+    display: none;
+}
+
+.credits_container_tablet {
+    display: block;
+    height: 2rem;
+    padding: 1.5rem;
+    padding-left: 4.8rem;
+    color: var(--text-color-footer);
+}
+
+.credits_container_tablet a {
+    padding-left: 2rem;
 }
 
 
