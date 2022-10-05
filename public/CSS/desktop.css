@@ -34,23 +34,30 @@
       flex-wrap: wrap;
 }
 
+.right_container_small {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+}
+
+
 .left_container {
     width: 47%; /* 67%; */
 }
 
 .right_container {
     width: 47%; /* 32%; */
-    float: right;
+    /* float: right; */
     margin-top: 0rem;
     margin-left: 1%;
 }
 
 .left_subcontainer {
-    width: 40%;
+    width: 48%;
 }
 
 .right_subcontainer {
-    width: 50%;
+    width: 48%;
 }
 
 .center_container {

@@ -13,6 +13,11 @@ h1 {
     font-weight: 900;  /* 1100; */
 }
 
+.main_container {
+    font-size: 105%;
+    text-align: justify;
+}
+
 /*==================================================================================================================================================*/
 /* Header styles */
 
@@ -250,6 +255,14 @@ h1 {
 }
 
 .top_left_container {
+    display: none;
+    width: 100vw;
+    margin-left: 5.7rem;
+    text-align: center;
+}
+
+.top_left_container_tablet {
+    display: block;
     width: 100vw;
     margin-left: 5.7rem;
     text-align: center;
@@ -284,7 +297,6 @@ h1 {
     padding-top: 8rem;
     border-left: 0.05rem solid grey;
 /*    border-right: 0.5px solid grey; */
-    min-height: 40vw;
 }
 
 
