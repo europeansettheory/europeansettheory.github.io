@@ -201,10 +201,9 @@
 
         <main>
 
-          <div id="loginScreen" style="background-color: white;">
-            <br><br><br><br>
+          <div id="loginScreen">
 
-            <div style:"padding-left: 10rem;">
+            <div>
               <p>
                 Subscribe your email address to receive blog posts.
               </p>
@@ -213,9 +212,28 @@
               <form class="newsletter_form">
                 <label for="newsletter"></label>
                 <input type="text" id="newsletter" name="newsletter" return false;>
-                <br> <br>
-                <button type="button" id="subscribe" name="subscribe">Subscribe</button>
+                <br><br>
+
+                <div>
+                <div style="float: left; padding-top: 0.5rem; padding-right: 1rem;">
+                  Daily
+                </div>
+                <div style="float: left;">
+                  <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+                <div style="float: left; padding-top: 0.5rem; padding-left: 1rem;">
+                  Weekly
+                </div>
+              </div>
+
+              <div style="float: left; padding-left: 1.5rem;">
+                <button type="button" id="subscribe" name="subscribe"><div class=subscribe_button>Subscribe</div></button>
+              </div>
               </form>
+
             </div>
 
           <a href="#" class="cancel">×</a>
