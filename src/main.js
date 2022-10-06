@@ -94,8 +94,8 @@ function filter_parameters(data){
                 PLOT(data2)
                
         
+        })
     })
-})
 
 
 

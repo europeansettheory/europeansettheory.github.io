@@ -543,13 +543,7 @@ button[type=button] {
 }
 
 
-#blog {/* Anda*/
-    text-align: center;
-    max-width: 2000px;
-    margin: auto;
-    background-color: #315880;
-    color: white;
-    padding: 30px;
-    font-size: larger
+.blog {/* Anda*/   
+    padding: 10px;
   
   }
