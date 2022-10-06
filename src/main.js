@@ -1,4 +1,5 @@
 import * as d3 from "d3"
+
 //import * as mathjax from "mathjax"
 
 // function for clearing the visual container
@@ -55,7 +56,7 @@ function PLOT(data){
 let timefilter="all"
 //"Unique_Index";"Seminar";"Time";"Speaker";"Title";"Abstract";"Information"
 function ShowData(data){
-    preparePlotArea(visContainer)
+    
     d3.select("#confe").text("Showing all talks")    
     data.forEach(d=>{
         d.Time_UT=new Date(d.Time_UT)    
@@ -153,82 +154,117 @@ function start() {
         ShowData(a)
     })
 }
+
+// SCRIPT  FOR VIDEOS
+
 function PLOTVid(data, columns){
-  preparePlotArea(".visContainerVid")
-    let vidContainer=d3.select(".visContainerVid").append("div")
-   
-    let vid=vidContainer.selectAll(".vids")
-            .data(data) // bind data
-            .enter()
-            .append("div")
-            .attr("class", "video")
-            // .style("padding", "20px")
-            .append("table")
-    columns.forEach(e=>{ //for each column
-        if (e=="Repository"){
-            let vidd=vid.append("tr") //append a new line in the table for each column tr=table row
-      vidd.append("td").text(e+":  ").style("font-weight", "bold") // td=table data 
-      vidd.append("td").append("a").text(d=>{if (d.Repository!=""){return "Link"}}).attr("href", d=> d.Repository)
-
-        }
-        else{
-            
-            let vidd=vid.append("tr")
-            if (e=="Speaker"){
-                vidd.append("td").text(e+":  ").style("font-weight", "bold")
-                vidd.append("td").text(d=>d[e]).style("font-weight", "bold") } 
-                else {
-                    vidd.append("td").text(e+":  ").style("font-weight", "bold")
-                    vidd.append("td").text(d=>d[e])} 
-        }
+    preparePlotArea(".visContainerVid")
+      let vidContainer=d3.select(".visContainerVid").append("div")
+     
+      let vid=vidContainer.selectAll(".vids")
+              .data(data) // bind data
+              .enter()
+              .append("div")
+              .attr("class", "video")
+              // .style("padding", "20px")
+              .append("table")
+      columns.forEach(e=>{ //for each column
+          if (e=="Repository"){
+              let vidd=vid.append("tr") //append a new line in the table for each column tr=table row
+        vidd.append("td").text(e+":  ").style("font-weight", "bold") // td=table data 
+        vidd.append("td").append("a").text(d=>{if (d.Repository!=""){return "Link"}}).attr("href", d=> d.Repository)
+  
+          }
+          else{
+              
+              let vidd=vid.append("tr")
+              if (e=="Speaker"){
+                  vidd.append("td").text(e+":  ").style("font-weight", "bold")
+                  vidd.append("td").text(d=>d[e]).style("font-weight", "bold") } 
+                  else {
+                      vidd.append("td").text(e+":  ").style("font-weight", "bold")
+                      vidd.append("td").text(d=>d[e])} 
+          }
+        
+      })       
       
-    })       
-    
-        
-}
-
-function searchV(data){
-    let text_to_search=""
-    let field_to_search=""
-    document.querySelectorAll('#searchbV').forEach((item) => {
-        item.addEventListener('click', (event) => {
-            
-
-                document.querySelectorAll(".searchparamV").forEach(item=>{
-                    text_to_search= item.value.toLowerCase().trim()            
-                })
-                document.querySelectorAll(".searchtypeV").forEach(item=>{
-                    field_to_search= item.value           
-                })
-                
-                let datav2 = data.filter(d=> {
-                    return (String(d[field_to_search].toLowerCase().trim() ).includes(text_to_search))  
-                    })
-               
-                preparePlotArea("visContainerVid")
-                d3.select("#video").text("Showing search results")                
-                
-                PLOTVid(datav2, data.columns)
-               
-        
-    })
-})
-
-}
-function startV() {  
-    d3.text("records.csv").then(d => {
-        let  dv = d3.csvParse(d)    
-        
           
-      // d3.select(".visContainerVid").append("div").text("here I am ")  
-        PLOTVid(dv, dv.columns)
-        searchV(dv)
+  }
+  
+  function searchV(data){
+      let text_to_search=""
+      let field_to_search=""
+      document.querySelectorAll('#searchbV').forEach((item) => {
+          item.addEventListener('click', (event) => {
+              
+  
+                  document.querySelectorAll(".searchparamV").forEach(item=>{
+                      text_to_search= item.value.toLowerCase().trim()            
+                  })
+                  document.querySelectorAll(".searchtypeV").forEach(item=>{
+                      field_to_search= item.value           
+                  })
+                  
+                  let datav2 = data.filter(d=> {
+                      return (String(d[field_to_search].toLowerCase().trim() ).includes(text_to_search))  
+                      })
+                 
+                  preparePlotArea("visContainerVid")
+                  d3.select("#video").text("Showing search results")                
+                  
+                  PLOTVid(datav2, data.columns)
+                 
+          
+      })
+  })
+  
+  }
+  function startV() {  
+      d3.text("records.csv").then(d => {
+          let  dv = d3.csvParse(d)    
+          
+            
+        // d3.select(".visContainerVid").append("div").text("here I am ")  
+          PLOTVid(dv, dv.columns)
+          searchV(dv)
+  
+      })
+  }
+ 
+//   SCRIPT FOR ANNOUNCEMENTS
 
-    })
+function PLOTB(data, columns){
+    preparePlotArea(".visContainerB")
+      let bContainer=d3.select(".visContainerB").append("div")
+     
+      let blg=bContainer.selectAll(".blg")
+              .data(data) // bind data
+              .enter()
+              .append("div")
+              .attr("class", "blog")
+              // .style("padding", "20px")
+              .append("table")
+      columns.forEach(e=>{ //for each column   
+        blg.append("tr")       
+        blg.append("td").text(e+":  ").style("font-weight", "bold")
+        blg.append("td").text(d=>d[e])   
+    })   
 }
+  
+  
+  function startB() {  
+      d3.text("blog.csv").then(d => {
+          let  db = d3.csvParse(d) 
+          console.log(db)
+         d3.select(".visContainerB").append("div").text("here I am ")  
+          PLOTB(db, db.columns)
+      })
+  }
 
+function mainScript(){
 startV()
-
+startB() 
 start()
-
+}
+mainScript()
 

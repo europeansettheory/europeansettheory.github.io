@@ -499,12 +499,18 @@ button[type=button] {
     max-width: 2000; 
     margin: auto;
 }
-
-#confe {/* Anda*/
-    text-align: center;
-    max-width: 2000px; 
+#visContainerVid {/* Anda*/
+    text-align: left; 
+    max-width: 2000; 
     margin: auto;
 }
+#visContainerB {/* Anda*/
+    text-align: left; 
+    max-width: 2000; 
+    margin: auto;
+}
+
+
 #confe {/* Anda*/
     text-align: center;
     max-width: 2000px;
@@ -527,3 +533,23 @@ button[type=button] {
     display: block;
     text-align: left;
 }
+
+#controlContainerB{/* Anda*/
+    background-color: #315880; 
+    padding:10pt; 
+    color:white; 
+    display: block;
+    text-align: left;
+}
+
+
+#blog {/* Anda*/
+    text-align: center;
+    max-width: 2000px;
+    margin: auto;
+    background-color: #315880;
+    color: white;
+    padding: 30px;
+    font-size: larger
+  
+  }
