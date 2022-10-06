@@ -233,6 +233,34 @@ function PLOTVid(data, columns){
  
 //   SCRIPT FOR ANNOUNCEMENTS
 
+
+function filterB(data, columns){
+    let tag="All"   
+
+    document.querySelectorAll('.forminput').forEach((item) => {
+        item.addEventListener('change', (event) => {
+            tag = item.lastElementChild.value            
+            
+            if (tag!="All"){
+                console.log(tag)            
+                let fd=data.filter((d) => {
+                    return d.Tags.includes(tag)})
+                console.log(fd)
+                preparePlotArea(".visContainerB")                
+                // d3.select("#confe").text("Showing upcoming talks")    
+                PLOTB(fd,columns)
+            }
+            
+            else if (tag=="All"){
+                preparePlotArea(".visContainerB")  
+                PLOTB(data,columns)
+               
+            }
+        })
+    })
+    
+}
+
 function PLOTB(data, columns){
     preparePlotArea(".visContainerB")
       let bContainer=d3.select(".visContainerB").append("div")
@@ -258,6 +286,7 @@ function PLOTB(data, columns){
           console.log(db)
          d3.select(".visContainerB").append("div").text("here I am ")  
           PLOTB(db, db.columns)
+          filterB(db, db.columns)
       })
   }
 
