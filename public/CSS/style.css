@@ -472,16 +472,18 @@ rect {
     #loginScreen
     {
       font-size: 120%;
-      height: 30rem;
+      height: 28rem;
       width: 40vw;
       margin: 0 auto;
-      position: relative;
+      position: fixed;
+      left: 30vw;
+      top: 10rem;
       z-index: 10;
       display: none;
 /*      border: 0.4rem solid #cccccc; */
       border-radius:0.5rem;
       padding-left: 1%;
-      padding-top: 7rem;
+      padding-top: 10rem;
       background-color: white;
     }
     #loginScreen:target, #loginScreen:target + #cover{
@@ -638,6 +640,20 @@ rect {
     display: none;
 }
 
+/* home icon phone */
+
+#house {
+    float: right;
+    padding: 2.2rem;
+}
+
+#house > svg {
+    width=25;
+    height=25;
+}
+
+/* Is the next one used? */
+
 #landing_page_symbol {
     display: none;
 }
@@ -645,6 +661,14 @@ rect {
 
 #subnav_reset {
     display:none;
+}
+
+#list_item_right {
+    min-width: 10rem;
+}
+
+#list_item_min {
+    min-width: 2rem;
 }
 
 
@@ -657,9 +681,9 @@ rect {
 }
 
 #controlContainer {/* Anda*/
-    background-color: #315880;
+    background-color: white; /* #315880; */
     padding:10pt;
-    color:white;
+    color: black;
     display: block;
     text-align: left;
 }
@@ -688,8 +712,8 @@ rect {
     text-align: center;
     max-width: 200rem;
     margin: auto;
-    background-color: #315880;
-    color: white;
+    background-color: white; /* #315880; */
+    color: black;
     padding: 0.3rem;
     font-size: larger
 
