@@ -18,6 +18,17 @@ h1 {
     text-align: justify;
 }
 
+
+.main_container {
+      display: flex;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      flex-direction: row;
+      flex-wrap: wrap;
+}
+
 /*==================================================================================================================================================*/
 /* Header styles */
 
@@ -242,6 +253,17 @@ h1 {
 /* Body containers styles */
 
 
+.left_container {
+    width: 47%; /* 67%; */
+}
+
+.right_container {
+    width: 47%; /* 32%; */
+    /* float: right; */
+    margin-top: 0rem;
+    margin-left: 1%;
+}
+
 .left_container_small {
     margin-left: 2%;
     padding-left: 2rem;
@@ -252,6 +274,12 @@ h1 {
     margin-left: 2%;
     padding-left: 2rem;
     border-left: 0.05rem solid grey;
+}
+
+.right_container_small {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
 }
 
 .top_left_container {
@@ -290,13 +318,24 @@ h1 {
 
 
 .center_container {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 3rem;
+    margin-right: 0rem;
     margin-bottom: 5rem;
     padding: 5rem;
     padding-top: 8rem;
     border-left: 0.05rem solid grey;
 /*    border-right: 0.5px solid grey; */
+}
+
+
+/* Are the following used? */
+
+.left_subcontainer {
+    width: 48%;
+}
+
+.right_subcontainer {
+    width: 48%;
 }
 
 
@@ -306,28 +345,16 @@ h1 {
     bottom: 0px;
 } */
 
-/*==============================================================================================================*/
-
-/* Footer containers*/
-
-.credits_container {
-    display: none;
-}
-
-.credits_container_tablet {
-    display: block;
-    height: 2rem;
-    padding: 1.5rem;
-    padding-left: 4.8rem;
-    color: var(--text-color-footer);
-}
-
-.credits_container_tablet a {
-    padding-left: 2rem;
-}
 
 
 /* Applies to all check inputs whose id starts with "menu_option_"*/
 #nav_menu input[id *="menu_option"]:checked + span label.reset_label {
     display: block;
+}
+
+
+#loginScreen
+{
+    width: 60vw;
+    left: 20vw;
 }

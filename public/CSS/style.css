@@ -433,7 +433,7 @@ rect {
     padding-left: 1.5rem;
 }
 
-.credits_container_tablet {
+.credits_container_desktop {
     display: none;
 }
 
@@ -473,10 +473,10 @@ rect {
     {
       font-size: 120%;
       height: 28rem;
-      width: 40vw;
+      width: 80vw;
       margin: 0 auto;
       position: fixed;
-      left: 30vw;
+      left: 10vw;
       top: 10rem;
       z-index: 10;
       display: none;

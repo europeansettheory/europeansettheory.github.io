@@ -24,44 +24,42 @@
 */
 
 
-.main_container {
-      display: flex;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
-      flex-direction: row;
-      flex-wrap: wrap;
-}
-
-.right_container_small {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-}
-
-
-.left_container {
-    width: 47%; /* 67%; */
-}
-
-.right_container {
-    width: 47%; /* 32%; */
-    /* float: right; */
-    margin-top: 0rem;
-    margin-left: 1%;
-}
-
-.left_subcontainer {
-    width: 48%;
-}
-
-.right_subcontainer {
-    width: 48%;
-}
 
 .center_container {
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
     margin-bottom: 5rem;
+    padding: 5rem;
+    padding-top: 8rem;
+    border-left: 0.05rem solid grey;
+/*    border-right: 0.5px solid grey; */
+}
+
+
+/*==============================================================================================================*/
+
+/* Footer containers*/
+
+.credits_container {
+    display: none;
+}
+
+.credits_container_desktop {
+    display: block;
+    height: 2rem;
+    padding: 1.5rem;
+    padding-left: 4.8rem;
+    color: var(--text-color-footer);
+}
+
+.credits_container_desktop a {
+    padding-left: 2rem;
+}
+
+
+
+#loginScreen
+{
+    width: 40vw;
+    left: 30vw;
 }
