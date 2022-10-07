@@ -353,8 +353,36 @@ h1 {
 }
 
 
+#loginScreenPhone{
+  display: none;
+}
+
 #loginScreen
 {
-    width: 60vw;
-    left: 20vw;
+  font-size: 120%;
+  height: 28rem;
+  margin: 0 auto;
+  position: fixed;
+  top: 10rem;
+  z-index: 10;
+  display: none;
+/*      border: 0.4rem solid #cccccc; */
+  border-radius:0.5rem;
+  padding-left: 1%;
+  padding-top: 10rem;
+  background-color: white;
+}
+
+#loginScreen
+{
+    width: 65vw;
+    left: 17.5vw;
+}
+
+#loginScreenPhone:target, #loginScreenPhone:target + #cover{
+  display:none;
+}
+
+#loginScreen:target, #loginScreen:target + #cover{
+  display:block;
 }

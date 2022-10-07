@@ -469,31 +469,44 @@ rect {
       height:100%;
       display:none;
     }
-    #loginScreen
+
+    #loginScreenPhone
     {
       font-size: 120%;
       height: 28rem;
-      width: 80vw;
+      width: 90vw;
       margin: 0 auto;
       position: fixed;
-      left: 10vw;
+      left: 5vw;
       top: 10rem;
       z-index: 10;
       display: none;
 /*      border: 0.4rem solid #cccccc; */
       border-radius:0.5rem;
       padding-left: 1%;
-      padding-top: 10rem;
+      padding-top: 20rem;
       background-color: white;
     }
-    #loginScreen:target, #loginScreen:target + #cover{
+
+    #loginScreen{
+       display: none;
+    }
+
+    #loginScreenPhone:target, #loginScreenPhone:target + #cover{
       display:block;
       opacity:2;
     }
-    #loginScreen > div {
+
+    #loginScreen:target, #loginScreen:target + #cover{
+      display:none;
+      opacity:2;
+    }
+
+    #loginScreenPhone, #loginScreen > div {
         padding-top: 0rem;
         padding-left: 3rem;
     }
+
     .cancel
     {
       display:block;
@@ -509,6 +522,7 @@ rect {
       text-align:center;
       font-weight:bold;
     }
+
     .cancel:hover {
       color: var(--secondary-background-color);
     }
