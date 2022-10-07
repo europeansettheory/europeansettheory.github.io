@@ -320,7 +320,7 @@ rect {
     margin: 2rem 2rem 2rem 2rem;
     /* font-size: 1.6rem; */
     /* text-align: justify; responsible for justify versus left align in main container */
-    min-height: 85vh;
+    /*    min-height: 85vh; */
 }
 
 .main_container p {
@@ -420,7 +420,28 @@ rect {
 
 /*==============================================================================================================*/
 
-/* Footer containers*/
+/* Footer */
+
+
+body{ min-height:100vh; margin:0; position:relative; }
+
+body::after {
+  content: '';
+  display: block;
+  height: 50px; /* Set same as footer's height */
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+/*==============================================================================================================*/
+
+/* Footer containers */
 
 .credits_container {
     height: 2rem;
