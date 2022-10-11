@@ -232,6 +232,7 @@ h1 {
 .list {
     padding-left: 7rem;
 }
+
 .list li {
     padding-top: 1rem;
 }
@@ -277,6 +278,13 @@ h1 {
     width: 100vw;
     margin-left: 5.7rem;
     text-align: center;
+}
+
+.top_left_container_tablet {
+    width: 100vw;
+    text-align: left;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .top_left_container_tablet {
