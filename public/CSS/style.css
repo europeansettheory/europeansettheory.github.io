@@ -6,13 +6,10 @@
 
 :root {
 /* Header */
-    --title-color: black; */ /* navy blue */ /* #ffaa1d; /* Bright Yellow (Crayola) */ /* #002f6c; /* navy blue */ /* #ffba00;  yellow    #ffa500; yellow-orange */
-    --text-header-color: black; /* #2c3863; */
-    --text-color-hover: white; /* #ffa500; /* this is yellow */
+    --title-color: black;
+    --text-header-color: black;
+    --text-color-hover: white;
     --text-color-hover-body: #ffaa1d; /* Bright Yellow (Crayola) */
-
-/* #ffaa1d; */ /* Bright Yellow (Crayola) */
-/* #002f6c; */ /* navy blue */
 
 /* Text */
     --text-color: black;
@@ -21,23 +18,20 @@
 /* Footer */
     --text-color-footer: black;
 
-/* Need this? */
-    --text-border-color: #2c3863;  /* purple-blue */
-
 /* Background */
-    --header-background-color: white; /* Bright Yellow (Crayola) */
-    --primary-background-color: white; /* #fafafa; light grey */ /* #fff8e7; */ /* light yellow */ /* #cfd7e3; grey   #F8F8FF; very light   #e4e9fa; #FFFAFA; #eaecfd; #eaedfa; #e6e9f9; */
-    --secondary-background-color: #ffaa1d; /* Bright Yellow (Crayola) */ /* #315880; /* very dark blue */ /* #636363; */ /* #276fae; */ /* this is dark blue */ /* #226097; /*#4E80AC; /* dark blue /*#003366; /*#DCDCDC; #F8F8FF;*/
-    --box-background-color: white;
-    --footer-background-color:#fafafa; /* #276fae; /* same dark blue as for header/*#f4f0ec; /* #fdfdfc */
+    --header-background-color: white;
+    --primary-background-color: white;
+    --secondary-background-color: #ffaa1d; /* Bright Yellow (Crayola) */
+    --footer-background-color: #fafafa;
 
 /* Subscribe form */
-    --subscribe-form-color:#2196f3; /* light blue */
+    --subscribe-form-color: #2196f3; /* light blue */
 }
 
 /* Global styles */
 
-* {
+
+* { /* standard - do not change */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -56,48 +50,37 @@ body {
     font-family: 'Cormorant';
 }
 
-/*
-html {
-    font-size: 62.5%; /* standard - do not change
-    color: var(--text-color);
-    background: var(--primary-background-color);
-}
-*/
-
 header {
     font-family: 'Cormorant';
-    font-size: 2.0rem; /* 1.8rem; */
-    color: var(--text-header-color);  /* dark blue #FF4500; #FF4500; #FFE4B5; #F4A460; #4682b4; */
-    background-color: var(--header-background-color); /* #315880; */
-/*    background-image: url(../images/birch_finland_kilpisjarvi_lake_and_trees_during_fall_hd_nature-2560x1440_crop1.jpg); */
-    /* url(../images/P1271882_01_test3.png);  url(../images/P1271882_01.jpg); */
-
+    font-size: 2.0rem;
+    color: var(--text-header-color);
+    background-color: var(--header-background-color);
     padding-top: 0vw;
-    /* background-color: #F8F8FF; #0066B3; #ea9999; */
+/*  background-image: url(../images/birch_finland_kilpisjarvi_lake_and_trees_during_fall_hd_nature-2560x1440_crop1.jpg); */
 }
 
 footer {
     font-family: 'Cormorant';
     font-size: 1.2rem;
     text-align: left;
-    background-color: var(--footer-background-color); /* #ffcb77; */
+    background-color: var(--footer-background-color);
     height: 5rem;
 }
 
 h1 {
-    font-family: 'Cormorant'; /* Arial; */ /*"Comic Sans MS"; Times; Arial */  /*Add second options for the font*/
+    font-family: 'Cormorant';
     font-size: 3.2rem;
     font-weight: bold;
-    color: var(--title-color); /*  color: white; */   /*Was not already defined by the global selector html*/
+    color: var(--title-color);
 }
 
 h2 {
-    font-family: 'Cormorant'; /*Arial; /*Times; */
+    font-family: 'Cormorant';
     color: var(--text-color-section-heading);
 }
 
 h3 {
-    font-family: 'Cormorant'; /* 'Libre Baskerville'; /* Arial; /*Times; */
+    font-family: 'Cormorant'; /* 'Libre Baskerville'; */
     font-size: 2.2rem;
     color: var(--text-color-section-heading);
 }
@@ -108,7 +91,7 @@ a {
 }
 
 a:hover {
-    color: var(--text-color-hover); /* color: #FF4500; #4169E1; #4682b4; */
+    color: var(--text-color-hover);
 }
 
 .main_container a:hover {
@@ -119,8 +102,10 @@ a:active {
     color: var(--text-color-hover);
 }
 
+
+/* svg */
 rect {
-    fill:white;
+    fill:black;
 }
 
 
@@ -131,7 +116,6 @@ rect {
 
 .header_index {
       padding-top: 2rem;
-/*     padding-top: 10vw; */
 }
 
 /*==================================================================================================================================================*/
@@ -139,19 +123,15 @@ rect {
 
 .main_title {
     padding-bottom: 1cm;
-/*    text-align: center; */
-    /* This sends the title to the left in all the devices (unless specified in tablet or desktop), creates a conflict in the phone version */
-/* left: 50vw; */
     color: var(--title-color);
-    height: auto; /* height: 40vh; height: 50vh; */
+    height: auto;
     margin-top: 0rem;
 }
 
 /* Navigation bar style */
 
 .nav {
-/*  border-top: 1px solid var(--text-color-hover); */
-    border-bottom: 0.05rem solid green;  /* green; */
+    border-bottom: 0.05rem solid green;
 }
 
 /* Phone */
@@ -160,7 +140,6 @@ rect {
     position: static;
     cursor: pointer;
     margin: 0 1rem;
-/*    right: 0; */
 }
 
 .nav_toggle svg {
@@ -170,17 +149,12 @@ rect {
 .nav_toggle .menu {
     border-radius: 9.2rem;
     background: transparent;
-/*   linear-gradient(145deg, #ffcb77, #e6ab64);
-    box-shadow:  1px 1px 2px #d9a25e,
-                -1px -1px 2px #ffdb80;*/
 }
 
 .nav_toggle .close {
     display: none;
     border-radius: 9.2rem;
     background: transparent;
-/*    box-shadow: inset 1px 1px 2px #d9a25e,
-                inset -1px -1px 2px #ffdb80;*/
 }
 
 .nav_toggle .close,
@@ -200,40 +174,18 @@ rect {
 .nav_menu {
     display: flex;
     flex-direction: column;
-    gap: 0rem; /* problem: this is a horizontal gap on laptop and vertical gap on phone */
+    gap: 0rem;
     align-items: left;
-/*    margin: 1rem; */
     margin-right: 1rem;
     padding: 0.4rem;
     padding-left: 1.4rem;
-   /* height: 0px;*/ /*Why we added this line? this is the one responsible for non-dinamic neght of the menu. maybe in the desktop version we need it*/
-/*    height: 10vh; */
 }
 
 .nav_menu > li {
     list-style-type: none;
     display: none;
-    /* Style for menu phone*/
     padding: 0.4rem;
-    /*border-radius: 19px;*/
-/*     background: #ffbe6f; */
-/*    box-shadow:  12px 12px 40px #d9a25e,
-                -12px -12px 40px #ffdb80; */
     min-width: 12rem;
-}
-
-/*.nav_menu > li:first-child {
-    margin-right:auto;
-    display: block;
-    min-width: 0rem;
-}*/
-
-.menu_logo {
-    height: 3rem;
-}
-
-.menu_logo img {
-    height: 100%;
 }
 
 .nav_detailed summary {
