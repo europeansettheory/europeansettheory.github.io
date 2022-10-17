@@ -262,8 +262,7 @@ function filterB(data, columns){
 }
 function PLOTB(data, columns){
     preparePlotArea(".visContainerB")
-      let bContainer=d3.select(".visContainerB").append("div")
-     
+      let bContainer=d3.select(".visContainerB").append("div")     
       let blg=bContainer.selectAll(".blg")
               .data(data) // bind data
               .enter()
@@ -272,17 +271,16 @@ function PLOTB(data, columns){
     blg.append("header").attr("class", "entry_title").append("h4").text(d=>d.Title)
       let blgE=blg.append("div").attr("class", "entry_content") 
       //blgE.append("header").text(d=>d.Title).style("font-weight", "bold")
-      blgE.append("p").text(d=>d.Entry)
-       let noimg=false
-    //   blgE.append("img").attr("class", "blogimg")
-    //         .attr("src", d=>{ noimg=false
-    //             if (d.Image!=""|" "){
-    //             noimg=false
-    //             return d.Image } else{noimg=true}})
-    //         .style("width",()=>{ if (noimg) {return "0"}else {return "655px"}})
-    //         .style("height",()=>{if (noimg) {return "0"}else {return "436px"}})
+    blgE.append("div").attr("class","entryparagraph").html(d=>{
+        console.log(d.Entry.split("\n"))
+        return "<p>"+d.Entry.split("\n").join("</p> <p>")+"</p>"})
+     
     
-      blg.append("p").text( d=>d.Image) 
+    blgE.append( "img").attr("class", "blogimg")
+            .attr("src", d=>d.Image)
+            .style("width",(d)=>{ if (d.Image=="") {return "0"}else {return "50%"}})
+            // .style("height",(d)=>{if (d.Image=="") {return "0"}else {return "50%"}})
+    //   blg.append("p").text( d=>d.Image) 
       blgE.append("footer").text(d=>" This entry was posted in "+d.Tags+" on "+d.Date)   
     
 }

@@ -546,4 +546,10 @@ button[type=button] {
 .blog {/* Anda*/   
     padding: 10px;
   
-  }
+}
+
+.entry_title{/* Anda*/  
+    color:black; 
+    background-color: #d9ebfb;
+
+}
