@@ -117,6 +117,7 @@ typings/
 bower_components/**
 node_modules/**
 .tmp/**
+.vscode/**
 npm-debug.log
 package-lock.json
 webpack-stats.json
