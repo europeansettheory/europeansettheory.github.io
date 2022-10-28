@@ -344,11 +344,11 @@ h1 {
 }
 
 
-#loginScreenPhone{
+#subscribeScreenPhone{
   display: none;
 }
 
-#loginScreen
+#subscribeScreen
 {
   font-size: 120%;
   height: 28rem;
@@ -364,16 +364,12 @@ h1 {
   background-color: white;
 }
 
-#loginScreen
+#subscribeScreen
 {
     width: 65vw;
     left: 17.5vw;
 }
 
-#loginScreenPhone:target, #loginScreenPhone:target + #cover{
-  display:none;
-}
-
-#loginScreen:target, #loginScreen:target + #cover{
+#subscribeScreen:target, #subscribeScreen:target + #cover{
   display:block;
 }
