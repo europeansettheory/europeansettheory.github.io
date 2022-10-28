@@ -299,7 +299,7 @@ rect {
 
 .left_subcontainer {
     margin-top: 1rem;
-    margin-left: 0%;
+    margin-left: 0rem;
     display: flex;
     padding-top: 0rem;
     padding-bottom: 0rem;
@@ -309,7 +309,7 @@ rect {
 
 .right_subcontainer {
     margin-top: 1rem;
-    margin-left: 2%;
+    margin-left: 1rem;
     display: flex;
     padding-top: 0rem;
     padding-bottom: 0rem;
