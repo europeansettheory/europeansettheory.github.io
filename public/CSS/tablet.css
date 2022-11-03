@@ -6,20 +6,14 @@ header {
     padding-top: 7.1rem;
 }
 
-/* Global styles */
-
 h1 {
-    font-size: 4.7rem;  /* 4.2rem; */
-    font-weight: 900;  /* 1100; */
+    font-size: 4.7rem;
+    font-weight: 900;
 }
 
 .main_container {
-    font-size: 105%;
-    text-align: justify;
-}
-
-
-.main_container {
+      font-size: 105%;
+      text-align: justify;
       display: flex;
       padding-top: 1rem;
       padding-bottom: 1rem;
@@ -51,8 +45,6 @@ h1 {
     background: var(--secondary-background-color);
     gap: 2rem;
     flex-direction: row;
-    flex-wrap: wrap;
-/*  justify-content: flex-end; */
 }
 
 
@@ -62,9 +54,7 @@ h1 {
 }
 
 .nav_menu > li {
-/*  Disable style for menu phone*/
     padding: 0rem;
-    border-radius: 1rem;
     text-align: left;
 }
 
@@ -105,43 +95,15 @@ h1 {
 .nav_dropdown_content a {
     text-align: left;
     padding: 0.5rem 1.0rem;
-    text-decoration: none;
     display: block;
-/*    width: 14rem; */
     min-width: 14rem;
     max-width: 14rem;
-/*    height: 2em;
-    line-height: 1em; */
+    height: 3em;
 }
 
-.nav_dropdown_content li {
-    display: inline;
-    height: 2rem;
-    line-height: 1rem;
-}
 
-.nav_dropdown_content li:first-child {
-    position: absolute;
-    margin-right:auto;
-    display: block;
-    min-width: 0rem;
-    height: 7rem;
-    width: 100vw;
-    z-index: -1;
-}
 
-/*
-.nav_dropdown:hover {
-    color: #FFA500;
-}
-*/
-
-/*
-.nav_dropdown:hover .nav_dropdown_content {
-    display: flex;
-    flex-direction: row;
-        color: #2c3863;    flex-wrap: wrap-reverse; }}
-}*/
+/* THE FOLLOWING STUFF IS NOT USED. ONLY LEFT FOR TEST PURPOSES */
 
 .nav_background_box {
     display: none;
@@ -153,8 +115,7 @@ h1 {
     display: block;
     background-color: white;
     width: 100vw;
-/*    height: 70px; */
-/* } */
+} */
 
 
 .nav_background_box_left {
@@ -166,37 +127,14 @@ h1 {
     display: block;
     background-color: white;
     width: 47px;
-/*    height: 70px; */
-/* } */
-
-
-/* NEXT TWO FOR TESTING: MENU BAR DOESN'T WORK YET  */
-.nav_dropdown_bar {
-    display: none;
-}
-
-/*
-.nav_dropdown:hover .nav_dropdown_bar {
-    display: flex;
-    color: #2c3863;
-    height: 340px;
-    width: 100vw;
-}
-*/
+} */
 
 .nav_dropdown_content:hover {
     color: black;
-/*    flex-wrap: wrap-reverse;*/
-
 }
 
 .nav_dropdown:hover {
     cursor: pointer;
-}
-
-.nav_menu_tablet_label:hover {
-    cursor: pointer;
-    color: #4682b4;
 }
 
 .nav_menu_tablet:checked ~ div{
@@ -226,7 +164,6 @@ h1 {
 
 
 /*====================================================================================================================*/
-/* Body styles for specific items */
 
 /* Indentation and padding for lists */
 .list {
@@ -336,6 +273,11 @@ h1 {
     width: 48%;
 }
 
+
+
+.searchdiv {/* Anda*/
+    text-align: right;
+}
 
 
 /* Applies to all check inputs whose id starts with "menu_option_"*/

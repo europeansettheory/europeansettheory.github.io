@@ -4,6 +4,8 @@
 
 /* Color variables */
 
+/* 4682b4 steel blue */ 
+
 :root {
 /* Header */
     --title-color: black;
@@ -511,13 +513,6 @@ footer {
     height=25;
 }
 
-/* Is the next one used? */
-
-#landing_page_symbol {
-    display: none;
-}
-
-
 #subnav_reset {
     display:none;
 }
@@ -532,7 +527,7 @@ footer {
 
 
 .radio {/* Anda*/
-    display:flex;
+    display: flex;
 }
 
 #fullScreenContainer {/* Anda*/
@@ -540,20 +535,22 @@ footer {
 }
 
 #controlContainer {/* Anda*/
-    background-color: white; /* #315880; */
-    padding:10pt;
+    background-color: var(--secondary-background-color);
+    padding: 1.33rem;
+/*    padding:10pt; */
     color: black;
     display: block;
     text-align: left;
 }
 
 .forminput { /* Anda*/
-    padding:3pt;
+    padding: 0.4rem;
+/*    padding:3pt; */
 }
 
 .searchdiv {/* Anda*/
     width: 90%;
-    text-align: right;
+    text-align: left;
 }
 
 #visContainer {/* Anda*/
@@ -571,14 +568,14 @@ footer {
     text-align: center;
     max-width: 200rem;
     margin: auto;
-    background-color: white; /* #315880; */
+    background-color: var(--secondary-background-color);
     color: black;
     padding: 0.3rem;
     font-size: larger
 
   }
-.video{
+
+.video {
     padding: 2rem;
     border: 1rem;
-
 }
