@@ -217,12 +217,7 @@ h1 {
     text-align: center;
 }
 
-.top_left_container_tablet {
-    width: 100vw;
-    text-align: left;
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
+.top_right_container {}
 
 .top_left_container_tablet {
     display: block;
@@ -240,17 +235,6 @@ h1 {
       flex-direction: row;
       flex-wrap: wrap;
 }
-
-/* I don't think top_right_container is used. But maybe keep it in case we want to put a picture there? */
-.top_right_container {
-    width: 48%;
-    float: right;
-    margin-top: 0rem;
-    margin-left: 50%;
-    margin-right: 5%;
-    text-align: left;
-}
-
 
 .center_container {
     margin-left: 3rem;
@@ -284,7 +268,6 @@ h1 {
 #nav_menu input[id *="menu_option"]:checked + span label.reset_label {
     display: block;
 }
-
 
 #subscribeScreenPhone{
   display: none;
