@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta name="description" content="European Set Theory Society" />
+        <meta name="robots" content= "index,follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>European Set Theory Society</title>
+        <link
+            rel="stylesheet" href="./CSS/style.css"
+        />
+
+        <link
+            rel="stylesheet"
+            href="./CSS/tablet.css"
+            media="screen and (min-width: 780px)"
+        />
+        <link
+            rel="stylesheet"
+            href="./CSS/desktop.css"
+            media="screen and (min-width: 1100px)"
+        />
+
+    </head>
+    <body>
+
+         <header>
+
+            <nav class= "nav">
+
+                <input type="checkbox" name="" id="nav_checkbox"  class="nav_checkbox">
+
+                <label for="nav_checkbox" class="nav_toggle">
+
+                  <svg class="menu" viewBox="0 0 100 80" width="40" height="40">
+
+                    <rect width="100" height="15" stroke="black" style="fill:black"></rect>
+                    <rect y="30" width="100" height="15" stroke="black" style="fill:black"></rect>
+                    <rect y="60" width="100" height="15" stroke="black" style="fill:black"></rect>
+                  </svg>
+
+
+                  <svg class="close" viewBox="0 0 100 80" width="40" height="40">
+                    <line x1="40" y1="40"
+                      x2="50" y2="30"
+                      stroke="black"
+                      stroke-width="100"/>
+                    <line x1="40" y1="30"
+                      x2="50" y2="40"
+                      stroke="black"
+                      stroke-width="100"/>
+                  </svg>
+
+                  <span> <a href="index.html" id="house">
+                    <svg viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5
+                        0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                      <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207
+                        1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                    </svg></a>
+                  </span>
+
+                </label>
+
+                                <form>
+                                <input type="reset" id="subnav_reset">
+
+                                <ul class="nav_menu" id="nav_menu">
+
+                                <li>
+                                    <details class="nav_detailed">
+                                    <summary>About</summary>
+                                        <ul class="subnav_detailed">
+                                            <li><a href="mission.html">Mission Statement</a></li>
+                                            <li><a href="constitution.html">Constitution</a></li>
+                                            <li><a href="trustees.html">Trustees</a></li>
+                                            <li><a href="become_a_member.html">Become a member</a></li>
+                                            <li><a href="contact_us.html">Contact us</a></li>
+                                            </ul>
+                                    </details>
+
+                                    <div  class="nav_dropdown">
+                                        <input type="radio" name="menu_option" id="menu_option_about"  class="nav_menu_tablet">
+                                        <span> About
+                                          <label for="menu_option_about" class="nav_menu_tablet_label"></label>
+                                          <label for="subnav_reset" class="reset_label"></label>
+                                        </span>
+
+                                        <div class="nav_dropdown_content">
+                                            <a href="mission.html">Mission Statement</a>
+                                            <a href="constitution.html">Constitution</a>
+                                            <a href="trustees.html">Trustees</a>
+                                            <a href="become_a_member.html">Become a member</a>
+                                            <a href="contact_us.html">Contact us</a>
+                                            <div class="nav_background_box"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li>
+                                    <details class="nav_detailed">
+                                    <summary>Activities</summary>
+                                        <ul class="subnav_detailed">
+                                            <li><a href="conferences.html">Conference series</a></li>
+                                            <li><a href="hausdorff_medals.html">Hausdorff medals</a></li>
+                                            <li><a href="world_talks.html">Worldwide talks</a></li>
+                                        </ul>
+                                    </details>
+                                    <div  class="nav_dropdown">
+                                        <input type="radio" name="menu_option" id="menu_option_activities"  class="nav_menu_tablet">
+
+                                        <span> Activities
+                                          <label for="menu_option_activities" class="nav_menu_tablet_label"></label>
+                                          <label for="subnav_reset" class="reset_label"></label>
+                                        </span>
+
+                                        <div class="nav_dropdown_content">
+                                            <a href="conferences.html">Conference series</a>
+                                            <a href="hausdorff_medals.html">Hausdorff medals</a>
+                                            <a href="world_talks.html">Worldwide talks</a>
+                                            <div class="nav_background_box"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <details class="nav_detailed">
+                                    <summary>Resources</summary>
+                                        <ul class="subnav_detailed">
+                                            <li><a href="literature.html">Literature</a></li>
+                                            <li><a href="videos.html">Videos</a></li>
+                                            <li><a href="links.html">Links</a></li>
+                                        </ul>
+                                    </details>
+                                    <div  class="nav_dropdown">
+                                        <input type="radio" name="menu_option" id="menu_option_resources"  class="nav_menu_tablet">
+
+                                        <span> Resources
+                                          <label for="menu_option_resources" class="nav_menu_tablet_label"></label>
+                                          <label for="subnav_reset" class="reset_label"></label>
+                                        </span>
+
+
+                                        <div class="nav_dropdown_content">
+                                            <a href="literature.html">Literature</a>
+                                            <a href="videos.html">Videos</a>
+                                            <a href="links.html">Links</a>
+                                            <div class="nav_background_box"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li id="list_item_right">
+                                    <details class="nav_detailed">
+                                    <summary><a href="blog.html">Blog</a></summary>
+                                    </details>
+                                    <div class="nav_dropdown">
+                                        <span> <a href="blog.html">Blog</a>
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li id="list_item_min">
+                                    <div class="nav_dropdown">
+                                        <input type="radio" name="menu_option" id="menu_option_announcements"  class="nav_menu_tablet">
+
+                                        <span> <a href="index.html">
+                                          <svg width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5
+                                              0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                                            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207
+                                              1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                                          </svg></a>
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <details class="nav_detailed">
+                                    <summary><a href="blog.html">Subscribe</a></summary>
+                                    </details>
+                                    <div class="nav_dropdown" style="position:absolute;right:3rem;">
+                                        <span> <a href="blog.html">
+                                          <a href="#subscribeScreen" class="button">Subscribe</a>
+                                          </div>
+
+                                        </a>
+                                        </span>
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                            </form>
+
+        </nav>
+
+        </header>
+
+        <main>
+
+          <div id="subscribeScreen">
+
+              <div>
+                <p>
+                  Subscribe your email address to receive blog posts.
+                </p>
+                <br>
+
+                <form class="newsletter_form">
+                  <label for="newsletter"></label>
+                  <input type="text" id="newsletter" name="newsletter" return false;>
+                  <br><br>
+
+                  <div>
+                    <div style="float: left; padding-top: 0.5rem; padding-right: 1rem;">
+                      Daily
+                    </div>
+                    <div style="float: left;">
+                      <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                      </label>
+                    </div>
+                    <div style="float: left; padding-top: 0.5rem; padding-left: 1rem;">
+                      Weekly
+                    </div>
+                  </div>
+
+                  <div style="float: left; padding-left: 1.5rem;">
+                    <button type="button" id="subscribe" name="subscribe"><div class=subscribe_button>Subscribe</div></button>
+                  </div>
+                </form>
+
+              </div>
+
+                  <a href="#" class="cancel">×</a>
+                </div>
+                <div id="cover" >
+        </div>
+
+
+
+            <div class="main_container">
+
+                <div class="center_container">
+
+                        <h2>Credits</h2>
+
+
+                          <div class="list">
+                          <p>
+                          <ul>
+                              <li>
+                                <a href="https://github.com/philippschlicht">Philipp Schlicht </a> - Webmaster and front-end developer
+                              </li>
+                              <li>
+                                <a href="https://github.com/AndaLatif">Anda Tanasie</a> - JS developer
+                              </li>
+                              <li>
+                                <a href="https://github.com/Miguelwan">Miguel Moreno</a> - Front-end developer
+                              </li>
+                          </ul>
+                          </p>
+                        </div>
+
+
+                </div>
+            </div>
+
+
+        </main>
+
+
+
+        <footer>
+            <div class="credits_container">
+              <span>Copyright European Set Theory Society 2022</span>
+              <!--<a href="credits.html">Credits</a>.--> <a href="https://github.com/philippschlicht">Philipp Schlicht </a> - Webmaster and front-end developer <a href="https://github.com/AndaLatif">Anda Ramona Tănasie</a> - JS developer  <a href="https://github.com/Miguelwan">Miguel Moreno</a> - Front-end developer
+            </div>
+            <div class="credits_container_desktop">
+              <span>Copyright European Set Theory Society 2022</span>
+              <!--<a href="credits.html">Credits</a>.-->
+              <a href="https://github.com/philippschlicht">Philipp Schlicht </a> - Webmaster and front-end developer
+              <a href="https://github.com/AndaLatif">Anda Tanasie</a> - JS developer
+              <a href="https://github.com/Miguelwan">Miguel Moreno</a> - Front-end developer
+            </div>
+        </footer>
+
+    </body>
+
+</html>

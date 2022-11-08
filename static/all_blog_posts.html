@@ -3,8 +3,6 @@
 
     <head>
 
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Quicksand:wght@0,400;0,600;0,900;1,400&display=swap">
-
         <meta charset="UTF-8" />
         <meta name="description" content="European Set Theory Society" />
         <meta name="robots" content= "index,follow" />
@@ -17,7 +15,7 @@
         <link
             rel="stylesheet"
             href="./CSS/tablet.css"
-            media="screen and (min-width: 740px)"
+            media="screen and (min-width: 780px)"
         />
         <link
             rel="stylesheet"
@@ -38,24 +36,31 @@
 
                   <svg class="menu" viewBox="0 0 100 80" width="40" height="40">
 
-                    <rect width="100" height="15"></rect>
-                    <rect y="30" width="100" height="15"></rect>
-                    <rect y="60" width="100" height="15"></rect>
+                    <rect width="100" height="15" stroke="black" style="fill:black"></rect>
+                    <rect y="30" width="100" height="15" stroke="black" style="fill:black"></rect>
+                    <rect y="60" width="100" height="15" stroke="black" style="fill:black"></rect>
                   </svg>
 
 
                   <svg class="close" viewBox="0 0 100 80" width="40" height="40">
                     <line x1="40" y1="40"
                       x2="50" y2="30"
-                      stroke="white"
+                      stroke="black"
                       stroke-width="100"/>
                     <line x1="40" y1="30"
                       x2="50" y2="40"
-                      stroke="white"
+                      stroke="black"
                       stroke-width="100"/>
                   </svg>
 
-
+                  <span> <a href="index.html" id="house">
+                    <svg viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5
+                        0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                      <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207
+                        1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                    </svg></a>
+                  </span>
 
                 </label>
 
@@ -63,13 +68,6 @@
                                 <input type="reset" id="subnav_reset">
 
                                 <ul class="nav_menu" id="nav_menu">
-
-                                 <li class="menu_logo" id="landing_page_symbol">
-                                    <img
-                                        src="" alt="">
-
-                                    <a href="#">ESTS</a>
-                                </li>
 
                                 <li>
                                     <details class="nav_detailed">
@@ -133,7 +131,6 @@
                                     <summary>Resources</summary>
                                         <ul class="subnav_detailed">
                                             <li><a href="literature.html">Literature</a></li>
-                                            <li><a href="lecturenotes.html">Lecture notes</a></li>
                                             <li><a href="videos.html">Videos</a></li>
                                             <li><a href="links.html">Links</a></li>
                                         </ul>
@@ -149,7 +146,6 @@
 
                                         <div class="nav_dropdown_content">
                                             <a href="literature.html">Literature</a>
-                                            <a href="lecturenotes.html">Lecture notes</a>
                                             <a href="videos.html">Videos</a>
                                             <a href="links.html">Links</a>
                                             <div class="nav_background_box"></div>
@@ -157,42 +153,40 @@
                                     </div>
                                 </li>
 
-                                <li>
+                                <li id="list_item_right">
                                     <details class="nav_detailed">
-                                    <summary>Blog</summary>
-                                        <ul class="subnav_detailed">
-                                            <li><a href="#">All blog posts</a></li>
-                                            <li><a href="mathematical_blog_posts.html">Mathematical blog posts</a></li>
-                                            <li><a href="jobs.html">Job listings</a></li>
-                                        </ul>
+                                    <summary><a href="blog.html">Blog</a></summary>
                                     </details>
+                                    <div class="nav_dropdown">
+                                        <span> <a href="blog.html">Blog</a>
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li id="list_item_min">
+
                                     <div class="nav_dropdown">
                                         <input type="radio" name="menu_option" id="menu_option_announcements"  class="nav_menu_tablet">
 
-                                        <span> Blog
-                                          <label for="menu_option_announcements" class="nav_menu_tablet_label"></label>
-                                          <label for="subnav_reset" class="reset_label"></label>
+                                        <span> <a href="index.html">
+                                          <svg width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5
+                                              0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                                            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207
+                                              1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                                          </svg></a>
                                         </span>
-
-                                        <div class="nav_dropdown_content">
-                                            <div class="nav_background_box_left"></div>
-                                            <a href="#">All blog posts</a>
-                                            <a href="mathematical_blog_posts.html">Mathematical blog posts</a>
-                                            <a href="jobs.html">Job listings</a>
-                                            <div class="nav_background_box"></div>
-                                        </div>
                                     </div>
                                 </li>
 
                                 <li>
                                     <details class="nav_detailed">
-                                    <summary><a href="index.html">Home</a></summary>
+                                    <summary><a href="#subscribeScreenPhone">Subscribe</a></summary>
                                     </details>
-
-                                    <div class="nav_dropdown">
-                                        <input type="radio" name="menu_option" id="menu_option_announcements"  class="nav_menu_tablet">
-
-                                        <span> <a href="index.html">Home</a>
+                                    <div class="nav_dropdown" style="position:absolute;right:3rem;">
+                                        <span>
+                                          <a href="#subscribeScreen" class="button">Subscribe</a>
+                                          </div>
                                         </span>
                                     </div>
                                 </li>
@@ -206,24 +200,84 @@
         </header>
 
         <main>
+
+          <div id="subscribeScreenPhone">
+              <div>
+                <p>
+                  Subscribe your email address to receive blog posts.
+                </p>
+                <br>
+              </div>
+              <a href="#" class="cancel">×</a>
+          </div>
+
+              <div id="cover" >
+              </div>
+
+
+              <div id="subscribeScreen">
+                  <div>
+                    <p>
+                      Subscribe your email address to receive blog posts.
+                    </p>
+                    <br>
+
+<!--                    <form class="newsletter_form">
+                      <label for="newsletter"></label>
+                      <input type="text" id="newsletter" name="newsletter" return false;>
+                      <br><br>
+
+                      <div>
+                        <div style="float: left; padding-top: 0.5rem; padding-right: 1rem;">
+                          Daily
+                        </div>
+                        <div style="float: left;">
+                          <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                          </label>
+                        </div>
+                        <div style="float: left; padding-top: 0.5rem; padding-left: 1rem;">
+                          Weekly
+                        </div>
+                      </div>
+
+                      <div style="float: left; padding-left: 1.5rem;">
+                        <button type="button" id="subscribe" name="subscribe"><div class=subscribe_button>Subscribe</div></button>
+                      </div>
+
+                      <div style="float: left; padding-left: 1.5rem;">
+                        <button type="button" id="subscribe" name="unsubscribe" style="width: 14.5rem; padding-left: 1rem;"><div class=subscribe_button>Unsubscribe all</div></button>
+                      </div>
+                    </form>
+-->
+
+                  </div>
+
+                      <a href="#" class="cancel">×</a>
+                    </div>
+                    <div id="cover" >
+            </div>
+
+            
             <div class="main_container">
 
                 <div class="center_container">
 
-                                            
+
      <!-- Anda JS Containers here -->
-     
+
      <div class="fullScreenContainer" id="fullScreenContainer" name="blog">
-             <div id="controlContainerB">   
+             <div id="controlContainerB">
                 <div class="radio">
                     <div class="forminput"><input type="radio" name="talk" value="Announcement">Announcements</div> <!--  checked="true"  -->
-                    <div class="forminput"><input type="radio" name="talk"  value="Job">Job Listings</div>  
-                    <div class="forminput"><input type="radio" name="talk"  value="Activity">Activities</div>  
+                    <div class="forminput"><input type="radio" name="talk"  value="Job">Job Listings</div>
+                    <div class="forminput"><input type="radio" name="talk"  value="Activity">Activities</div>
                     <div class="forminput"><input type="radio" name="talk"   checked="true"  value="All">All Posts</div>
                 </div>
-             </div>     
+             </div>
 
-                                     
+
          <div class="visContainerB" id="visContainerB">
              <div class="blg"></div>
          </div>
@@ -234,6 +288,13 @@
 <!-- Anda JS Containers here -->
 
 
+<<<<<<<< HEAD:dist/blog.html
+                        <p>
+                        <div>
+                        </div>
+                        </p>
+========
+>>>>>>>> Functional:dist/all_blog_posts.html
 
                 </div>
             </div>
@@ -247,6 +308,13 @@
             <div class="credits_container">
               <span>Copyright European Set Theory Society 2022</span>
               <!--<a href="credits.html">Credits</a>.--> <a href="https://github.com/philippschlicht">Philipp Schlicht </a> - Webmaster and front-end developer <a href="https://github.com/AndaLatif">Anda Ramona Tănasie</a> - JS developer  <a href="https://github.com/Miguelwan">Miguel Moreno</a> - Front-end developer
+            </div>
+            <div class="credits_container_desktop">
+              <span>Copyright European Set Theory Society 2022</span>
+              <!--<a href="credits.html">Credits</a>.-->
+              <a href="https://github.com/philippschlicht">Philipp Schlicht </a> - Webmaster and front-end developer
+              <a href="https://github.com/AndaLatif">Anda Tanasie</a> - JS developer
+              <a href="https://github.com/Miguelwan">Miguel Moreno</a> - Front-end developer
             </div>
         </footer>
 
