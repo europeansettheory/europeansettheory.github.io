@@ -12,6 +12,8 @@
     --text-header-color: black;
     --text-color-hover: white;
     --text-color-hover-body: #ffaa1d; /* Bright Yellow (Crayola) */
+    --nav-border-bottom: var(--nav-border-bottom); /* light grey */ 
+
 
 /* Text */
     --text-color: black;
@@ -23,7 +25,7 @@
 /* Background */
     --header-background-color: white;
     --primary-background-color: white;
-    --secondary-background-color: #ffaa1d; /* Bright Yellow (Crayola) */
+    --secondary-background-color: #d9ebfb; /* very light blue */  /* #ffaa1d; Bright Yellow (Crayola) */
     --footer-background-color: #fafafa;
 
 /* Subscribe form */
@@ -133,7 +135,7 @@ rect {
 /* Navigation bar style */
 
 .nav {
-    border-bottom: 0.05rem solid green;
+    border-bottom: 0.01rem solid #c9c9c9;
 }
 
 /* Phone */
