@@ -98,7 +98,7 @@ h1 {
     display: block;
     min-width: 14rem;
     max-width: 14rem;
-    height: 3em;
+    height: 3rem;
 }
 
 
@@ -266,6 +266,11 @@ h1 {
 
 /* Applies to all check inputs whose id starts with "menu_option_"*/
 #nav_menu input[id *="menu_option"]:checked + span label.reset_label {
+    display: block;
+}
+
+
+#list_item_min {
     display: block;
 }
 

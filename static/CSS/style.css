@@ -527,6 +527,8 @@ footer {
 
 #list_item_min {
     min-width: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
 }
 
 
@@ -559,17 +561,17 @@ footer {
 
 #visContainer {/* Anda*/
     text-align: left;
-    max-width: 2000;
+    max-width: 200rem;
     margin: auto;
 }
 #visContainerVid {/* Anda*/
     text-align: left;
-    max-width: 2000;
+    max-width: 200rem;
     margin: auto;
 }
 #visContainerB {/* Anda*/
     text-align: left;
-    max-width: 2000;
+    max-width: 200rem;
     margin: auto;
 }
 
@@ -585,28 +587,28 @@ footer {
 }
 
 .video {
-      padding: 20px;
+      padding: 2rem;
 }
 
 #controlContainerV {/* Anda*/
     background-color: #315880;
-    padding:10pt;
-    color:white;
+    padding: 0.8rem;
+    color: white;
     display: block;
     text-align: left;
 }
 
 #controlContainerB{/* Anda*/
     background-color: #315880;
-    padding:10pt;
-    color:white;
+    padding: 0.8rem;
+    color: white;
     display: block;
     text-align: left;
 }
 
 
 .blog {/* Anda*/
-    padding: 10px;
+    padding: 1rem;
 
 }
 
