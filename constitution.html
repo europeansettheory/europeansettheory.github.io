@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta name="description" content="European Set Theory Society" />
+        <meta name="robots" content= "index,follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>European Set Theory Society</title>
+        <link
+            rel="stylesheet" href="./CSS/style.css"
+        />
+
+        <link
+            rel="stylesheet"
+            href="./CSS/tablet.css"
+            media="screen and (min-width: 780px)"
+        />
+        <link
+            rel="stylesheet"
+            href="./CSS/desktop.css"
+            media="screen and (min-width: 1100px)"
+        />
+
+    </head>
+    <body>
+
+         <header>
+
+            <nav class= "nav">
+
+                <input type="checkbox" name="" id="nav_checkbox"  class="nav_checkbox">
+
+                <label for="nav_checkbox" class="nav_toggle">
+
+                  <svg class="menu" viewBox="0 0 100 80" width="40" height="40">
+
+                    <rect width="100" height="15" stroke="black" style="fill:black"></rect>
+                    <rect y="30" width="100" height="15" stroke="black" style="fill:black"></rect>
+                    <rect y="60" width="100" height="15" stroke="black" style="fill:black"></rect>
+                  </svg>
+
+
+                  <svg class="close" viewBox="0 0 100 80" width="40" height="40">
+                    <line x1="40" y1="40"
+                      x2="50" y2="30"
+                      stroke="black"
+                      stroke-width="100"/>
+                    <line x1="40" y1="30"
+                      x2="50" y2="40"
+                      stroke="black"
+                      stroke-width="100"/>
+                  </svg>
+
+                  <span> <a href="index.html" id="house">
+                    <svg viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5
+                        0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                      <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207
+                        1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                    </svg></a>
+                  </span>
+
+                </label>
+
+                                <form>
+                                <input type="reset" id="subnav_reset">
+
+                                <ul class="nav_menu" id="nav_menu">
+
+                                <li>
+                                    <details class="nav_detailed">
+                                    <summary>About</summary>
+                                        <ul class="subnav_detailed">
+                                            <li><a href="mission.html">Mission Statement</a></li>
+                                            <li><a href="constitution.html">Constitution</a></li>
+                                            <li><a href="trustees.html">Trustees</a></li>
+                                            <li><a href="become_a_member.html">Become a member</a></li>
+                                            <li><a href="contact_us.html">Contact us</a></li>
+                                            </ul>
+                                    </details>
+
+                                    <div  class="nav_dropdown">
+                                        <input type="radio" name="menu_option" id="menu_option_about"  class="nav_menu_tablet">
+                                        <span> About
+                                          <label for="menu_option_about" class="nav_menu_tablet_label"></label>
+                                          <label for="subnav_reset" class="reset_label"></label>
+                                        </span>
+
+                                        <div class="nav_dropdown_content">
+                                            <a href="mission.html">Mission Statement</a>
+                                            <a href="constitution.html">Constitution</a>
+                                            <a href="trustees.html">Trustees</a>
+                                            <a href="become_a_member.html">Become a member</a>
+                                            <a href="contact_us.html">Contact us</a>
+                                            <div class="nav_background_box"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li>
+                                    <details class="nav_detailed">
+                                    <summary>Activities</summary>
+                                        <ul class="subnav_detailed">
+                                            <li><a href="conferences.html">Conference series</a></li>
+                                            <li><a href="hausdorff_medals.html">Hausdorff medals</a></li>
+                                            <li><a href="world_talks.html">Worldwide talks</a></li>
+                                        </ul>
+                                    </details>
+                                    <div  class="nav_dropdown">
+                                        <input type="radio" name="menu_option" id="menu_option_activities"  class="nav_menu_tablet">
+
+                                        <span> Activities
+                                          <label for="menu_option_activities" class="nav_menu_tablet_label"></label>
+                                          <label for="subnav_reset" class="reset_label"></label>
+                                        </span>
+
+                                        <div class="nav_dropdown_content">
+                                            <a href="conferences.html">Conference series</a>
+                                            <a href="hausdorff_medals.html">Hausdorff medals</a>
+                                            <a href="world_talks.html">Worldwide talks</a>
+                                            <div class="nav_background_box"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <details class="nav_detailed">
+                                    <summary>Resources</summary>
+                                        <ul class="subnav_detailed">
+                                            <li><a href="literature.html">Literature</a></li>
+                                            <li><a href="videos.html">Videos</a></li>
+                                            <li><a href="links.html">Links</a></li>
+                                        </ul>
+                                    </details>
+                                    <div  class="nav_dropdown">
+                                        <input type="radio" name="menu_option" id="menu_option_resources"  class="nav_menu_tablet">
+
+                                        <span> Resources
+                                          <label for="menu_option_resources" class="nav_menu_tablet_label"></label>
+                                          <label for="subnav_reset" class="reset_label"></label>
+                                        </span>
+
+                                        <div class="nav_dropdown_content">
+                                            <a href="literature.html">Literature</a>
+                                            <a href="videos.html">Videos</a>
+                                            <a href="links.html">Links</a>
+                                            <div class="nav_background_box"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li id="list_item_right">
+                                    <details class="nav_detailed">
+                                    <summary><a href="blog.html">Blog</a></summary>
+                                    </details>
+                                    <div class="nav_dropdown">
+                                        <span> <a href="blog.html">Blog</a>
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li id="list_item_min">
+
+                                    <div class="nav_dropdown">
+                                        <input type="radio" name="menu_option" id="menu_option_announcements"  class="nav_menu_tablet">
+
+                                        <span> <a href="index.html">
+                                          <svg width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5
+                                              0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                                            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207
+                                              1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                                          </svg></a>
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <details class="nav_detailed">
+                                    <summary><a href="blog.html">Subscribe</a></summary>
+                                    </details>
+                                    <div class="nav_dropdown" style="position:absolute;right:3rem;">
+                                        <span> <a href="blog.html">
+                                          <a href="#subscribeScreen" class="button">Subscribe</a>
+                                          </div>
+
+                                        </a>
+                                        </span>
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                            </form>
+
+        </nav>
+
+        </header>
+
+
+        <main>
+
+          <div id="subscribeScreenPhone">
+              <div>
+                <p>
+                  Subscribe your email address to receive blog posts.
+                </p>
+                <br>
+              </div>
+              <a href="#" class="cancel">×</a>
+          </div>
+
+              <div id="cover" >
+              </div>
+
+
+              <div id="subscribeScreen">
+                  <div>
+                    <p>
+                      Subscribe your email address to receive blog posts.
+                    </p>
+                    <br>
+
+<!--                    <form class="newsletter_form">
+                      <label for="newsletter"></label>
+                      <input type="text" id="newsletter" name="newsletter" return false;>
+                      <br><br>
+
+                      <div>
+                        <div style="float: left; padding-top: 0.5rem; padding-right: 1rem;">
+                          Daily
+                        </div>
+                        <div style="float: left;">
+                          <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                          </label>
+                        </div>
+                        <div style="float: left; padding-top: 0.5rem; padding-left: 1rem;">
+                          Weekly
+                        </div>
+                      </div>
+
+                      <div style="float: left; padding-left: 1.5rem;">
+                        <button type="button" id="subscribe" name="subscribe"><div class=subscribe_button>Subscribe</div></button>
+                      </div>
+
+                      <div style="float: left; padding-left: 1.5rem;">
+                        <button type="button" id="subscribe" name="unsubscribe" style="width: 14.5rem; padding-left: 1rem;"><div class=subscribe_button>Unsubscribe all</div></button>
+                      </div>
+                    </form>
+-->
+
+                  </div>
+
+                      <a href="#" class="cancel">×</a>
+                    </div>
+                    <div id="cover" >
+            </div>
+
+
+
+            <div class="main_container">
+
+                <div class="center_container">
+                        <h2>Constitution</h2>
+
+
+                        <div class="list">
+                        <p>
+
+                        <ol>
+                                <li>
+                                    Name. The name of the Society shall be The European Set Theory Society.
+                                </li>
+
+                                <br>
+
+                                <li>
+                                    Objects. The object of the European Set Theory Society is to strengthen set-theoretical research and scholarship in Europe. Its primary function is to promote the exchange and sharing of ideas and results, to foster cooperation between different research groups through the mobility of students and researchers, to achieve a better awareness and appreciation of set theory, and to facilitate access to funding instruments and other resources. Although its activities are centred in Europe and the Associated States, the Society is open to set theorists worldwide, and its actions are carried out in cooperation with researchers in countries outside Europe and with bordering areas of research. The Society aims to create a dynamic research and training network in order to ensure a leading position for European set theory and bring this subject to a higher level. The Society shall have the following powers:
+                                    <div class="list">
+                                    <p>
+                                    <ol type="I">
+                                        <li> holding meetings as it sees fit;</li>
+                                        <li> publishing proceedings, journals or other material as it sees fit;</li>
+                                        <li> writing recommendation letters, or being consulted on matters related to the object of the Society;</li>
+                                        <li> recognising achievements in set theory by special mentions, prices, etc.;</li>
+                                        <li> maintaining a web site with information of interest to set theorists;</li>
+                                        <li> providing assistance to collaborative research and training programmes at a European level;</li>
+                                        <li> co-operating with other institutions and organizations with similar aims.</li>
+                                    </ol>
+                                    </p>
+                                    </div>
+
+                                </li>
+
+                                <li>
+                                    Membership. Membership shall be open to all persons who support the objects of the Society, on payment of an annual subscription; provided that persons whose membership has been terminated under rule 13 may only be re-admitted to membership with the approval of the Committee. A list of members shall be compiled annually and shall be available to them.
+                                </li>
+
+                                <br>
+
+                                <li>
+                                    Subscription. The annual subscription shall be determined by the committee, which may vary the amount for students or for other categories of members. It shall be due on January 1st each year. A member shall not have the right to vote in any ballot if his or her subscription is in arrears, and any member whose subscription is more than twelve months in arrears shall be deemed to have resigned.
+                                </li>
+
+                                <br>
+
+                                <li>
+                                    Officers. The Society shall have a president, a vice-president, a secretary and a treasurer, and any other officer which the committee shall decide.
+                                </li>
+
+                                <br>
+
+                                <li>
+                                    Committee. There shall be a committee of seven full members, consisting of the president, the vice-president, the secretary, the treasurer, and three other full members. Subject to the constitution and to any resolutions passed by the membership under rule 12 below, the committee shall be responsible for running the Society, for directing the use of its funds in accord with the objects of the Society, for determining the annual subscription, and for making decisions on behalf of the Society.
+
+                                    <br>
+
+                                    It may appoint sub-committees, and co-opt members to the committee who shall not have the right to vote.
+
+                                    <br>
+
+                                    The quorum for decisions of the committee shall be one-half of the full members.
+                                </li>
+
+                                <br>
+
+                                <li>
+                                    Elections. The president, vice-president, secretary, treasurer, and other full members of the committee shall be elected by ballot of the members. The procedure for nomination and voting shall be as follows.
+
+                                    <div class="list">
+                                    <p>
+                                    <ol type="I">
+                                        <li>The committee, or any two members, may nominate any member or members for any vacancies for which an election is to be held. The committee may require the consent of any nominee in writing.</li>
+                                        <li>Before any election, the committee shall set a final date for nominations (normally 31st October), giving at least three weeks’ notice of that date to the members.</li>
+                                        <li>If more than one nomination is received for any vacancy, a ballot containing all such nominations shall be sent to each members, giving at least two weeks’ notice of the date by which they must be returned (normally 30th November). The committee shall communicate to members the results of the ballot.</li>
+                                        <li>Full members of the committee shall be elected for a term not exceeding three years. If the place of any full member of the committee shall fall vacant before his or her term of election has expired, an election shall be held within twelve months to the remainder of the term only.</li>
+                                    </ol>
+                                    </p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    Representatives. The committee may appoint representatives of the Society to any other appropriate body.
+                                </li>
+
+                                <br>
+
+                                <li>
+                                    Report. The committee shall circulate an annual report and a treasurer’s report to the members.
+                                </li>
+
+                                <br>
+
+                                <li>
+                                    General Meetings. The committee may call a general meeting of the Society at any time, and shall do so within 120 days of receipt, by the secretary, of a request signed by twenty members of the Society. A copy of the minutes of any general meeting shall be sent to each member within thirty days.
+                                </li>
+
+                                <br>
+
+                                <li>
+                                    Recall.
+                                    <div class="list">
+                                    <p>
+                                    <ol type="I">
+                                        <li>Any officer, committee member, or member appointed by the committee in any cap- acity, may be removed from that office or appointment by a recall motion approved by two-thirds of the members voting. Such a recall shall be held if the committee decides, or within 60 days of the receipt by the secretary of a request signed by twenty members of the Society. The vote shall be by ballot of the members, giving at least two weeks’ notice of the date by which ballots must be returned.</li>
+                                        <li>A member appointed to any position by the committee may be removed from the position by a vote of not less than five full members of the committee.</li>
+                                    </ol>
+                                    </p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    Changes and Membership Decisions. Resolutions binding on the Society and the committee, including constitutional amendments, may only be made by ballot of the members and shall require a two-thirds majority of those voting. At least two weeks shall be allowed for the return of ballots. Any resolution supported by the signatures of twenty members must be put to the members within 60 days; providing that no resolution may be put which would cause the Society to cease to be a charity-at-law.
+                                </li>
+
+                                <br>
+
+                                <li>
+                                    Expulsion. The committee shall terminate the membership of any person who, in its opinion, is opposing or hindering the objects or working of the Society; provided that such a person shall have the right to be heard by the committee before such a decision is taken, except when the member’s subscription is in arrears. Such a person shall only be re-admitted to membership with the approval of the committee.
+                                </li>
+
+                                <br>
+
+                                <li>
+                                    Notice to Members. In determining the period of notice which has been given to members by the committee on any matter, the date on which the communication was posted shall be used.
+                                </li>
+
+                                <br>
+
+                                <li>
+                                    Dissolution. If this Society shall decide to disband, any remaining assets shall be applied towards charitable purposes of a like nature, such as The Association for Symbolic Logic or The European Mathematical Society.
+                                </li>
+
+                        </ol>
+
+                        </p>
+                        </div>
+
+                </div>
+
+
+
+
+            </div>
+
+        </main>
+
+
+
+        <footer>
+            <div class="credits_container">
+              <span>Copyright European Set Theory Society 2022</span>
+              <!--<a href="credits.html">Credits</a>.-->
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span>Credits:</span>
+              <a href="https://github.com/Miguelwan">Miguel Moreno</a> - front-end
+              <a href="https://github.com/philippschlicht">Philipp Schlicht </a> - front-end
+              <a href="https://github.com/AndaLatif">Anda Ramona Tănasie</a> - full-stack
+            </div>
+            <div class="credits_container_desktop">
+              <span>Copyright European Set Theory Society 2022</span>
+              <!--<a href="credits.html">Credits</a>.-->
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span>Credits:</span>
+              <a href="https://github.com/Miguelwan">Miguel Moreno</a> - front-end
+              <a href="https://github.com/philippschlicht">Philipp Schlicht </a> - front-end
+              <a href="https://github.com/AndaLatif">Anda Ramona Tănasie</a> - full-stack
+            </div>
+        </footer>
+
+
+    </body>
+
+</html>
