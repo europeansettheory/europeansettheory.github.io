@@ -207,7 +207,7 @@ h1 {
 
 .right_container_small {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       flex-wrap: wrap;
 }
 
@@ -262,6 +262,22 @@ h1 {
 
 .searchdiv {/* Anda*/
     text-align: right;
+}
+
+
+/* Footer containers*/
+
+footer {
+    background-color: var(--footer-background-color);
+}
+
+
+
+
+/* Blog */
+
+.entry_title{/* Anda*/
+    padding: 1rem;
 }
 
 
