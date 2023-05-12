@@ -25,8 +25,8 @@
 /* Background */
     --header-background-color: white;
     --primary-background-color: white;
-    --secondary-background-color: #28436F;
-    /* #172A3A #BDBEA9 #8DB38B #D2AB99 #194090 #28436F */
+    --secondary-background-color: #696773;
+    /* #172A3A #BDBEA9 #8DB38B #D2AB99 #507DBC #194090 #28436F */
     /* #ffefca#d9ebfb;  very light blue */  /* #ffaa1d; Bright Yellow (Crayola) */
     --footer-background-color: #white;  /* #fafafa; */
 
@@ -307,7 +307,7 @@ rect {
 .left_subcontainer {
     margin-top: 1rem;
     margin-left: 0rem;
-    display: flex;
+/*    display: flex; */ 
     padding-top: 0rem;
     padding-bottom: 0rem;
     padding-left: 0rem;
