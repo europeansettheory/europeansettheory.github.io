@@ -27,7 +27,7 @@
     --primary-background-color: white;
     --secondary-background-color: #ffefca;
     /* #ffefca#d9ebfb;  very light blue */  /* #ffaa1d; Bright Yellow (Crayola) */
-    --footer-background-color: #ffefca;  /* #fafafa; */
+    --footer-background-color: #white;  /* #fafafa; */
 
 /* Subscribe form */
     --subscribe-form-color: #2196f3; /* light blue */
