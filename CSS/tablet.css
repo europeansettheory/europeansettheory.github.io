@@ -34,21 +34,29 @@ h1 {
 /* Navigation styles */
 
 .field_top{
+  /* background-image: linear-gradient(to right, white, #5370AC); */
+  /* background: var(--top-background-color); */
   position: fixed;
   top: 0rem;
   height: 15rem;
   width: 100%;
   margin: 0rem;
   margin-left: 0rem;
-  padding-top: 1.3rem;
+  padding-top: 0rem;
   padding-bottom: 2rem;
   padding-left: 4.8rem; /* 6.4rem; */
-  background: var(--top-background-color);
   gap: 2rem;
+  display: flex;
   flex-direction: row;
 }
 
+.field_top_right{
+  background-image: linear-gradient(to right, white, var(--secondary-background-color));
+    width: 85%;
+}
+
 .nav_menu{
+    background: var(--secondary-background-color);
     position: fixed;
     top: 12rem;
     width: 100%;
@@ -57,7 +65,6 @@ h1 {
     padding-top: 1rem;
     padding-bottom: 2rem;
     padding-left: 6.4rem;
-    background: var(--secondary-background-color);
     gap: 2rem;
     flex-direction: row;
 }
