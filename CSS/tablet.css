@@ -58,7 +58,21 @@ h1 {
 .nav_menu{
     background: var(--secondary-background-color);
     position: fixed;
-    top: 12rem;
+    top: 0rem;
+    width: 100%;
+    margin: 0rem;
+    margin-left: 0rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 6.4rem;
+    gap: 2rem;
+    flex-direction: row;
+}
+
+.nav_menu_home{
+    background: var(--secondary-background-color);
+    position: fixed;
+    top: 10rem;
     width: 100%;
     margin: 0rem;
     margin-left: 0rem;
@@ -81,6 +95,16 @@ h1 {
 }
 
 .nav_menu li {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_menu_home > li {
+    padding: 0rem;
+    text-align: left;
+}
+
+.nav_menu_home li {
     display: flex;
     flex-direction: row;
 }
