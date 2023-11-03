@@ -231,7 +231,7 @@ h1 {
 
 .left_container {
     width: 47%; /* 67%; */
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 
 .right_container {
@@ -239,7 +239,7 @@ h1 {
     /* float: right; */
     margin-top: 0rem;
     margin-left: 1%;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 
 .left_container_small {
