@@ -16,7 +16,7 @@ h1 {
       text-align: justify;
       display: flex;
       padding-top: 1rem;
-      padding-bottom: 1rem;
+      padding-bottom: 5rem;
       padding-left: 1.5rem;
       padding-right: 1.5rem;
       flex-direction: row;
@@ -251,7 +251,7 @@ h1 {
 .right_container_small {
     margin-left: 2%;
     padding-left: 2rem;
-    border-left: 0.05rem solid grey;
+/*    border-left: 0.05rem solid grey; */
 }
 
 .right_container_small {

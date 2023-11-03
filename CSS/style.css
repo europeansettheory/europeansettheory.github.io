@@ -324,7 +324,7 @@ rect {
     padding-top: 0rem;
     padding-bottom: 0rem;
     padding-left: 0rem;
-    padding-right: 0rem;
+    padding-right: 0.5rem;
 }
 
 .right_subcontainer {
