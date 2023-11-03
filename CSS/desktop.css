@@ -26,8 +26,7 @@
     padding: 1.5rem;
     padding-left: 4.8rem;
     color: var(--text-color-footer);
-    background-color: white;
-    background: white; 
+    background-color: green;
 }
 
 .credits_container_desktop a {
