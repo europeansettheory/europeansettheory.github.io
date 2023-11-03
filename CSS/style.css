@@ -31,6 +31,8 @@
     /* #ffefca#d9ebfb;  very light blue */  /* #ffaa1d; Bright Yellow (Crayola) */
     --footer-background-color: #white;  /* #fafafa; */
 
+/* talks and video */
+    --talks-color: #99ccff; /* light blue */
 /* Subscribe form */
     --subscribe-form-color: #2196f3; /* light blue */
 }
@@ -275,7 +277,7 @@ rect {
 .main_container {
     font-family: 'Cormorant';
     margin: 2rem 2rem 2rem 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
 .main_container p {
@@ -567,7 +569,7 @@ footer {
 }
 
 #controlContainer {/* Anda*/
-    background-color: var(--secondary-background-color);
+    background-color: var(--talks-color);
     padding: 1.33rem;
 /*    padding:10pt; */
     color: black;
@@ -617,7 +619,7 @@ footer {
 }
 
 #controlContainerV {/* Anda*/
-    background-color: #315880;
+    background-color: var(--talks-color); /* #315880; */
     padding: 0.8rem;
     color: white;
     display: block;
@@ -625,7 +627,7 @@ footer {
 }
 
 #controlContainerB{/* Anda*/
-    background-color: #315880;
+    background-color: var(--talks-color);
     padding: 0.8rem;
     color: white;
     display: block;
