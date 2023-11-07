@@ -96,7 +96,7 @@ h3 {
 }
 
 a {
-    color: inherit;
+    /* color: blue;   /* inherit; */
     text-decoration: none;
 }
 
