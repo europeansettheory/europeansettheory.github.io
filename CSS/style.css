@@ -285,6 +285,17 @@ rect {
     margin-bottom: 1rem;
 }
 
+.top_container {
+    font-family: 'Cormorant';
+    margin: 2rem 2rem 2rem 2rem;
+    padding-bottom: 2rem;
+}
+
+.top_container p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .left_container_small,
 .right_container_small {
     border-radius: 0rem;

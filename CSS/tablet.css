@@ -23,6 +23,18 @@ h1 {
       flex-wrap: wrap;
 }
 
+.top_container {
+      font-size: 105%;
+      text-align: justify;
+      display: flex;
+      padding-top: 1rem;
+      padding-bottom: 0rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      flex-direction: row;
+      flex-wrap: wrap;
+}
+
 /*==================================================================================================================================================*/
 /* Header styles */
 
