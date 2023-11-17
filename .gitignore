@@ -103,8 +103,7 @@ typings/
 # TernJS port file
 .tern-port
 
-*.jpg
-*.JPG
+
 *.pdf
 *.odp
 *.zipn
