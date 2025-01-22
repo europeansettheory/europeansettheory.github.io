@@ -59,11 +59,11 @@ html {
 
 body {
     font-size: 160%;
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Times New Roman';
 }
 
 header {
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Times New Roman';
     font-size: 2.0rem;
     color: var(--text-header-color);
     background-color: var(--header-background-color);
@@ -72,7 +72,7 @@ header {
 }
 
 footer {
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Times New Roman';
     font-size: 1.2rem;
     text-align: left;
     background-color: white;
