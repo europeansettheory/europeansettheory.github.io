@@ -59,11 +59,11 @@ html {
 
 body {
     font-size: 160%;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Arial, 'Times New Roman', serif;
 }
 
 header {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Arial, 'Times New Roman', serif;
     font-size: 2.0rem;
     color: var(--text-header-color);
     background-color: var(--header-background-color);
@@ -72,7 +72,7 @@ header {
 }
 
 footer {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Arial, 'Times New Roman', serif;
     font-size: 1.2rem;
     text-align: left;
     background-color: white;
@@ -81,19 +81,19 @@ footer {
 }
 
 h1 {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Arial, 'Times New Roman', serif;
     font-size: 3.2rem;
     font-weight: bold;
     color: var(--title-color);
 }
 
 h2 {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Arial, 'Times New Roman', serif;
     color: var(--text-color-section-heading);
 }
 
 h3 {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* 'Libre Baskerville'; */
+    font-family: Arial, 'Times New Roman', serif; /* 'Libre Baskerville'; */
     font-size: 2.2rem;
     color: var(--text-color-section-heading);
 }
@@ -278,7 +278,7 @@ rect {
 /* Body containers styles */
 
 .main_container {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Times New Roman', serif;
     margin: 2rem 2rem 2rem 2rem;
     padding-bottom: 2rem;
 }
@@ -289,7 +289,7 @@ rect {
 }
 
 .top_container {
-    font-family: 'Cormorant';
+    font-family: 'Times New Roman', serif;
     margin: 2rem 2rem 2rem 2rem;
     padding-bottom: 2rem;
 }
@@ -361,7 +361,7 @@ rect {
 }
 
 .center_container {
-    font-family: 'Cormorant';
+    font-family: 'Times New Roman', serif;
     margin-left: 3rem;
     margin-right: 3rem;
     margin-bottom: 3rem;
