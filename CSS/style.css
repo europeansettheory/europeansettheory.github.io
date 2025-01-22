@@ -81,7 +81,7 @@ footer {
 }
 
 h1 {
-    font-family: Times New Roman', serif;
+    font-family: 'Times New Roman', serif;
     font-size: 3.2rem;
     font-weight: bold;
     color: var(--title-color);
