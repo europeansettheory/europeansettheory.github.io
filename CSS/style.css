@@ -32,7 +32,7 @@
     --footer-background-color: #white;  /* #fafafa; */
 
 /* bar on main page */
-    --bar-text-color: black; /* #000045; dark blue */ 
+    --bar-text-color: black; /* #000045; dark blue */
 
 /* talks and video */
     --talks-color: #99ccff; /* light blue */
@@ -59,7 +59,7 @@ html {
 
 body {
     font-size: 160%;
-    font-family: 'Cormorant';
+    font-family: 'Georgia';
 }
 
 header {
