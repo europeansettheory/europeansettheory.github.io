@@ -64,7 +64,8 @@ h1 {
 }
 
 .field_top_right{
-  background-image: linear-gradient(to right, white, var(--secondary-background-color));
+    background: #ffc76a;
+/*  background-image: linear-gradient(to right, white, var(--secondary-background-color)); */
     width: 85%;
 }
 
