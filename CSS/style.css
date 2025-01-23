@@ -25,8 +25,8 @@
 /* Background */
     --top-background-color: white;
     --header-background-color: white;
-    --primary-background-color: blue;
-    --secondary-background-color: white; /* #6680B5; #194090; #6680B5*/
+    --primary-background-color: white;
+    --secondary-background-color: #ffaa1d; /* #6680B5; #194090; #6680B5*/
     /* #172A3A #BDBEA9 #8DB38B #D2AB99 #507DBC #28436F #696773 #194090 #e9b44f #4e5b37 #cce1bb*/
     /* #ffefca#d9ebfb;  very light blue */  /* #ffaa1d; Bright Yellow (Crayola) */
     --footer-background-color: #white;  /* #fafafa; */
