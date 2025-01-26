@@ -10,8 +10,8 @@
 /* Header */
     --title-color: black;
     --text-header-color: black;
-    --text-color-hover: #ffaa1d;
-    --text-color-hover-body: #ffaa1d; /* Bright Yellow (Crayola) */
+    --text-color-hover: #fff7ea;
+    --text-color-hover-body: #fff7ea; /* Bright Yellow (Crayola) */
     --nav-border-bottom: var(--nav-border-bottom); /* light grey */
 
 
@@ -26,7 +26,7 @@
     --top-background-color: white;
     --header-background-color: white;
     --primary-background-color: white; /* #fffdfa; */
-    --secondary-background-color: #ffda9d; /*#ffc76a; #6680B5; #194090; #6680B5*/
+    --secondary-background-color: #fff7ea; /*#ffc76a; #6680B5; #194090; #6680B5*/
     /* #172A3A #BDBEA9 #8DB38B #D2AB99 #507DBC #28436F #696773 #194090 #e9b44f #4e5b37 #cce1bb*/
     /* #ffefca#d9ebfb;  very light blue */  /* #ffaa1d; Bright Yellow (Crayola) */
     --footer-background-color: #white;  /* #fafafa; */
