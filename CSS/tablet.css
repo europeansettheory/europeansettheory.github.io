@@ -245,6 +245,7 @@ h1 {
 .left_container {
     width: 47%; /* 67%; */
     margin-bottom: 1rem;
+    border-left: 0.05rem solid grey;
 }
 
 .right_container {
@@ -253,6 +254,7 @@ h1 {
     margin-top: 0rem;
     margin-left: 1%;
     margin-bottom: 1rem;
+    border-left: 0.05rem solid grey;
 }
 
 .left_container_small {
