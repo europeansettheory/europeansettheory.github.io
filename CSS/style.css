@@ -20,7 +20,7 @@
     --text-color-section-heading: #2F539B;
 
 /* Footer */
-    --text-color-footer: black;
+    --text-color-footer: #2F539B;
 
 /* Background */
     --top-background-color: white;
@@ -32,7 +32,7 @@
     --footer-background-color: white;  /* #fafafa; */
 
 /* bar on main page */
-    --bar-text-color: black; /* #000045; dark blue */
+    --bar-text-color: #2F539B; /* #000045; dark blue */
 
 /* talks and video */
     --talks-color: #99ccff; /* light blue */
