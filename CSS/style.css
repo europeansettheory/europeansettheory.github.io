@@ -8,8 +8,8 @@
 
 :root {
 /* Header */
-    --title-color: black;
-    --text-header-color: black;
+    --title-color: #2F539B;
+    --text-header-color: #2F539B;
     --text-color-hover: #fff7ea;
     --text-color-hover-body: #fff7ea; /* Bright Yellow (Crayola) */
     --nav-border-bottom: var(--nav-border-bottom); /* light grey */
