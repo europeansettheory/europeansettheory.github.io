@@ -122,3 +122,5 @@ npm-debug.log
 package-lock.json
 webpack-stats.json
 backup*
+
+.DS_Store
