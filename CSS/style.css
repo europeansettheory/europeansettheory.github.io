@@ -104,19 +104,19 @@ a {
 }
 
 a:link {
-  color: #408262;
+  color: #2f6048; /*#408262;*/
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: #408262;
+  color: #2f6048;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:active {
-  color: #408262;
+  color: #2f6048;
   background-color: transparent;
   text-decoration: none;
 }
