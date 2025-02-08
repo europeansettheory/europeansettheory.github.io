@@ -359,6 +359,16 @@ rect {
     padding-right: 0.5rem;
 }
 
+.small_subcontainer {
+    margin-top: 1rem;
+    margin-left: 0rem;
+/*    display: flex; */
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    padding-right: 0.5rem;
+}
+
 .right_subcontainer {
     margin-top: 1rem;
     margin-left: 1rem;

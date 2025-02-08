@@ -318,6 +318,10 @@ h1 {
     width: 48%;
 }
 
+.small_subcontainer {
+    width: 30%;
+}
+
 .right_subcontainer {
     width: 48%;
 }
