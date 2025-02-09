@@ -203,12 +203,9 @@ h1 {
     color: var(--text-color-hover);
 }
 
-.nav_dropdown:hover {
-    cursor: pointer;
-    color:#ff971d;
-}
 
-.nav_dropdown_subscribe {
+
+.nav_dropdown_subscribe a {
     color: #ff971d;
 }
 
