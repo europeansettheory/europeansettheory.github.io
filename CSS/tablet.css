@@ -76,7 +76,8 @@ h1 {
     width: 100%;
     margin: 0rem;
     margin-left: 0rem;
-    padding-top: 5rem;
+    margin-top: 5rem;
+    padding-top: 1rem;
     padding-bottom: 2rem;
     padding-left: 6.4rem;
     gap: 2rem;
