@@ -471,6 +471,10 @@ footer {
       border-radius: 0.5rem;
     }
 
+.button a:hover {
+      color: black;
+    }
+
     #cover{
       position:fixed;
       top:0;
