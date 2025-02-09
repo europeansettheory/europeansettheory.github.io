@@ -26,8 +26,8 @@
     height: 2rem;
     padding: 1.5rem;
     padding-left: 4.8rem;
-    color: #d5d0c8;
-    background-color: white;
+    color: var(--text-color-footer);
+    background-color: #d5d0c8;
 }
 
 .credits_container_desktop a {
