@@ -133,8 +133,11 @@ h1 {
     background: var(--secondary-background-color);
     padding: 0.4rem;
     margin-top: 1rem;
-    color: #2f6048;
 }
+
+.nav_dropdown a {
+    color: #2f6048;
+} 
 
 .nav_dropdown_subscribe {
     display: block;
