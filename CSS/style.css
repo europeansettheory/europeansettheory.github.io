@@ -279,6 +279,10 @@ rect {
     display: none;
 }
 
+.nav_dropdown_subscribe {
+    color: #2f6048;
+}
+
 .nav_dropdown_subscribe a {
     color: #ff971d;
 }
