@@ -205,11 +205,12 @@ h1 {
 
 .nav_dropdown:hover {
     cursor: pointer;
+    color:#ff971d; 
 }
 
 .nav_dropdown_subscribe:hover {
     cursor: pointer;
-    color:white; 
+    color:white;
 }
 
 .nav_menu_tablet:checked ~ div{

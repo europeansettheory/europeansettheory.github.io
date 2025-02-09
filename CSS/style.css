@@ -278,14 +278,6 @@ rect {
     display: none;
 }
 
-.nav_dropdown_subscribe:hover {
-    color: white;
-}
-
-.nav_dropdown_subscribe a:hover {
-    color: white;
-}
-
 
 .nav_menu_tablet{
     display:none;
