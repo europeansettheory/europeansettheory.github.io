@@ -265,6 +265,10 @@ rect {
     display: none;
 }
 
+.nav_dropdown:hover {
+    color: var(--text-color-hover);
+}
+
 .nav_dropdown a:hover {
     color: var(--text-color-hover);
 }
