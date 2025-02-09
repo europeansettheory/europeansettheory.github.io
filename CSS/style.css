@@ -460,10 +460,10 @@ footer {
       color: black;
       background-color: transparent;
 /*       box-shadow: -8px 8px 10px 3px rgba(0,0,0,0.2); */
-      border: 1px solid blue; 
+      border: 1px solid blue;
       border-box: black;
       border-style: solid;
-      border-color: white;
+      border-color: #2F539B;
       border-radius: 0.5rem;
     }
 
