@@ -273,6 +273,20 @@ rect {
     color: var(--text-color-hover);
 }
 
+
+.nav_dropdown_subscribe {
+    display: none;
+}
+
+.nav_dropdown_subscribe:hover {
+    color: white;
+}
+
+.nav_dropdown_subscribe a:hover {
+    color: var(--text-color-hover);
+}
+
+
 .nav_menu_tablet{
     display:none;
 }

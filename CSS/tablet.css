@@ -135,6 +135,14 @@ h1 {
     margin-top: 1rem;
 }
 
+.nav_dropdown_subscribe {
+    display: block;
+    position: relative;
+    background: var(--secondary-background-color);
+    padding: 0.4rem;
+    margin-top: 1rem;
+}
+
 .nav_dropdown_content {
     display: none;
     position: fixed;
@@ -196,6 +204,10 @@ h1 {
 }
 
 .nav_dropdown:hover {
+    cursor: pointer;
+}
+
+.nav_dropdown_subscribe:hover {
     cursor: pointer;
 }
 
