@@ -266,11 +266,11 @@ rect {
 }
 
 .nav_dropdown:hover {
-    color: var(--text-color-hover);
+    color: #2f6048; /* var(--text-color-hover); */
 }
 
 .nav_dropdown a:hover {
-    color: var(--text-color-hover);
+    color: #2f6048; /* var(--text-color-hover); */
 }
 
 
