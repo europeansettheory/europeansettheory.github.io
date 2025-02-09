@@ -191,7 +191,7 @@ h1 {
 } */
 
 
-.nav_dropdown_content:hover {
+.nav_dropdown_content a:hover {
     color: var(--text-color-hover);
 }
 
