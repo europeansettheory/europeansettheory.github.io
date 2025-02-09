@@ -23,12 +23,22 @@
             media="screen and (min-width: 1100px)"
         />
 
-        <script language="JavaScript" src="bundle.js"></script>
+
 
     </head>
+
     <body>
 
-         <header>
+      <div class="field_top">
+        <div style="padding-top: 1.3rem">
+        <figure>
+          <img src="./images/logo/LOGO_FINAL_MAYO_4.png" width=220rem>
+        </figure>
+        </div>
+          <div class="field_top_right" width=75vw> </div>
+      </div>
+
+        <header class="header_index">
 
             <nav class= "nav">
 
@@ -38,9 +48,9 @@
 
                   <svg class="menu" viewBox="0 0 100 80" width="40" height="40">
 
-                    <rect width="100" height="15" stroke="black" style="fill:black"></rect>
-                    <rect y="30" width="100" height="15" stroke="black" style="fill:black"></rect>
-                    <rect y="60" width="100" height="15" stroke="black" style="fill:black"></rect>
+                    <rect width="100" height="15"></rect>
+                    <rect y="30" width="100" height="15"></rect>
+                    <rect y="60" width="100" height="15"></rect>
                   </svg>
 
 
@@ -55,150 +65,151 @@
                       stroke-width="100"/>
                   </svg>
 
-                  <span> <a href="index.html" id="house">
-                    <svg viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5
-                        0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
-                      <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207
-                        1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
-                    </svg></a>
-                  </span>
+
 
                 </label>
 
-                                <form>
-                                <input type="reset" id="subnav_reset">
+                <form>
+                <input type="reset" id="subnav_reset">
 
-                                <ul class="nav_menu" id="nav_menu">
+                <ul class="nav_menu_home" id="nav_menu">
 
-                                <li>
-                                    <details class="nav_detailed">
-                                    <summary>About</summary>
-                                        <ul class="subnav_detailed">
-                                            <li><a href="mission.html">Mission Statement</a></li>
-                                            <li><a href="constitution.html">Constitution</a></li>
-                                            <li><a href="trustees.html">Trustees</a></li>
-                                            <li><a href="become_a_member.html">Become a member</a></li>
-                                            <li><a href="contact_us.html">Contact us</a></li>
-                                            </ul>
-                                    </details>
-
-                                    <div  class="nav_dropdown">
-                                        <input type="radio" name="menu_option" id="menu_option_about"  class="nav_menu_tablet">
-                                        <span> About
-                                          <label for="menu_option_about" class="nav_menu_tablet_label"></label>
-                                          <label for="subnav_reset" class="reset_label"></label>
-                                        </span>
-
-                                        <div class="nav_dropdown_content">
-                                            <a href="mission.html">Mission Statement</a>
-                                            <a href="constitution.html">Constitution</a>
-                                            <a href="trustees.html">Trustees</a>
-                                            <a href="become_a_member.html">Become a member</a>
-                                            <a href="contact_us.html">Contact us</a>
-                                            <div class="nav_background_box"></div>
-                                        </div>
-                                    </div>
-                                </li>
+<!--                  <li width="5rem">
+                    <div width="5rem" class="nav_dropdown">
+                  <img src="./images/omega.png" width=10%>
+-->
+                    <!--<img src="./images/logo/LOGO_FINAL_MAYO_4.png" width=20%>-->
+<!--                         </div>
+                 </li>
+-->
 
 
-                                <li>
-                                    <details class="nav_detailed">
-                                    <summary>Activities</summary>
-                                        <ul class="subnav_detailed">
-                                            <li><a href="conferences.html">Conference series</a></li>
-                                            <li><a href="hausdorff_medals.html">Hausdorff medals</a></li>
-                                            <li><a href="colloquia.html">Colloquia</a></li>
-                                            <li><a href="world_talks.html">Worldwide talks</a></li>
-                                        </ul>
-                                    </details>
-                                    <div  class="nav_dropdown">
-                                        <input type="radio" name="menu_option" id="menu_option_activities"  class="nav_menu_tablet">
-
-                                        <span> Activities
-                                          <label for="menu_option_activities" class="nav_menu_tablet_label"></label>
-                                          <label for="subnav_reset" class="reset_label"></label>
-                                        </span>
-
-                                        <div class="nav_dropdown_content">
-                                            <a href="conferences.html">Conference series</a>
-                                            <a href="hausdorff_medals.html">Hausdorff medals</a>
-                                            <a href="colloquia.html">Colloquia</a>
-                                            <a href="world_talks.html">Worldwide talks</a>
-                                            <div class="nav_background_box"></div>
-                                        </div>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <details class="nav_detailed">
-                                    <summary>Resources</summary>
-                                        <ul class="subnav_detailed">
-                                            <li><a href="literature.html">Literature</a></li>
-                                            <li><a href="videos.html">Videos</a></li>
-                                            <li><a href="links.html">Links</a></li>
-                                        </ul>
-                                    </details>
-                                    <div  class="nav_dropdown">
-                                        <input type="radio" name="menu_option" id="menu_option_resources"  class="nav_menu_tablet">
-
-                                        <span> Resources
-                                          <label for="menu_option_resources" class="nav_menu_tablet_label"></label>
-                                          <label for="subnav_reset" class="reset_label"></label>
-                                        </span>
-
-
-                                        <div class="nav_dropdown_content">
-                                            <a href="literature.html">Literature</a>
-                                            <a href="videos.html">Videos</a>
-                                            <a href="links.html">Links</a>
-                                            <div class="nav_background_box"></div>
-                                        </div>
-                                    </div>
-                                </li>
-
-                                <li id="list_item_right">
-                                    <details class="nav_detailed">
-                                    <summary><a href="blog.html">Blog</a></summary>
-                                    </details>
-                                    <div class="nav_dropdown">
-                                        <span> <a href="blog.html">Blog</a>
-                                        </span>
-                                    </div>
-                                </li>
-
-                                <li id="list_item_min">
-                                    <div class="nav_dropdown">
-                                        <input type="radio" name="menu_option" id="menu_option_announcements"  class="nav_menu_tablet">
-
-                                        <span> <a href="index.html">
-                                          <svg width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5
-                                              0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
-                                            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207
-                                              1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
-                                          </svg></a>
-                                        </span>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <details class="nav_detailed">
-                                    <summary><a href="#subscribeScreenPhone">Subscribe</a></summary>
-                                    </details>
-                                    <div class="nav_dropdown" style="position:absolute;right:3rem;">
-                                        <span> <a href="blog.html">
-                                          <a href="#subscribeScreen" class="button">Subscribe</a>
-                                          </div>
-
-                                        </a>
-                                        </span>
-                                    </div>
-                                </li>
-
+                <li>
+                    <details class="nav_detailed">
+                    <summary>About</summary>
+                        <ul class="subnav_detailed">
+                            <li><a href="mission.html">Mission Statement</a></li>
+                            <li><a href="constitution.html">Constitution</a></li>
+                            <li><a href="trustees.html">Trustees</a></li>
+                            <li><a href="become_a_member.html">Become a member</a></li>
+                            <li><a href="contact_us.html">Contact us</a></li>
                             </ul>
+                    </details>
 
-                            </form>
+                    <div  class="nav_dropdown">
+                        <input type="radio" name="menu_option" id="menu_option_about"  class="nav_menu_tablet">
+                        <span> About
+                          <label for="menu_option_about" class="nav_menu_tablet_label"></label>
+                          <label for="subnav_reset" class="reset_label"></label>
+                        </span>
+
+                        <div class="nav_dropdown_content">
+                            <a href="mission.html">Mission Statement</a>
+                            <a href="constitution.html">Constitution</a>
+                            <a href="trustees.html">Trustees</a>
+                            <a href="become_a_member.html">Become a member</a>
+                            <a href="contact_us.html">Contact us</a>
+                            <div class="nav_background_box"></div>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li>
+                    <details class="nav_detailed">
+                    <summary>Activities</summary>
+                        <ul class="subnav_detailed">
+                            <li><a href="conferences.html">Conference series</a></li>
+                            <li><a href="hausdorff_medals.html">Hausdorff medals</a></li>
+                            <li><a href="colloquia.html">Colloquia</a></li>
+                            <li><a href="world_talks.html">Worldwide talks</a></li>
+                        </ul>
+                    </details>
+                    <div  class="nav_dropdown">
+                        <input type="radio" name="menu_option" id="menu_option_activities"  class="nav_menu_tablet">
+
+                        <span> Activities
+                          <label for="menu_option_activities" class="nav_menu_tablet_label"></label>
+                          <label for="subnav_reset" class="reset_label"></label>
+                        </span>
+
+                        <div class="nav_dropdown_content">
+                            <a href="conferences.html">Conference series</a>
+                            <a href="hausdorff_medals.html">Hausdorff medals</a>
+                            <a href="colloquia.html">Colloquia</a>
+                            <a href="world_talks.html">Worldwide talks</a>
+                            <div class="nav_background_box"></div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <details class="nav_detailed">
+                    <summary>Resources</summary>
+                        <ul class="subnav_detailed">
+                            <li><a href="literature.html">Literature</a></li>
+                            <li><a href="links.html">Links</a></li>
+                            <li><a href="videos.html">Videos</a></li>
+                        </ul>
+                    </details>
+                    <div  class="nav_dropdown">
+                        <input type="radio" name="menu_option" id="menu_option_resources"  class="nav_menu_tablet">
+
+                        <span> Resources
+                          <label for="menu_option_resources" class="nav_menu_tablet_label"></label>
+                          <label for="subnav_reset" class="reset_label"></label>
+                        </span>
+
+                        <div class="nav_dropdown_content">
+                            <a href="literature.html">Literature</a>
+                            <a href="links.html">Links</a>
+                            <a href="videos.html">Videos</a>
+                            <div class="nav_background_box"></div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <details class="nav_detailed">
+                    <summary><a href="blog.html">Blog</a></summary>
+                    </details>
+                    <div class="nav_dropdown">
+                        <span> <a href="blog.html">Blog</a>
+                        </span>
+                    </div>
+                </li>
+
+                <li>
+                    <details class="nav_detailed">
+                    <summary><a href="#subscribeScreenPhone">Subscribe</a></summary>
+                    </details>
+                    <div class="nav_dropdown_subscribe" style="position:absolute;right:3rem;">
+                        <span>
+                          <a href="#subscribeScreen" class="button">Subscribe</a>
+                        </span>
+                    </div>
+
+                    </div>
+                </li>
+            </ul>
+
+            </form>
+
+            <div class="main_title">
+                <div class="main_container_title">
+                  <div class="top_left_container">
+                    <h1>European Set Theory Society</h1>
+                  </div>
+                  <div class="top_left_container_tablet">
+
+                    <!--
+                    <h1>European Set Theory Society</h1>
+                    <br>
+                    <p>Society for research in set theory and its applications</p>
+                    -->
+                  </div>
+                </div>
+            </div>
 
         </nav>
 
@@ -209,6 +220,7 @@
           <div id="subscribeScreenPhone">
               <div>
                 <p>
+                  Under construction:
                   Subscribe your email address to receive blog posts.
                 </p>
                 <br>
@@ -223,6 +235,7 @@
               <div id="subscribeScreen">
                   <div>
                     <p>
+                      Under construction:
                       Subscribe your email address to receive blog posts.
                     </p>
                     <br>
@@ -262,6 +275,56 @@
                       <a href="#" class="cancel">×</a>
                     </div>
                     <div id="cover" >
+            </div>
+
+<!--
+            <div class="top_container">
+            </div>
+  -->
+
+
+<!--
+              <div class="center_container" style="background:var(--talks-color); color:var(--bar-text-color)">
+              <p>The European Set Theory Society aims to support research and networks in set theory and related fields.
+              It is a worldwide society that has its roots in Europe.<a style="color:red; text-align:center; font-weight:bold;">Website under Construction</a>
+              </p>
+            -->
+
+
+
+
+<!--
+              <div class="left_container">
+                  <div class="left_container_small">
+                    <h1 style="color:red;">Under Construction</h1>
+                    <!--  <h2> Recent blog posts</h2> -->
+                        <!--<span style="white-space: nowrap">-->
+
+<!--
+                        <h3>Aims</h3>
+
+                        <p>The European Set Theory Society aims to support research and networks in set theory and related fields.
+                        It is a worldwide society that has its roots in Europe.
+                        </p>
+                  </div>
+              </div>
+
+              <div class="right_container">
+                  <div class="right_container_small">
+                    <!--  <h2> Recent blog posts</h2> -->
+                        <!--<span style="white-space: nowrap">-->
+
+
+
+
+
+                        <!--<p style="border:1px; border-style:solid; border-color:var(--text-border-color);padding: 0.3em;">-->
+<!--
+                  </div>
+              </div>
+-->
+
+
             </div>
 
 
