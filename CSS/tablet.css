@@ -76,7 +76,6 @@ h1 {
     width: 100%;
     margin: 0rem;
     margin-left: 0rem;
-    margin-top: 30rem;
     padding-top: 1rem;
     padding-bottom: 2rem;
     padding-left: 6.4rem;
@@ -87,7 +86,7 @@ h1 {
 .nav_menu_home{
     background: var(--secondary-background-color);
     position: fixed;
-    top: 10rem;
+    top: 12rem;
     width: 100%;
     margin: 0rem;
     margin-left: 0rem;
