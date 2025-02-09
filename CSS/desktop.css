@@ -24,14 +24,14 @@
 .credits_container_desktop {
     display: block;
     height: 2rem;
-    padding: 1.5rem;
+    padding: 1rem;
     padding-left: 4.8rem;
     color: var(--text-color-footer);
     background-color: #d5d0c8;
 }
 
 .credits_container_desktop a {
-/*    padding-left: 2rem; */ 
+/*    padding-left: 2rem; */
     color: #2F539B;
 }
 
