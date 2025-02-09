@@ -283,7 +283,7 @@ rect {
 }
 
 .nav_dropdown_subscribe a:hover {
-    color: var(--text-color-hover);
+    color: white;
 }
 
 
