@@ -71,11 +71,6 @@ header {
 /*  background-image: url(../images/birch_finland_kilpisjarvi_lake_and_trees_during_fall_hd_nature-2560x1440_crop1.jpg); */
 }
 
-header a {
-/*    padding-left: 2rem; */
-    color: #2F539B;
-}
-
 footer {
     font-family: 'Times New Roman', serif;
     font-size: 1.2rem;
@@ -225,6 +220,11 @@ rect {
     margin-right: 1rem;
     padding: 0.4rem;
     padding-left: 1.4rem;
+}
+
+.nav_menu_home a {
+/*    padding-left: 2rem; */
+    color: #2F539B;
 }
 
 .nav_menu_home > li {
