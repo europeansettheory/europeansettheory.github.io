@@ -269,10 +269,6 @@ rect {
     color: var(--text-color-hover);
 }
 
-.nav_dropdown_content:hover {
-    color: var(--text-color-hover);
-}
-
 .nav_menu_tablet{
     display:none;
 }

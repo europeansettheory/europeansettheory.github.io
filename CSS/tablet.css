@@ -190,8 +190,9 @@ h1 {
     width: 47px;
 } */
 
+
 .nav_dropdown_content:hover {
-    color: black;
+    color: var(--text-color-hover);
 }
 
 .nav_dropdown:hover {
