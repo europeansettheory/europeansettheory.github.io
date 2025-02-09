@@ -35,6 +35,11 @@
     color: #2F539B;
 }
 
+.credits_container_desktop a:hover {
+/*    padding-left: 2rem; */
+    color: var(--text-color-hover);
+}
+
 
 #subscribeScreen
 {
