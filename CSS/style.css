@@ -278,7 +278,7 @@ rect {
     display: none;
 }
 
-.nav_dropdown_subscribe {
+.nav_dropdown_subscribe a {
     color: #ff971d;
 }
 
