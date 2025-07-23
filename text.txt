@@ -1,0 +1,49 @@
+Gdansk Set Theory Seminar
+Date and time: Monday, 4 August, 16:00 – 17:00 Poland (16:00 – 17:00 CEST)
+Speaker: Test speaker
+Title: Test title
+Abstract: Test Abstract
+Information: Test information
+ 
+Leeds Set Theory Seminar
+Date and time: Friday, 1 August, 15:00 – 16:00 London (16:00 – 16:00 CEST)
+Speaker: Test speaker
+Title: Test title
+Abstract: Test Abstract
+Information: Test information
+ 
+New York Set Theory Seminar
+Date and time: Tuesday, 5 August, 13:00 – 47:00 New York (19:00 – 20:00 CEST)
+Speaker: Test speaker
+Title: Test title
+Abstract: Test Abstract
+Information: Test information
+ 
+Caltech Logic Seminar
+Date and time: Wednesday, 6 August, 16:00 – 17:00 California (08:00 – 09:00 CEST)
+Speaker: Test speaker
+Title: Test title
+Abstract: Test Abstract
+Information: Test information
+ 
+Cross-Alps Seminar
+Date and time: Friday, 6 August, 15:00 – 16:00 Italy (15:00 – 16:00 CEST)
+Speaker: Test speaker
+Title: Test title
+Abstract: Test Abstract
+Information: Test information
+ 
+Toronto Set Theory Seminar
+Date and time: Wednesday, 6 August, 14:00 – 15:00 Toronto (20:00 – 21:00 CEST)
+Speaker: Test speaker
+Title: Test title
+Abstract: Test Abstract
+Information: Test information
+ 
+Vienna Set Theory Seminar
+Date and time: Thursday, 7 August, 10:00 – 11:00 Austria (10:00 – 11:00 CEST)
+Speaker: Test speaker
+Title: Test title
+Abstract: Test Abstract
+Information: Test information
+ 
