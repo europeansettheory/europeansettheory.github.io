@@ -1,5 +1,11 @@
-"Author";"Tags";"Title";"Entry";"Date";"Image"
-"Webmaster";"Activity, Announcement";"RIMS Workshop on Set Theory: Recent Developments in Axiomatic Set Theory";"Kyoto University RIMS
+Author,Tags,Title,Entry,Date,Image
+Webmaster,Announcement,"Ronald Jensen (Apr 01, 1936 - Sept 16, 2025)","Ronald Jensen was born in Virginia in the US in 1936. After having completed a BA in economics in New York in 1959, he decided to move to Europe and become a logician. He finished his Ph.D. with G. Hasenjaeger at the University of Bonn in 1964 with a thesis on subsystems of arithmetic, and he did his Habilitation at Bonn in 1967 on levels of the constructible hierarchy.
+Jensen developed the fine structure theory all by himself, isolated diamond, square, and other combinatorial principles which he showed to hold in L, and he used his machinery to present his Covering Lemma for L as ""Marginalia to a Theorem of Silver."" He designed various forcing techniques, one of the most sophisticated ones being the coding into a real apparatus. In joint work with T. Dodd he built the first core model, an enterprise which was later pursued by W. Mitchell, J. Steel, and others. He later worked on the theory of larger core models. He also isolated the notions of ""subproper"" and ""subcomplete"" forcings and variants thereof, and he produced his own iteration theory for them. He designed ""L-forcing."" In his last years, he worked on a book on the core model below one Woodin cardinal.
+Jensen held positions at the Rockefeller University, at UC Berkeley, at the University of Bonn, the University of Oslo, the University of Freiburg, the University of Oxford, and the Humboldt University of Berlin, from which he retired in 2001.
+Jensen was the first Gödel lecturer of the Association for Symbolic Logic in 1990. In 2001, he gave the Tarski lectures at UC Berkeley. In 2003, he reveived the Steele price. In 2015, the European Set Theory Society awarded him and J. Steel the Hausdorff Medal for their joint paper ""K without the measurable.”
+Jensen was an honorary president of the European Set Theory Society since 2016.  
+On September 16, 2025 Ronald Jensen passed away. He left us his life's work mostly in the form of thousands of pages of handwritten notes. A lot of current-day set theory consists in generalizing concepts and arguments which go back to Jensen. Set theory lost one of its giants.   - Ralf Schindler ","September 18, 2025.",
+Webmaster,"Activity, Announcement",RIMS Workshop on Set Theory: Recent Developments in Axiomatic Set Theory,"Kyoto University RIMS
 December 16th to 19th, 2025
 Organized by Teruyuki Yorioka (Shizuoka University)
 
@@ -8,9 +14,8 @@ Every year, set theory researchers from Japan and abroad gather at the RIMS (Res
 This workshop will be held in hybrid format at RIMS, Kyoto University, Japan & Online via Zoom. 
 For more details and registration, see the workshop website.
 
-<a href='https://wwp.shizuoka.ac.jp/yorioka/?page_id=1258'>Webpage</a>
-";"September 15, 2025.";""
-"Webmaster";"Announcement";"Warning about spam emails";"Dear members of the ESTS, 
+<a href='https://wwp.shizuoka.ac.jp/yorioka/?page_id=1258'>Webpage</a>","September 15, 2025.",
+Webmaster,Announcement,Warning about spam emails,"Dear members of the ESTS, 
 
 There have recently been emails purportedly sent by Vera Fischer in connection with activities of the ESTS, trying to make contact with members of the set theory community and asking you to reply. The goal of these emails is likely to eventually obtain private information from you or trick you into payments if you reply. 
 
@@ -21,8 +26,8 @@ Please 
 
 All emails from the ESTS to its members, including membership fee reminders, are sent exclusively from european.set.theory@gmail.com. We will never ask you for personal information. The only information we keep about members are name, email address and whether you are a student. 
 
-Best wishes, the board of the ESTS";"";""
-"Webmaster";"Activity, Announcement";"Conference in honor of Jörg Brendle";"The conference in honor of Jörg Brendle, on the occasion of his 60th birthday, will be held entirely in person from September 2nd to 5th, 2025, at Kobe University.
+Best wishes, the board of the ESTS",,
+Webmaster,"Activity, Announcement",Conference in honor of Jörg Brendle,"The conference in honor of Jörg Brendle, on the occasion of his 60th birthday, will be held entirely in person from September 2nd to 5th, 2025, at Kobe University.
 We will have invited talks from close colleagues, collaborators, students, and even students' students, of Professor Brendle.
 
 See the website for detailed information.
@@ -60,8 +65,8 @@ Hiroaki Minami (Aichi Gakuin University)
 
 Hiroshi Sakai (University of Tokyo)
 
-Teruyuki Yorioka (Shizuoka University)";"April 1, 2025.";""
-"Webmaster";"Activity, Announcement";"8th Workshop on Generalized Descriptive Set Theory, 20–22 August 2025, Helsinki (Finland)";"We are pleased to announce that the 8th Workshop on Generalized Descriptive Set Theory will take place on 20–22 August 2025 at the University of Helsinki, Finland. The 8th Workshop on Generalized Descriptive Set Theory continues a series that began in 2014. Since its first edition, the Workshop on Generalized Descriptive Set Theory has been a key venue for advancing research in the field featuring renowned speakers and fostering discussion and collaboration. The 8th edition will cover topics such as model-theoretic applications, cardinal characteristics, higher descriptive set theory, topology, and Borel reducibility in GBS, among others.
+Teruyuki Yorioka (Shizuoka University)","April 1, 2025.",
+Webmaster,"Activity, Announcement","8th Workshop on Generalized Descriptive Set Theory, 20–22 August 2025, Helsinki (Finland)","We are pleased to announce that the 8th Workshop on Generalized Descriptive Set Theory will take place on 20–22 August 2025 at the University of Helsinki, Finland. The 8th Workshop on Generalized Descriptive Set Theory continues a series that began in 2014. Since its first edition, the Workshop on Generalized Descriptive Set Theory has been a key venue for advancing research in the field featuring renowned speakers and fostering discussion and collaboration. The 8th edition will cover topics such as model-theoretic applications, cardinal characteristics, higher descriptive set theory, topology, and Borel reducibility in GBS, among others.
 
 The workshop features the participation of the following speakers:
 - Vera Fischer, University of Vienna
@@ -92,4 +97,4 @@ Please feel free to forward this information to anyone who may be interested.
 Looking forward to seeing you in Helsinki.
 
 Kind regards,
-Miguel Moreno and Jouko Väänänen";"April 1, 2025.";""
+Miguel Moreno and Jouko Väänänen","April 1, 2025.",
