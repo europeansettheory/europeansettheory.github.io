@@ -1,3 +1,17 @@
+Turin Logic Seminar
+Date and time: Thursday, 24 July, 16:00 – 18:00 Italy (16:00 – 18:00 CEST)
+Speaker: Test speaker 3
+Title: Test title 3
+Abstract: Test Abstract 3
+Information: Test by Luca
+ 
+Cross-Alps Seminar
+Date and time: Friday, 25 July, 10:00 – 11:00 Italy (10:00 – 11:00 CEST)
+Speaker: Test speaker 4
+Title: Test title 4
+Abstract: Test Abstract 4
+Information: Test by Philipp
+ 
 Gdansk Set Theory Seminar
 Date and time: Monday, 4 August, 16:00 – 17:00 Poland (16:00 – 17:00 CEST)
 Speaker: Test speaker
@@ -46,4 +60,11 @@ Speaker: Test speaker
 Title: Test title
 Abstract: Test Abstract
 Information: Test information
+ 
+Cross-Alps Seminar
+Date and time: Friday, 13 August, 16:00 – 17:00 Italy (16:00 – 17:00 CEST)
+Speaker: Test speaker 2
+Title: Test title 2
+Abstract: Test Abstract 2
+Information: Test by Vincenzo
  
