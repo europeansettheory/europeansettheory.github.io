@@ -137,7 +137,7 @@ h1 {
 
 .nav_dropdown a {
     color: #2f6048;
-} 
+}
 
 .nav_dropdown_subscribe {
     display: block;
@@ -266,7 +266,7 @@ h1 {
 .left_container {
     width: 47%; /* 67%; */
     margin-bottom: 1rem;
-    border-left: 0.05rem solid grey;
+/*    border-left: 0.05rem solid grey; */ 
     border-top: 0.05rem solid grey;
 }
 
