@@ -17,7 +17,7 @@
 
 /* Text */
     --text-color: #1C315D; /*#e3cea2;  /*#2F539B;*/
-    --text-color-section-heading: #1C315D; /*#2F539B;*/ 
+    --text-color-section-heading: #1C315D; /*#2F539B;*/
 
 /* Footer */
     --text-color-footer: #2F539B;
@@ -26,10 +26,10 @@
     --top-background-color: white;
     --header-background-color: white;
     --primary-background-color: white; /* #fffdfa; */
-    --secondary-background-color: #d5d0c8; /* #fff7ea; /*#ffc76a; #6680B5; #194090; #6680B5*/
+    --secondary-background-color: #e4dbd7; /* #d5d0c8; /* #fff7ea; /*#ffc76a; #6680B5; #194090; #6680B5*/
     /* #172A3A #BDBEA9 #8DB38B #D2AB99 #507DBC #28436F #696773 #194090 #e9b44f #4e5b37 #cce1bb*/
     /* #ffefca#d9ebfb;  very light blue */  /* #ffaa1d; Bright Yellow (Crayola) */
-    --footer-background-color: #d5d0c8;  /* #fafafa; */
+    --footer-background-color: #e4dbd7; /*#d5d0c8;  /* #fafafa; */
 
 /* bar on main page */
     --bar-text-color: #2F539B; /* #000045; dark blue */
