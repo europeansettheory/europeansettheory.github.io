@@ -32,7 +32,7 @@
     --footer-background-color: #495A7D; /* #e4dbd7; /*#d5d0c8;  /* #fafafa; */
 
 /* bar on main page */
-    --bar-text-color: #2F539B; /* #000045; dark blue */
+    --bar-text-color: white; /* #2F539B; /* #000045; dark blue */
 
 /* talks and video */
     --talks-color: #99ccff; /* light blue */
