@@ -32,7 +32,7 @@
     --footer-background-color: #495A7D; /* #e4dbd7; /*#d5d0c8;  /* #fafafa; */
 
 /* bar on main page */
-    --bar-text-color: white; /* #2F539B; /* #000045; dark blue */
+    --bar-text-color: #99ccff; /* #2F539B; /* #000045; dark blue */
 
 /* talks and video */
     --talks-color: #99ccff; /* light blue */
@@ -104,13 +104,13 @@ a {
 }
 
 a:link {
-  color: white; /* #2f6048; /*#408262;*/
+  color:  #2f6048; /*#408262;*/
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: white; /* #2f6048; */ 
+  color: #2f6048; */
   background-color: transparent;
   text-decoration: none;
 }
