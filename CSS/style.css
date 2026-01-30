@@ -104,13 +104,13 @@ a {
 }
 
 a:link {
-  color: #ffaa1d; /* #2f6048; /*#408262;*/
+  color: #ff841d /* #ffaa1d; /* #2f6048; /*#408262;*/
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: #ffaa1d; /* #2f6048; /* #2f6048; */
+  color: #ff841d /* #ffaa1d; /* #2f6048; /* #2f6048; */
   background-color: transparent;
   text-decoration: none;
 }
