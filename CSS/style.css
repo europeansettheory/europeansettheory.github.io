@@ -110,7 +110,7 @@ a:link {
 }
 
 a:visited {
-  color: #2f6048; */
+  color: white; /* #2f6048; */
   background-color: transparent;
   text-decoration: none;
 }
