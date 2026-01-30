@@ -136,7 +136,7 @@ h1 {
 }
 
 .nav_dropdown a {
-    color: white; /* #2f6048; */ 
+    color: white; /* #2f6048; */
 }
 
 .nav_dropdown_subscribe {
@@ -172,7 +172,7 @@ h1 {
     min-width: 14rem;
     max-width: 14rem;
     height: 3rem;
-    color: #ffaa1d;  /* #2f6048; */
+    color: white; /* #ffaa1d;  /* #2f6048; */
 }
 
 
