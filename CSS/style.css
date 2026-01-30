@@ -104,7 +104,7 @@ a {
 }
 
 a:link {
-  color: white; /* #2f6048; /*#408262;*/
+  color: #2f6048; /*#408262;*/
   background-color: transparent;
   text-decoration: none;
 }
