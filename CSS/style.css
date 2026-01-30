@@ -263,7 +263,7 @@ rect {
 
 .nav_dropdown {
     display: none;
-    color: #2f6048; /* var(--text-color-hover); */
+    color: white; /* #2f6048; /* var(--text-color-hover); */
 }
 
 .nav_dropdown:hover {
