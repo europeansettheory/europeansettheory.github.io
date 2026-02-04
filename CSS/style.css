@@ -323,7 +323,6 @@ rect {
     font-family: 'Times New Roman', serif;
     margin: 2rem 2rem 2rem 2rem;
     padding-bottom: 2rem;
-    background-color: white;
 }
 
 .main_container p {
@@ -348,9 +347,11 @@ rect {
 }
 
 .left_container {
+    background-color: white;
 }
 
 .right_container{
+    background-color: white;
 }
 
 .left_container_small {
