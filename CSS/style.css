@@ -362,7 +362,7 @@ rect {
     padding-right: 2rem;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: var(--box-background-color);
+    background-color: white; /* var(--box-background-color);*/ 
 }
 
 .right_container_small {
