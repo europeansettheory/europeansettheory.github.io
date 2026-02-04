@@ -8,7 +8,7 @@
 
 :root {
 /* Header */
-    --title-color: #2F539B;
+    --title-color: #2f539b; /*  2F539B; */
     --text-header-color: white; /* #2F539B; */
     --text-color-hover: #ffaa1d;
     --text-color-hover-body: #ffaa1d; /* Bright Yellow (Crayola) */
@@ -104,7 +104,7 @@ a {
 }
 
 a:link {
-  color: #ffaa1d; /* #2f6048; /*#408262;*/
+  color: #2f539b; /* #2f6048; /*#408262;*/
   background-color: transparent;
   text-decoration: none;
 }
