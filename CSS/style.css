@@ -454,7 +454,7 @@ footer {
     height: 2rem;
     padding: 1.5rem;
     padding-left: 2.5rem;
-    color: var(--text-color-footer);
+    color: white; /* var(--text-color-footer);*/ 
     background-color: white;
 }
 
