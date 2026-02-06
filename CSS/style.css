@@ -9,7 +9,7 @@
 :root {
 /* Header */
     --title-color: #2f539b; /*  2F539B; */
-    --text-header-color: white; /* #2F539B; */
+    --text-header-color: #1C315D; /* white; /* #2F539B; */
     --text-color-hover: #ffaa1d;
     --text-color-hover-body: #ffaa1d; /* Bright Yellow (Crayola) */
     --nav-border-bottom: var(--nav-border-bottom); /* light grey */
@@ -20,7 +20,7 @@
     --text-color-section-heading: #1C315D; /*#2F539B;*/
 
 /* Footer */
-    --text-color-footer: #2F539B;
+    --text-color-footer: #1C315D; /* #2F539B;*/
 
 /* Background */
     --top-background-color: #white; /*white; */
