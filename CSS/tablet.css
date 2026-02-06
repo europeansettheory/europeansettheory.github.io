@@ -172,7 +172,7 @@ h1 {
     min-width: 14rem;
     max-width: 14rem;
     height: 3rem;
-    color: white; /* #ffaa1d;  /* #2f6048; */
+    color: #1c315d; /* white; /* #ffaa1d;  /* #2f6048; */
 }
 
 
@@ -205,7 +205,7 @@ h1 {
 
 
 .nav_dropdown_content a:hover {
-    color: var(--text-color-hover);
+    color: var(--text-color-hover);*/
 }
 
 
@@ -214,9 +214,9 @@ h1 {
     color: #ff971d;
 }
 
-.nav_dropdown_subscribe:hover {
+.nav_dropdown_subscribe a:hover {
     cursor: pointer;
-    color: white;
+    color: #1c315d;
 }
 
 .nav_menu_tablet:checked ~ div{
