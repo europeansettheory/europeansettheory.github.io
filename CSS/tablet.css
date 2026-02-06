@@ -368,7 +368,7 @@ h1 {
 /* Footer containers*/
 
 footer {
-    background-color: var(--footer-background-color);
+    background-color: white; /* var(--footer-background-color); */
 }
 
 
