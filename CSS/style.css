@@ -16,7 +16,7 @@
 
 
 /* Text */
-    --text-color: #1C315D; /*#e3cea2;  /*#2F539B;*/
+    --text-color: #1c315d; /*#e3cea2;  /*#2F539B;*/
     --text-color-section-heading: #1C315D; /*#2F539B;*/
 
 /* Footer */
@@ -695,7 +695,7 @@ footer {
 #controlContainerV {/* Anda*/
     background-color: var(--talks-color); /* #315880; */
     padding: 0.8rem;
-    color: white;
+    color: #1c315d;
     display: block;
     text-align: left;
 }
@@ -703,7 +703,7 @@ footer {
 #controlContainerB{/* Anda*/
     background-color: var(--talks-color);
     padding: 0.8rem;
-    color: white;
+    color: #1c315d;
     display: block;
     text-align: left;
 }
