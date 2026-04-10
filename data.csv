@@ -10,3 +10,55 @@
 In their paper “The modal logic of forcing”, Hamkins and Löwe laid the foundation for this investigation, and proved that if ZFC is consistent, then the ZFC-provable principles of forcing, i.e. modal statements ψ(q₀,...,qₙ) such that for every set-theoretic statements ϕ₀,...,ϕₙ, ZFC ⊢ ψ(ϕ₀,...,ϕₙ), are exactly the modal theory known as S4.2. Following this result many related questions arose, such as restricting our attention to a specific class of forcing notions, or focusing on the principles of forcing over a particular model of ZFC.
 
 In this talk I will attempt to survey the state of current knowledge in the field, give a glimpse into the techniques used, and present open questions for further exploration.";"Please see the seminar webpage";""
+"7";"Vienna Research Seminar in Set Theory";"04/16/2026 9:30";"Thursday, 16 April, 11:30 – 13:00 Austria (11:30 – 13:00 CEST)";"T. van der Vlugt (TU Wien)";"Ideals on Higher Baire Spaces 1: the Regular Uncountable Case";"The higher Baire space κκ is the set of functions from κ to κ, where κ is a regular uncountable cardinal, equipped with the <κ
+
+-box topology (a.k.a. the bounded topology).
+
+In this talk we will discuss the combinatorics of ideals on κκ
+(such as the κ-meagre ideal, consisting of sets that are unions of κ-many nowhere dense sets), with a special interest on their cardinal characteristics. Apart from discussing the κ-meagre ideal and the κ-domination ideal, the main topic of the talk will be the generalisation of the closed null ideal E to higher Baire spaces. We show that there are several non-equivalent ways to generalise E
+
+and show how they relate to each other, and compare their cardinal characteristics.
+
+This is joint work with Adam Marton, Miroslav Repický and Jaroslav Šupina. ";"This talk will be given in hybrid format. Please contact Petra Czarnecki for information how to participate";""
+"8";"Vienna Research Seminar in Set Theory";"04/23/2026 9:30";"Thursday, 23 April, 11:30 – 13:00 Austria (11:30 – 13:00 CEST)";"T. van der Vlugt (TU Wien)";"Ideals on Higher Baire Spaces 2: Meagreness and Domination for Singular Cardinals";"In part 1, on April 16, we discussed ideals on κκ for regular uncountable κ
+
+.
+
+In this talk we will consider the alternative case where κ
+is singular, as well as related spaces such as cf(κ)κ. We will compare several reasonable (and unreasonable) topologies and the potential homeomorphisms between them. Our focus will be the cf(κ)-meagre ideals (i.e. sets that are unions of cf(κ)
+
+-many nowhere dense sets) and domination ideals in each of these respective topological spaces. We will also compare their associated cardinal invariants.
+
+This is joint work with Yusuke Hayashi.";"This talk will be given in hybrid format. Please contact Petra Czarnecki for information how to participate";""
+"9";"Vienna Logic Colloquium";"04/23/2026 13:00";"Thursday, 23 April, 15:00 – 16:00 Austria (15:00 – 16:00 CEST)";"J. Park (Ohio State U, Columbus, US)";"";"TBA";"This talk will be given in hybrid format. Please contact Petra Czarnecki for information how to participate";""
+"10";"Toronto Set Theory Seminar";"04/10/2026 17:30";"Friday, 10 April, 13:30 – 15:00 Canada (19:30 – 21:00 CEST)";"Roy Shalev, University of Toronto";"Recent Results on the Structure of Uncountable Objects | Part 2";"In this series of two talks, we present recent progress in the structure theory of combinatorial objects at the level of the cardinal ℵ2
+
+and above. We specifically focus on the behavior of directed sets, linear orders, trees, semi-lattices, gaps, and towers.
+
+The first part of the series introduces the Transitive List Dichotomy, which is defined for every successor of a regular cardinal. This dichotomy yields several significant consequences regarding the "specialization" of these objects.
+
+In the second part, we analyze the structure of directed sets with cofinality below ℵω
+
+under the Tukey order.
+
+The first part represents joint work with Stevo Todorčević and Boriša Kuzeljević.";"Please see the seminar webpage";""
+"11";"Helsinki Logic Seminar";"04/15/2026 9:00";"Wednesday, 15 April, 12:00 – 14:00 Finland (11:00 – 13:00 CEST)";"Phokion G. Kolaitis (University of California Santa Cruz)";"Codd's Theorem for Databases over Semirings";"Codd's Theorem, a fundamental result of database theory, asserts that relational algebra and first-order logic have the same expressive power on relational databases. We explore Codd's Theorem for databases over semirings and establish two different versions of this result for such databases: the first version involves the five basic operations of relational algebra, while in the second version the division operation is added to the five basic operations of relational algebra. In both versions, the difference operation of relations is given semantics using semirings with monus, while on the side of first-order logic a limited form of negation is used.
+
+The reason for considering these two different versions of Codd's theorem is that, unlike the case of ordinary relational databases, the division operation need  not be expressible in terms of the five basic operations of relational algebra for databases over an arbitrary positive semiring; in fact, we show that this inexpressibility result holds for bag databases and also for databases over the tropical semiring.
+
+This is joint work with Guillermo Badia (University of Queensland) and Carles Noguera (University of Siena).";"Please see the seminar webpage";""
+"12";"Carnegie Mellon Logic Seminar";"04/14/2026 20:00";"Tuesday, 14 April, 16:00 – 17:00 EDT (22:00 – 23:00 CEST)";"Nick Ramsey (University of Notre Dame)";"Coding graphs in fields";"Model-theoretic hypotheses (stability, NIP, simplicity, etc.) often meaningfully interact with algebraic properties. For this reason, it is useful to have general purpose constructions that produce algebraic structures with prescribed model-theoretic properties. For example, a construction due to Mekler (and related ones due to Ershov) show that one can produce a nilpotent class two group of exponent p (for an odd prime p) essentially anywhere you like in the model-theoretic map, and this has been a useful engine for producing new algebraic examples. In contrast to the situation with groups, the construction of fields with specified definability properties is a much more delicate affair. However, we will show how a new analysis of an old graph-coding construction of Cherlin, van den Dries, and Macintyre, introduced in connection with decidability questions in PAC fields, can be regarded as a kind of ‘Mekler construction’ for fields. ";"Please see the seminar webpage";""
+"13";"Carnegie Mellon Logic Seminar";"04/21/2026 20:00";"Tuesday, 21 April, 16:00 – 17:00 EDT (22:00 – 23:00 CEST)";"Justin Moore (Cornell University)";"The second to last word on the consistency of the five element basis for uncountable linear orders";"We prove (in ZFC) that if A is an Aronszajn line, there is a proper forcing extension in which A has a Countryman suborder. As a corollary, if L is an uncountable linear order, X is any set of reals of cardinality aleph1 and C is any Countryman line, there is a proper forcing extension in which L contains an isomorphic copy of one of the following linear orders: omega1, omega1*, X, C, or C*. In particular if there is an inaccessible cardinal, then there is a generic extension in which there is a five element basis for the uncountable linear orders. This is joint work with John Krueger. ";"Please see the seminar webpage";""
+"14";"Kobe Set Theory Seminar";"04/15/2026 06:30";"Wednesday, 15 April, 15:30 – 17:00 JST (7:30 – 9:00 CEST)";"Sakaé Fuchino";"On an application of preservation and non-creation of large cardinals by small forcing";" We prove that the Laver-generic Large Cardinal Axioms (LgLCAs) for hyperhugeness do not imply the Maximality Principle. This result stands in contrast with a theorem in [F-U] which proves that the super-C(∞)-Laver-generic Large Cardinal Axiom for an iterable class  of posets and for hyperhugeness imply the Maximality Principle for  with the maximal set of parameters (actually the hyperhugeness is recently reduced to extendibility for this result).
+
+Note that the LgLCA is an axiom formulated in a single formula while the super-C(∞)-LgLCA is an axiom scheme with infinitly many formulas.
+
+For the non-implication, we use the fact that no new extendible cardinals are created by a small forcing.
+
+Non-creation of large cardinals by small forcing is extensively studied, and theorems by Hamkins [H] and Laver [L] cover almost all notions of large cardinals. However it seems that no explicit proof of the non-creation in case of extendible cardinals is to be found in the literature.
+
+In this talk, we examine that a modification of Hamkins' non-creation theorem in [H] shows that no new extendible cardinal is created by a small forcing.
+
+[F-U] S.Fuchino, and T.Usuba, On Recurrence Axioms, Annals of Pure and Applied Logic, Vol.176, (10), (2025).
+[H] J.D.Hamkins, Extensions with the approximation and cover properties have no new large cardinals, Fundamenta Mathematicae Vol.180, (2003), 257--277.
+[L] R.Laver, Certain very large cardinals are not created in small forcing extensions, Annals of Pure and Applied Logic, 149 (2007), 1--6. ";"Please see the seminar webpage";""
