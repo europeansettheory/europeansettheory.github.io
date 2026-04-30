@@ -407,8 +407,11 @@ footer {
 /*      border: 0.4rem solid #cccccc; */
   border-radius:0.5rem;
   padding-left: 1%;
-  padding-top: 10rem;
+  padding-right: 4%;
+  padding-top: 0rem;
   background-color: white;
+  color: #ffaa1d;
+  text-align: justify;
 }
 
 #subscribeScreen
